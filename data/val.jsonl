@@ -1,0 +1,200 @@
+{"id": 0, "numbers": [9, 31, 46], "target": 24, "n_numbers": 3, "solution": "46 - (31 - 9)"}
+{"id": 1, "numbers": [92, 61, 15, 36], "target": 10, "n_numbers": 4, "solution": "(15 + (92 - 61)) - 36"}
+{"id": 2, "numbers": [28, 36, 34, 16], "target": 14, "n_numbers": 4, "solution": "(36 - 16) - (34 - 28)"}
+{"id": 3, "numbers": [83, 76, 67], "target": 74, "n_numbers": 3, "solution": "(83 - 76) + 67"}
+{"id": 4, "numbers": [67, 15, 40, 24], "target": 98, "n_numbers": 4, "solution": "(67 + 40) - (24 - 15)"}
+{"id": 5, "numbers": [26, 15, 66, 9], "target": 34, "n_numbers": 4, "solution": "9 + ((66 - 15) - 26)"}
+{"id": 6, "numbers": [88, 99, 68, 66], "target": 55, "n_numbers": 4, "solution": "99 - (88 / (68 - 66))"}
+{"id": 7, "numbers": [43, 48, 13], "target": 78, "n_numbers": 3, "solution": "(48 + 43) - 13"}
+{"id": 8, "numbers": [97, 100, 72, 10], "target": 14, "n_numbers": 4, "solution": "(72 / (100 - 97)) - 10"}
+{"id": 9, "numbers": [40, 23, 21, 89], "target": 47, "n_numbers": 4, "solution": "((89 - 23) + 21) - 40"}
+{"id": 10, "numbers": [38, 46, 30], "target": 54, "n_numbers": 3, "solution": "(38 - 30) + 46"}
+{"id": 11, "numbers": [79, 9, 42], "target": 28, "n_numbers": 3, "solution": "(79 - 9) - 42"}
+{"id": 12, "numbers": [40, 94, 33], "target": 87, "n_numbers": 3, "solution": "(33 + 94) - 40"}
+{"id": 13, "numbers": [1, 33, 6], "target": 40, "n_numbers": 3, "solution": "6 + (1 + 33)"}
+{"id": 14, "numbers": [73, 88, 31], "target": 16, "n_numbers": 3, "solution": "73 - (88 - 31)"}
+{"id": 15, "numbers": [53, 24, 62, 81], "target": 10, "n_numbers": 4, "solution": "53 - (81 - (62 - 24))"}
+{"id": 16, "numbers": [31, 10, 15, 73], "target": 37, "n_numbers": 4, "solution": "10 + ((73 - 15) - 31)"}
+{"id": 17, "numbers": [81, 45, 10], "target": 18, "n_numbers": 3, "solution": "(81 * 10) / 45"}
+{"id": 18, "numbers": [81, 98, 80], "target": 97, "n_numbers": 3, "solution": "(98 - 81) + 80"}
+{"id": 19, "numbers": [52, 99, 47, 33], "target": 71, "n_numbers": 4, "solution": "99 - (33 - (52 - 47))"}
+{"id": 20, "numbers": [10, 79, 98, 33], "target": 24, "n_numbers": 4, "solution": "(33 + 10) - (98 - 79)"}
+{"id": 21, "numbers": [30, 78, 78, 40], "target": 86, "n_numbers": 4, "solution": "((78 + 78) - 30) - 40"}
+{"id": 22, "numbers": [4, 2, 72, 6], "target": 60, "n_numbers": 4, "solution": "(4 * 6) + (72 / 2)"}
+{"id": 23, "numbers": [1, 66, 31], "target": 35, "n_numbers": 3, "solution": "66 - (31 / 1)"}
+{"id": 24, "numbers": [91, 10, 57, 47], "target": 71, "n_numbers": 4, "solution": "(91 - (57 - 47)) - 10"}
+{"id": 25, "numbers": [65, 80, 3, 50], "target": 38, "n_numbers": 4, "solution": "65 - (80 - (50 + 3))"}
+{"id": 26, "numbers": [73, 39, 35], "target": 69, "n_numbers": 3, "solution": "(73 - 39) + 35"}
+{"id": 27, "numbers": [96, 1, 63], "target": 33, "n_numbers": 3, "solution": "96 - (1 * 63)"}
+{"id": 28, "numbers": [8, 95, 55, 42], "target": 90, "n_numbers": 4, "solution": "42 + (95 - (55 - 8))"}
+{"id": 29, "numbers": [22, 85, 28], "target": 91, "n_numbers": 3, "solution": "28 + (85 - 22)"}
+{"id": 30, "numbers": [48, 38, 90], "target": 80, "n_numbers": 3, "solution": "(38 + 90) - 48"}
+{"id": 31, "numbers": [59, 49, 54, 14], "target": 30, "n_numbers": 4, "solution": "54 - (59 - (49 - 14))"}
+{"id": 32, "numbers": [85, 34, 97], "target": 22, "n_numbers": 3, "solution": "34 - (97 - 85)"}
+{"id": 33, "numbers": [2, 35, 46], "target": 24, "n_numbers": 3, "solution": "(2 * 35) - 46"}
+{"id": 34, "numbers": [97, 97, 70, 8], "target": 62, "n_numbers": 4, "solution": "(70 / (97 / 97)) - 8"}
+{"id": 35, "numbers": [80, 71, 73], "target": 82, "n_numbers": 3, "solution": "(80 + 73) - 71"}
+{"id": 36, "numbers": [7, 56, 30], "target": 93, "n_numbers": 3, "solution": "(30 + 7) + 56"}
+{"id": 37, "numbers": [3, 44, 18, 40], "target": 50, "n_numbers": 4, "solution": "(40 + (18 * 3)) - 44"}
+{"id": 38, "numbers": [85, 63, 81, 30], "target": 73, "n_numbers": 4, "solution": "((85 - 30) + 81) - 63"}
+{"id": 39, "numbers": [96, 64, 45], "target": 30, "n_numbers": 3, "solution": "(45 * 64) / 96"}
+{"id": 40, "numbers": [59, 62, 5, 45], "target": 26, "n_numbers": 4, "solution": "((62 - 45) * 5) - 59"}
+{"id": 41, "numbers": [42, 90, 4, 83], "target": 31, "n_numbers": 4, "solution": "83 - ((90 + 4) - 42)"}
+{"id": 42, "numbers": [43, 6, 54], "target": 66, "n_numbers": 3, "solution": "6 * (54 - 43)"}
+{"id": 43, "numbers": [16, 3, 3], "target": 51, "n_numbers": 3, "solution": "(16 * 3) + 3"}
+{"id": 44, "numbers": [28, 1, 58, 14], "target": 44, "n_numbers": 4, "solution": "(58 / 1) - (28 - 14)"}
+{"id": 45, "numbers": [14, 54, 98], "target": 30, "n_numbers": 3, "solution": "(98 - 14) - 54"}
+{"id": 46, "numbers": [70, 41, 50, 31], "target": 92, "n_numbers": 4, "solution": "(31 + (70 + 41)) - 50"}
+{"id": 47, "numbers": [55, 4, 16, 24], "target": 67, "n_numbers": 4, "solution": "(4 + 55) + (24 - 16)"}
+{"id": 48, "numbers": [7, 49, 24], "target": 31, "n_numbers": 3, "solution": "24 + (49 / 7)"}
+{"id": 49, "numbers": [68, 19, 16], "target": 33, "n_numbers": 3, "solution": "(68 - 16) - 19"}
+{"id": 50, "numbers": [40, 46, 24, 75], "target": 69, "n_numbers": 4, "solution": "(24 * (46 - 40)) - 75"}
+{"id": 51, "numbers": [56, 59, 83, 24], "target": 11, "n_numbers": 4, "solution": "83 - (24 * (59 - 56))"}
+{"id": 52, "numbers": [57, 16, 23], "target": 64, "n_numbers": 3, "solution": "(57 + 23) - 16"}
+{"id": 53, "numbers": [23, 71, 75, 72], "target": 91, "n_numbers": 4, "solution": "(71 + 72) - (75 - 23)"}
+{"id": 54, "numbers": [8, 10, 2, 18], "target": 40, "n_numbers": 4, "solution": "2 * ((10 + 18) - 8)"}
+{"id": 55, "numbers": [38, 95, 71, 56], "target": 70, "n_numbers": 4, "solution": "((56 + 71) + 38) - 95"}
+{"id": 56, "numbers": [49, 49, 21, 51], "target": 35, "n_numbers": 4, "solution": "(49 + 21) / (51 - 49)"}
+{"id": 57, "numbers": [80, 53, 20, 53], "target": 60, "n_numbers": 4, "solution": "80 - (20 / (53 / 53))"}
+{"id": 58, "numbers": [21, 51, 11], "target": 19, "n_numbers": 3, "solution": "(51 - 21) - 11"}
+{"id": 59, "numbers": [38, 82, 32, 20], "target": 96, "n_numbers": 4, "solution": "(82 + 32) - (38 - 20)"}
+{"id": 60, "numbers": [5, 11, 40, 79], "target": 22, "n_numbers": 4, "solution": "40 - ((11 + 79) / 5)"}
+{"id": 61, "numbers": [51, 29, 10, 44], "target": 32, "n_numbers": 4, "solution": "(29 + (44 + 10)) - 51"}
+{"id": 62, "numbers": [67, 15, 30, 3], "target": 79, "n_numbers": 4, "solution": "(30 + (67 - 3)) - 15"}
+{"id": 63, "numbers": [54, 17, 7], "target": 64, "n_numbers": 3, "solution": "(17 - 7) + 54"}
+{"id": 64, "numbers": [65, 63, 72], "target": 56, "n_numbers": 3, "solution": "63 - (72 - 65)"}
+{"id": 65, "numbers": [60, 22, 51], "target": 31, "n_numbers": 3, "solution": "(60 - 51) + 22"}
+{"id": 66, "numbers": [28, 91, 4], "target": 98, "n_numbers": 3, "solution": "91 + (28 / 4)"}
+{"id": 67, "numbers": [86, 2, 1], "target": 84, "n_numbers": 3, "solution": "1 * (86 - 2)"}
+{"id": 68, "numbers": [14, 35, 28, 41], "target": 36, "n_numbers": 4, "solution": "35 + (14 - (41 - 28))"}
+{"id": 69, "numbers": [31, 90, 39], "target": 98, "n_numbers": 3, "solution": "(39 - 31) + 90"}
+{"id": 70, "numbers": [55, 35, 4], "target": 16, "n_numbers": 3, "solution": "(55 - 4) - 35"}
+{"id": 71, "numbers": [1, 36, 51], "target": 86, "n_numbers": 3, "solution": "(36 + 51) - 1"}
+{"id": 72, "numbers": [31, 34, 16], "target": 49, "n_numbers": 3, "solution": "(34 - 16) + 31"}
+{"id": 73, "numbers": [87, 8, 92, 24], "target": 11, "n_numbers": 4, "solution": "87 - ((92 - 24) + 8)"}
+{"id": 74, "numbers": [65, 98, 88], "target": 75, "n_numbers": 3, "solution": "(98 + 65) - 88"}
+{"id": 75, "numbers": [24, 65, 48, 68], "target": 61, "n_numbers": 4, "solution": "68 - (24 - (65 - 48))"}
+{"id": 76, "numbers": [1, 64, 74], "target": 11, "n_numbers": 3, "solution": "74 - (64 - 1)"}
+{"id": 77, "numbers": [96, 93, 86, 10], "target": 73, "n_numbers": 4, "solution": "(86 - 10) - (96 - 93)"}
+{"id": 78, "numbers": [29, 25, 24, 60], "target": 89, "n_numbers": 4, "solution": "(29 + 60) * (25 - 24)"}
+{"id": 79, "numbers": [78, 60, 26, 43], "target": 51, "n_numbers": 4, "solution": "60 - ((78 - 43) - 26)"}
+{"id": 80, "numbers": [18, 12, 79], "target": 49, "n_numbers": 3, "solution": "(79 - 18) - 12"}
+{"id": 81, "numbers": [38, 40, 30, 29], "target": 77, "n_numbers": 4, "solution": "(38 + 40) - (30 - 29)"}
+{"id": 82, "numbers": [21, 60, 68, 71], "target": 100, "n_numbers": 4, "solution": "68 + ((71 - 60) + 21)"}
+{"id": 83, "numbers": [4, 5, 11], "target": 99, "n_numbers": 3, "solution": "11 * (4 + 5)"}
+{"id": 84, "numbers": [22, 65, 9], "target": 52, "n_numbers": 3, "solution": "(65 + 9) - 22"}
+{"id": 85, "numbers": [20, 11, 27, 92], "target": 74, "n_numbers": 4, "solution": "92 - (27 - (20 - 11))"}
+{"id": 86, "numbers": [23, 73, 87, 30], "target": 21, "n_numbers": 4, "solution": "30 - ((23 + 73) - 87)"}
+{"id": 87, "numbers": [1, 6, 80], "target": 85, "n_numbers": 3, "solution": "(6 + 80) - 1"}
+{"id": 88, "numbers": [32, 86, 79], "target": 25, "n_numbers": 3, "solution": "(32 + 79) - 86"}
+{"id": 89, "numbers": [9, 69, 76, 4], "target": 12, "n_numbers": 4, "solution": "(76 - 4) - (69 - 9)"}
+{"id": 90, "numbers": [1, 29, 45], "target": 74, "n_numbers": 3, "solution": "(29 + 45) / 1"}
+{"id": 91, "numbers": [69, 41, 46, 43], "target": 61, "n_numbers": 4, "solution": "(46 + (43 + 41)) - 69"}
+{"id": 92, "numbers": [69, 8, 20, 72], "target": 15, "n_numbers": 4, "solution": "(72 - 69) + (20 - 8)"}
+{"id": 93, "numbers": [1, 16, 13, 74], "target": 70, "n_numbers": 4, "solution": "(74 - (16 - 13)) - 1"}
+{"id": 94, "numbers": [2, 74, 9], "target": 67, "n_numbers": 3, "solution": "(74 - 9) + 2"}
+{"id": 95, "numbers": [69, 76, 52, 9], "target": 36, "n_numbers": 4, "solution": "52 - ((76 - 69) + 9)"}
+{"id": 96, "numbers": [26, 81, 28], "target": 83, "n_numbers": 3, "solution": "(81 + 28) - 26"}
+{"id": 97, "numbers": [84, 13, 28], "target": 43, "n_numbers": 3, "solution": "(84 - 28) - 13"}
+{"id": 98, "numbers": [64, 40, 8], "target": 48, "n_numbers": 3, "solution": "(64 / 8) + 40"}
+{"id": 99, "numbers": [9, 72, 11, 5], "target": 69, "n_numbers": 4, "solution": "72 - (5 - (11 - 9))"}
+{"id": 100, "numbers": [21, 31, 38, 4], "target": 52, "n_numbers": 4, "solution": "(38 - (21 - 4)) + 31"}
+{"id": 101, "numbers": [26, 35, 88], "target": 97, "n_numbers": 3, "solution": "(88 + 35) - 26"}
+{"id": 102, "numbers": [55, 56, 60], "target": 59, "n_numbers": 3, "solution": "60 - (56 - 55)"}
+{"id": 103, "numbers": [13, 1, 31], "target": 44, "n_numbers": 3, "solution": "(13 + 31) / 1"}
+{"id": 104, "numbers": [50, 6, 53, 63], "target": 66, "n_numbers": 4, "solution": "(6 + (50 + 63)) - 53"}
+{"id": 105, "numbers": [92, 16, 49], "target": 27, "n_numbers": 3, "solution": "(92 - 16) - 49"}
+{"id": 106, "numbers": [68, 35, 38], "target": 65, "n_numbers": 3, "solution": "68 - (38 - 35)"}
+{"id": 107, "numbers": [49, 14, 62, 31], "target": 70, "n_numbers": 4, "solution": "(62 / 31) * (49 - 14)"}
+{"id": 108, "numbers": [70, 63, 81], "target": 74, "n_numbers": 3, "solution": "81 - (70 - 63)"}
+{"id": 109, "numbers": [43, 6, 99, 22], "target": 72, "n_numbers": 4, "solution": "((22 - 6) + 99) - 43"}
+{"id": 110, "numbers": [52, 96, 27, 26], "target": 71, "n_numbers": 4, "solution": "(96 - 27) + (52 / 26)"}
+{"id": 111, "numbers": [77, 100, 78], "target": 99, "n_numbers": 3, "solution": "(77 + 100) - 78"}
+{"id": 112, "numbers": [10, 19, 62], "target": 91, "n_numbers": 3, "solution": "(10 + 19) + 62"}
+{"id": 113, "numbers": [15, 20, 100, 73], "target": 22, "n_numbers": 4, "solution": "(15 + (100 - 20)) - 73"}
+{"id": 114, "numbers": [45, 45, 22, 64], "target": 42, "n_numbers": 4, "solution": "(45 + 64) - (22 + 45)"}
+{"id": 115, "numbers": [46, 74, 60], "target": 32, "n_numbers": 3, "solution": "60 - (74 - 46)"}
+{"id": 116, "numbers": [98, 87, 38], "target": 27, "n_numbers": 3, "solution": "87 - (98 - 38)"}
+{"id": 117, "numbers": [86, 4, 5], "target": 95, "n_numbers": 3, "solution": "(86 + 5) + 4"}
+{"id": 118, "numbers": [16, 15, 4], "target": 76, "n_numbers": 3, "solution": "(4 * 15) + 16"}
+{"id": 119, "numbers": [73, 58, 53], "target": 38, "n_numbers": 3, "solution": "(53 + 58) - 73"}
+{"id": 120, "numbers": [30, 11, 36, 42], "target": 25, "n_numbers": 4, "solution": "42 - ((36 - 30) + 11)"}
+{"id": 121, "numbers": [45, 27, 86], "target": 68, "n_numbers": 3, "solution": "27 + (86 - 45)"}
+{"id": 122, "numbers": [80, 32, 51], "target": 99, "n_numbers": 3, "solution": "80 + (51 - 32)"}
+{"id": 123, "numbers": [54, 90, 60], "target": 24, "n_numbers": 3, "solution": "60 - (90 - 54)"}
+{"id": 124, "numbers": [29, 16, 2, 42], "target": 21, "n_numbers": 4, "solution": "42 - (29 - (16 / 2))"}
+{"id": 125, "numbers": [27, 10, 29, 91], "target": 99, "n_numbers": 4, "solution": "91 + (27 - (29 - 10))"}
+{"id": 126, "numbers": [22, 8, 45], "target": 59, "n_numbers": 3, "solution": "22 + (45 - 8)"}
+{"id": 127, "numbers": [24, 99, 65, 15], "target": 75, "n_numbers": 4, "solution": "(65 * 24) - (99 * 15)"}
+{"id": 128, "numbers": [38, 86, 98, 3], "target": 47, "n_numbers": 4, "solution": "((38 + 98) - 86) - 3"}
+{"id": 129, "numbers": [33, 72, 69, 44], "target": 80, "n_numbers": 4, "solution": "(72 + (33 + 44)) - 69"}
+{"id": 130, "numbers": [94, 12, 12, 80], "target": 14, "n_numbers": 4, "solution": "(94 - (80 + 12)) + 12"}
+{"id": 131, "numbers": [92, 10, 2], "target": 80, "n_numbers": 3, "solution": "92 - (10 + 2)"}
+{"id": 132, "numbers": [24, 72, 96], "target": 32, "n_numbers": 3, "solution": "(96 * 24) / 72"}
+{"id": 133, "numbers": [75, 97, 85, 86], "target": 87, "n_numbers": 4, "solution": "((97 + 75) / 86) + 85"}
+{"id": 134, "numbers": [46, 90, 12], "target": 56, "n_numbers": 3, "solution": "(12 + 90) - 46"}
+{"id": 135, "numbers": [26, 37, 65], "target": 54, "n_numbers": 3, "solution": "(26 + 65) - 37"}
+{"id": 136, "numbers": [15, 63, 5], "target": 83, "n_numbers": 3, "solution": "5 + (15 + 63)"}
+{"id": 137, "numbers": [46, 70, 84], "target": 60, "n_numbers": 3, "solution": "(46 + 84) - 70"}
+{"id": 138, "numbers": [30, 92, 99, 57], "target": 94, "n_numbers": 4, "solution": "99 - ((92 - 57) - 30)"}
+{"id": 139, "numbers": [23, 7, 40, 28], "target": 98, "n_numbers": 4, "solution": "((28 + 40) + 7) + 23"}
+{"id": 140, "numbers": [82, 37, 19, 26], "target": 74, "n_numbers": 4, "solution": "((37 - 26) + 82) - 19"}
+{"id": 141, "numbers": [36, 55, 37], "target": 56, "n_numbers": 3, "solution": "37 + (55 - 36)"}
+{"id": 142, "numbers": [14, 9, 81], "target": 76, "n_numbers": 3, "solution": "(9 + 81) - 14"}
+{"id": 143, "numbers": [23, 17, 74], "target": 80, "n_numbers": 3, "solution": "23 + (74 - 17)"}
+{"id": 144, "numbers": [86, 60, 71], "target": 97, "n_numbers": 3, "solution": "(86 + 71) - 60"}
+{"id": 145, "numbers": [29, 5, 1, 80], "target": 13, "n_numbers": 4, "solution": "(1 * 29) - (80 / 5)"}
+{"id": 146, "numbers": [17, 4, 27, 22], "target": 98, "n_numbers": 4, "solution": "(27 - 17) + (4 * 22)"}
+{"id": 147, "numbers": [87, 70, 59], "target": 98, "n_numbers": 3, "solution": "70 + (87 - 59)"}
+{"id": 148, "numbers": [90, 19, 76, 98], "target": 65, "n_numbers": 4, "solution": "(76 + (98 - 90)) - 19"}
+{"id": 149, "numbers": [18, 75, 87], "target": 30, "n_numbers": 3, "solution": "87 - (75 - 18)"}
+{"id": 150, "numbers": [83, 32, 98, 2], "target": 36, "n_numbers": 4, "solution": "(83 * 2) - (98 + 32)"}
+{"id": 151, "numbers": [75, 59, 86], "target": 70, "n_numbers": 3, "solution": "(86 - 75) + 59"}
+{"id": 152, "numbers": [31, 45, 45, 72], "target": 41, "n_numbers": 4, "solution": "((72 * 45) / 45) - 31"}
+{"id": 153, "numbers": [5, 22, 81], "target": 54, "n_numbers": 3, "solution": "(81 - 5) - 22"}
+{"id": 154, "numbers": [21, 93, 31, 4], "target": 75, "n_numbers": 4, "solution": "(4 + 21) * (93 / 31)"}
+{"id": 155, "numbers": [26, 13, 46, 1], "target": 33, "n_numbers": 4, "solution": "46 - ((26 / 1) - 13)"}
+{"id": 156, "numbers": [35, 22, 29, 64], "target": 92, "n_numbers": 4, "solution": "(64 + 35) - (29 - 22)"}
+{"id": 157, "numbers": [13, 52, 8], "target": 32, "n_numbers": 3, "solution": "8 * (52 / 13)"}
+{"id": 158, "numbers": [55, 12, 1, 22], "target": 65, "n_numbers": 4, "solution": "((55 + 22) * 1) - 12"}
+{"id": 159, "numbers": [94, 98, 73, 6], "target": 71, "n_numbers": 4, "solution": "(73 + (98 - 94)) - 6"}
+{"id": 160, "numbers": [90, 95, 51, 10], "target": 36, "n_numbers": 4, "solution": "(51 + 90) - (10 + 95)"}
+{"id": 161, "numbers": [22, 96, 32], "target": 42, "n_numbers": 3, "solution": "(96 - 22) - 32"}
+{"id": 162, "numbers": [18, 65, 71, 19], "target": 31, "n_numbers": 4, "solution": "18 + (19 - (71 - 65))"}
+{"id": 163, "numbers": [43, 46, 86, 99], "target": 76, "n_numbers": 4, "solution": "(86 + (46 + 43)) - 99"}
+{"id": 164, "numbers": [7, 1, 30, 1], "target": 22, "n_numbers": 4, "solution": "(30 / 1) - (7 + 1)"}
+{"id": 165, "numbers": [47, 11, 34, 17], "target": 15, "n_numbers": 4, "solution": "11 + (17 - (47 - 34))"}
+{"id": 166, "numbers": [1, 38, 79], "target": 41, "n_numbers": 3, "solution": "(79 * 1) - 38"}
+{"id": 167, "numbers": [31, 94, 8], "target": 71, "n_numbers": 3, "solution": "(8 + 94) - 31"}
+{"id": 168, "numbers": [26, 1, 16, 78], "target": 36, "n_numbers": 4, "solution": "((1 * 78) - 26) - 16"}
+{"id": 169, "numbers": [96, 6, 79], "target": 63, "n_numbers": 3, "solution": "79 - (96 / 6)"}
+{"id": 170, "numbers": [28, 28, 56], "target": 14, "n_numbers": 3, "solution": "(28 * 28) / 56"}
+{"id": 171, "numbers": [78, 19, 72], "target": 25, "n_numbers": 3, "solution": "(78 + 19) - 72"}
+{"id": 172, "numbers": [69, 72, 18], "target": 65, "n_numbers": 3, "solution": "69 - (72 / 18)"}
+{"id": 173, "numbers": [49, 10, 10, 25], "target": 24, "n_numbers": 4, "solution": "49 - ((10 * 25) / 10)"}
+{"id": 174, "numbers": [12, 50, 10, 32], "target": 84, "n_numbers": 4, "solution": "((32 + 12) + 50) - 10"}
+{"id": 175, "numbers": [29, 86, 32], "target": 83, "n_numbers": 3, "solution": "(86 - 32) + 29"}
+{"id": 176, "numbers": [79, 85, 63, 30], "target": 99, "n_numbers": 4, "solution": "30 + ((85 + 63) - 79)"}
+{"id": 177, "numbers": [71, 97, 76, 6], "target": 98, "n_numbers": 4, "solution": "71 + ((97 + 6) - 76)"}
+{"id": 178, "numbers": [38, 2, 56, 67], "target": 54, "n_numbers": 4, "solution": "(38 - (67 - 56)) * 2"}
+{"id": 179, "numbers": [49, 72, 7, 100], "target": 28, "n_numbers": 4, "solution": "(7 + 72) - (100 - 49)"}
+{"id": 180, "numbers": [40, 44, 94], "target": 90, "n_numbers": 3, "solution": "(94 - 44) + 40"}
+{"id": 181, "numbers": [54, 64, 4], "target": 38, "n_numbers": 3, "solution": "54 - (64 / 4)"}
+{"id": 182, "numbers": [8, 59, 6], "target": 45, "n_numbers": 3, "solution": "(59 - 6) - 8"}
+{"id": 183, "numbers": [46, 54, 60, 40], "target": 28, "n_numbers": 4, "solution": "(60 - 40) + (54 - 46)"}
+{"id": 184, "numbers": [84, 80, 85], "target": 81, "n_numbers": 3, "solution": "(85 - 84) + 80"}
+{"id": 185, "numbers": [61, 60, 10], "target": 11, "n_numbers": 3, "solution": "(61 + 10) - 60"}
+{"id": 186, "numbers": [16, 33, 30, 7], "target": 54, "n_numbers": 4, "solution": "(30 - 16) + (33 + 7)"}
+{"id": 187, "numbers": [62, 56, 12], "target": 72, "n_numbers": 3, "solution": "12 * (62 - 56)"}
+{"id": 188, "numbers": [8, 43, 46], "target": 97, "n_numbers": 3, "solution": "(43 + 8) + 46"}
+{"id": 189, "numbers": [47, 48, 24, 30], "target": 55, "n_numbers": 4, "solution": "(24 - (47 - 30)) + 48"}
+{"id": 190, "numbers": [48, 52, 61, 26], "target": 91, "n_numbers": 4, "solution": "(52 + (26 + 61)) - 48"}
+{"id": 191, "numbers": [71, 66, 17], "target": 12, "n_numbers": 3, "solution": "66 - (71 - 17)"}
+{"id": 192, "numbers": [100, 76, 40, 58], "target": 78, "n_numbers": 4, "solution": "((76 - 40) + 100) - 58"}
+{"id": 193, "numbers": [71, 99, 1, 68], "target": 95, "n_numbers": 4, "solution": "(99 - 1) - (71 - 68)"}
+{"id": 194, "numbers": [14, 40, 36, 29], "target": 11, "n_numbers": 4, "solution": "36 - ((14 + 40) - 29)"}
+{"id": 195, "numbers": [100, 83, 86], "target": 69, "n_numbers": 3, "solution": "83 - (100 - 86)"}
+{"id": 196, "numbers": [18, 28, 23, 9], "target": 14, "n_numbers": 4, "solution": "(28 + 18) - (9 + 23)"}
+{"id": 197, "numbers": [36, 19, 93], "target": 76, "n_numbers": 3, "solution": "(93 - 36) + 19"}
+{"id": 198, "numbers": [9, 13, 1], "target": 23, "n_numbers": 3, "solution": "(1 + 13) + 9"}
+{"id": 199, "numbers": [30, 20, 4], "target": 14, "n_numbers": 3, "solution": "(30 + 4) - 20"}
