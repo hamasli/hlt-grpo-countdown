@@ -1,0 +1,26 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter": null,
+  "method": "cot",
+  "device": "cpu",
+  "seconds": 24.1,
+  "peak_gpu_mem_gb": null,
+  "4_numbers": {
+    "n": 4,
+    "accuracy": 0.0,
+    "format_rate": 0.0,
+    "mean_tokens": 40.8
+  },
+  "3_numbers": {
+    "n": 1,
+    "accuracy": 0.0,
+    "format_rate": 0.0,
+    "mean_tokens": 43.0
+  },
+  "all": {
+    "n": 5,
+    "accuracy": 0.0,
+    "format_rate": 0.0,
+    "mean_tokens": 41.2
+  }
+}
