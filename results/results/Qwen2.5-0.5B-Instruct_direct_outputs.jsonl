@@ -1,0 +1,1000 @@
+{"id": 0, "n_numbers": 4, "numbers": [99, 21, 95, 39], "target": 22, "output": "<answer>(99 - 21) * (95 - 39)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 1, "n_numbers": 4, "numbers": [14, 59, 42, 13], "target": 44, "output": "<answer>(14 - 59 * 42 + 13)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 2, "n_numbers": 4, "numbers": [33, 22, 44, 39], "target": 28, "output": "<answer>(33 - (22 * 44)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 3, "n_numbers": 4, "numbers": [2, 1, 87, 58], "target": 32, "output": "(2 * (1 - 87)) / 58", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 4, "n_numbers": 3, "numbers": [22, 20, 82], "target": 84, "output": "<answer>(22 - 20 + 82) * 4</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 5, "n_numbers": 4, "numbers": [50, 5, 8, 79], "target": 26, "output": "(50 - 5) * 8 + 79 = 26", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 6, "n_numbers": 4, "numbers": [100, 8, 28, 17], "target": 47, "output": "<answer>(100 - 8) * (28 + 17)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 7, "n_numbers": 3, "numbers": [26, 94, 96], "target": 24, "output": "<answer>(26 - 94 + 96)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 8, "n_numbers": 3, "numbers": [98, 70, 65], "target": 37, "output": "<answer>(98 - 70 + 65)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 9, "n_numbers": 4, "numbers": [6, 20, 5, 6], "target": 15, "output": "<answer>(6 * (20 - 5)) / 6</answer>", "tokens": 19, "correct": true, "format_ok": true}
+{"id": 10, "n_numbers": 4, "numbers": [15, 24, 14, 88], "target": 65, "output": "<answer>(15 - 14) * (24 - 88)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 11, "n_numbers": 3, "numbers": [34, 99, 20], "target": 85, "output": "<answer>(99 - 34) * 20</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 12, "n_numbers": 4, "numbers": [82, 92, 5, 100], "target": 69, "output": "<answer>(100 - (92 - 5)) * 82</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 13, "n_numbers": 3, "numbers": [96, 68, 96], "target": 69, "output": "<answer>(96 - 96) * 68</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 14, "n_numbers": 3, "numbers": [96, 64, 56], "target": 88, "output": "<answer>(96 - 64) * (56 - 56)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 15, "n_numbers": 4, "numbers": [28, 25, 39, 1], "target": 42, "output": "<answer>(28 - 25) * (39 - 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 16, "n_numbers": 4, "numbers": [25, 34, 28, 4], "target": 35, "output": "<answer>(25 - (34 * 28)) / 4</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 17, "n_numbers": 4, "numbers": [36, 17, 85, 50], "target": 88, "output": "<answer>(85 - (50 * 3)) / 8</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 18, "n_numbers": 4, "numbers": [16, 63, 32, 5], "target": 84, "output": "<answer>(16 - 63 * 32 + 5)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 19, "n_numbers": 3, "numbers": [16, 28, 84], "target": 72, "output": "<answer>(16 - 84) * 28</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 20, "n_numbers": 4, "numbers": [47, 5, 69, 61], "target": 60, "output": "(69 - 61) * 47", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 21, "n_numbers": 3, "numbers": [5, 96, 55], "target": 36, "output": "(5 * (96 - 5)) / 55", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 22, "n_numbers": 4, "numbers": [43, 44, 9, 34], "target": 24, "output": "(43 - 44) * 9 + 34 = 24", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 23, "n_numbers": 4, "numbers": [7, 60, 21, 20], "target": 67, "output": "<answer>(7 * (60 - 21)) / 20</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 24, "n_numbers": 3, "numbers": [64, 9, 9], "target": 82, "output": "<answer>(9 * (64 - 9)) / 9</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 25, "n_numbers": 3, "numbers": [83, 72, 91], "target": 80, "output": "<answer>(91 - 72) * 83</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 26, "n_numbers": 3, "numbers": [99, 19, 27], "target": 91, "output": "<answer>(99 - 19 + 27)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 27, "n_numbers": 3, "numbers": [69, 1, 81], "target": 12, "output": "<answer>(69 - 1 + 81) * (1 / 1)</answer>", "tokens": 23, "correct": false, "format_ok": true}
+{"id": 28, "n_numbers": 3, "numbers": [24, 65, 1], "target": 42, "output": "<answer>(24 - 65 + 1)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 29, "n_numbers": 3, "numbers": [72, 16, 34], "target": 54, "output": "<answer>(72 - 16) * (34 + 72)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 30, "n_numbers": 3, "numbers": [65, 4, 62], "target": 12, "output": "<answer>(65 - 4) * 62</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 31, "n_numbers": 3, "numbers": [28, 11, 52], "target": 91, "output": "<answer>(52 - 11) * 28</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 32, "n_numbers": 4, "numbers": [27, 20, 80, 80], "target": 36, "output": "<answer>(27 - (20 * 80)) / 80</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 33, "n_numbers": 3, "numbers": [41, 36, 56], "target": 61, "output": "<answer>(56 - 36) * 41</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 34, "n_numbers": 4, "numbers": [41, 66, 43, 80], "target": 70, "output": "<answer>(80 - (66 * 43)) / 41</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 35, "n_numbers": 4, "numbers": [22, 15, 53, 23], "target": 69, "output": "<answer>(22 - 15) * (53 + 23)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 36, "n_numbers": 4, "numbers": [56, 67, 77, 27], "target": 61, "output": "(77 - 67) * 56 / 27", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 37, "n_numbers": 4, "numbers": [29, 18, 97, 2], "target": 59, "output": "<answer>(29 - 18) * (97 + 2)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 38, "n_numbers": 3, "numbers": [68, 2, 47], "target": 13, "output": "<answer>(68 - 2 * 47)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 39, "n_numbers": 3, "numbers": [48, 56, 19], "target": 27, "output": "(48 - 56) * 19 = 27", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 40, "n_numbers": 4, "numbers": [63, 35, 96, 52], "target": 50, "output": "<answer>(96 - 52) * 63</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 41, "n_numbers": 4, "numbers": [88, 68, 33, 18], "target": 31, "output": "<answer>(18 - 8) * (68 - 33)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 42, "n_numbers": 3, "numbers": [85, 4, 61], "target": 20, "output": "<answer>(85 - 4 * 61)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 43, "n_numbers": 4, "numbers": [47, 54, 4, 64], "target": 53, "output": "(47 - 54) * (4 + 64) / 4", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 44, "n_numbers": 3, "numbers": [18, 21, 39], "target": 78, "output": "<answer>(21 - 18) * 3</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 45, "n_numbers": 3, "numbers": [88, 9, 53], "target": 44, "output": "<answer>(88 - 9 * 53)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 46, "n_numbers": 3, "numbers": [12, 17, 18], "target": 47, "output": "<answer>(17 - 12) * 18</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 47, "n_numbers": 4, "numbers": [37, 70, 70, 53], "target": 91, "output": "<answer>(70 - (53 * 37)) / 70</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 48, "n_numbers": 3, "numbers": [44, 91, 23], "target": 70, "output": "<answer>(44 - 91 + 23)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 49, "n_numbers": 4, "numbers": [72, 58, 26, 41], "target": 53, "output": "<answer>(72 - 58) * (26 + 41)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 50, "n_numbers": 4, "numbers": [24, 11, 34, 56], "target": 35, "output": "<answer>(24 - 11) * (34 + 56)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 51, "n_numbers": 3, "numbers": [64, 19, 13], "target": 32, "output": "<answer>(64 - 19) * (13 - 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 52, "n_numbers": 4, "numbers": [90, 24, 3, 34], "target": 96, "output": "<answer>(90 - 24) * (34 - 3)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 53, "n_numbers": 4, "numbers": [64, 22, 23, 37], "target": 18, "output": "<answer>(64 - 22) * (23 - 37)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 54, "n_numbers": 3, "numbers": [70, 97, 6], "target": 21, "output": "<answer>(70 - 97 + 6)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 55, "n_numbers": 3, "numbers": [76, 4, 62], "target": 18, "output": "<answer>(76 - 4 * 62)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 56, "n_numbers": 3, "numbers": [43, 12, 7], "target": 24, "output": "<answer>(43 - 12) * (7 - 7)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 57, "n_numbers": 4, "numbers": [5, 10, 29, 73], "target": 100, "output": "<answer>(10 - 5) * (29 + 73)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 58, "n_numbers": 3, "numbers": [39, 79, 66], "target": 26, "output": "<answer>(39 - (79 - 66)) * 4</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 59, "n_numbers": 4, "numbers": [67, 48, 39, 55], "target": 35, "output": "(67 - 48) * (39 + 55)", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 60, "n_numbers": 4, "numbers": [80, 51, 12, 40], "target": 61, "output": "<answer>(80 - 51) * (12 + 40)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 61, "n_numbers": 3, "numbers": [17, 29, 47], "target": 35, "output": "<answer>(29 - 17) * 47</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 62, "n_numbers": 4, "numbers": [2, 41, 82, 1], "target": 43, "output": "(41 - 2) * 82 / 1 = 43", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 63, "n_numbers": 4, "numbers": [7, 94, 21, 63], "target": 45, "output": "<answer>(7 * (94 - 63)) / 21</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 64, "n_numbers": 4, "numbers": [72, 18, 50, 94], "target": 98, "output": "<answer>(72 - 18) * (50 + 94)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 65, "n_numbers": 3, "numbers": [99, 36, 34], "target": 97, "output": "<answer>(99 - 36) * (34 + 99)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 66, "n_numbers": 4, "numbers": [57, 36, 96, 74], "target": 77, "output": "(74 - 96) * 3 + 57", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 67, "n_numbers": 4, "numbers": [10, 55, 64, 45], "target": 44, "output": "<answer>(64 - 45) * 55</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 68, "n_numbers": 4, "numbers": [48, 63, 86, 90], "target": 65, "output": "(86 - 90) * 63", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 69, "n_numbers": 4, "numbers": [17, 26, 11, 86], "target": 66, "output": "<answer>(17 - 26 + 11 - 86)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 70, "n_numbers": 3, "numbers": [81, 90, 50], "target": 45, "output": "<answer>(90 - (81 * 50)) / 50</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 71, "n_numbers": 4, "numbers": [93, 72, 2, 90], "target": 77, "output": "<answer>(93 - 90) * 72</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 72, "n_numbers": 3, "numbers": [43, 30, 73], "target": 86, "output": "<answer>(43 - 30) * (73 - 43)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 73, "n_numbers": 4, "numbers": [62, 77, 78, 36], "target": 57, "output": "<answer>(77 - 62) * (78 - 36)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 74, "n_numbers": 4, "numbers": [41, 54, 23, 53], "target": 17, "output": "(54 - 41) * (53 - 23) / 3 = 17", "tokens": 25, "correct": false, "format_ok": false}
+{"id": 75, "n_numbers": 4, "numbers": [40, 71, 16, 36], "target": 83, "output": "<answer>(71 - 40) * (16 + 36)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 76, "n_numbers": 3, "numbers": [27, 76, 21], "target": 70, "output": "<answer>(27 - 76 + 21)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 77, "n_numbers": 3, "numbers": [22, 10, 40], "target": 26, "output": "<answer>(22 - 10) * 40</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 78, "n_numbers": 3, "numbers": [83, 21, 83], "target": 20, "output": "<answer>(83 - 21) * (83 - 83)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 79, "n_numbers": 4, "numbers": [90, 69, 29, 45], "target": 18, "output": "<answer>(90 - (69 * 45)) / 29</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 80, "n_numbers": 4, "numbers": [11, 25, 6, 53], "target": 33, "output": "<answer>(11 - 53) * 25 + 6</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 81, "n_numbers": 3, "numbers": [67, 24, 69], "target": 22, "output": "<answer>(67 - 24) * (69 - 67)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 82, "n_numbers": 4, "numbers": [78, 27, 1, 100], "target": 48, "output": "<answer>(100 - 10) * (78 - 27)</answer>", "tokens": 23, "correct": false, "format_ok": true}
+{"id": 83, "n_numbers": 4, "numbers": [68, 37, 70, 92], "target": 53, "output": "<answer>(92 - (70 * 37)) / 68</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 84, "n_numbers": 4, "numbers": [64, 8, 3, 13], "target": 46, "output": "<answer>(8 - 64) * 3 + 13</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 85, "n_numbers": 3, "numbers": [1, 42, 81], "target": 40, "output": "<answer>(1 * 42 - 81)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 86, "n_numbers": 3, "numbers": [97, 81, 93], "target": 85, "output": "<answer>(97 - 81) * 93</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 87, "n_numbers": 4, "numbers": [32, 25, 32, 72], "target": 96, "output": "<answer>(32 - 25) * (32 + 72)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 88, "n_numbers": 3, "numbers": [30, 51, 68], "target": 89, "output": "<answer>(51 - 30) * 68</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 89, "n_numbers": 3, "numbers": [84, 23, 19], "target": 88, "output": "<answer>(84 - 23) * (19 + 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 90, "n_numbers": 3, "numbers": [70, 55, 64], "target": 79, "output": "<answer>(70 - 55) * 64</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 91, "n_numbers": 3, "numbers": [19, 92, 55], "target": 56, "output": "<answer>(55 - (92 - 19)) * 5</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 92, "n_numbers": 3, "numbers": [29, 22, 12], "target": 63, "output": "<answer>(29 - 22) * (12 / 6)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 93, "n_numbers": 4, "numbers": [94, 43, 18, 21], "target": 48, "output": "<answer>(94 - 43) * (18 + 21)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 94, "n_numbers": 4, "numbers": [59, 6, 9, 61], "target": 30, "output": "(6 * (9 - 59)) / 61", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 95, "n_numbers": 3, "numbers": [88, 28, 26], "target": 34, "output": "<answer>(88 - 28) * (26 + 2)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 96, "n_numbers": 4, "numbers": [81, 5, 60, 81], "target": 97, "output": "<answer>(81 - 5) * (60 + 81)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 97, "n_numbers": 3, "numbers": [20, 11, 46], "target": 37, "output": "<answer>(20 - 11) * 46</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 98, "n_numbers": 4, "numbers": [9, 20, 40, 79], "target": 10, "output": "<answer>(9 - 20 * 40 + 79)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 99, "n_numbers": 3, "numbers": [13, 18, 94], "target": 63, "output": "<answer>(13 - 18 + 94)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 100, "n_numbers": 3, "numbers": [30, 95, 90], "target": 98, "output": "<answer>(95 - 30) * 90 / 95</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 101, "n_numbers": 4, "numbers": [41, 42, 5, 21], "target": 67, "output": "(41 - 42) * 5 + 21 = 67", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 102, "n_numbers": 4, "numbers": [32, 31, 20, 73], "target": 30, "output": "(32 - 31) * 20 + 73 = 30", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 103, "n_numbers": 4, "numbers": [16, 51, 56, 30], "target": 41, "output": "<answer>(56 - (30 * 51)) / 16</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 104, "n_numbers": 3, "numbers": [1, 56, 7], "target": 63, "output": "<answer>(1 * 56 - 7)</answer>", "tokens": 15, "correct": false, "format_ok": true}
+{"id": 105, "n_numbers": 4, "numbers": [66, 40, 6, 38], "target": 30, "output": "<answer>(66 - 40) * (6 + 38)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 106, "n_numbers": 3, "numbers": [73, 2, 17], "target": 58, "output": "<answer>(73 - 2 * 17)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 107, "n_numbers": 3, "numbers": [7, 82, 19], "target": 56, "output": "<answer>(7 - (82 * 19)) / 5</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 108, "n_numbers": 4, "numbers": [5, 22, 80, 85], "target": 32, "output": "(5 - 22 * 80) / 85", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 109, "n_numbers": 4, "numbers": [8, 23, 6, 89], "target": 80, "output": "<answer>(8 * (23 - 8)) / 6</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 110, "n_numbers": 3, "numbers": [96, 61, 91], "target": 66, "output": "<answer>(96 - 61 + 91)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 111, "n_numbers": 3, "numbers": [23, 6, 55], "target": 38, "output": "<answer>(23 - (6 * 55)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 112, "n_numbers": 3, "numbers": [73, 58, 82], "target": 97, "output": "<answer>(73 - (58 * 82)) / 2</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 113, "n_numbers": 4, "numbers": [15, 67, 13, 99], "target": 30, "output": "<answer>(15 - 67 * 13 + 99)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 114, "n_numbers": 4, "numbers": [27, 15, 34, 81], "target": 89, "output": "<answer>(81 - (34 * 15)) / 27</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 115, "n_numbers": 3, "numbers": [63, 36, 56], "target": 43, "output": "<answer>(63 - 36) * (56 - 56)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 116, "n_numbers": 3, "numbers": [68, 6, 25], "target": 87, "output": "<answer>(68 - 6 * 25)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 117, "n_numbers": 3, "numbers": [75, 2, 34], "target": 58, "output": "<answer>(75 - 2 * 34)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 118, "n_numbers": 3, "numbers": [71, 16, 22], "target": 33, "output": "<answer>(71 - 16) * 22</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 119, "n_numbers": 3, "numbers": [72, 36, 41], "target": 82, "output": "<answer>(72 - 36) * 41</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 120, "n_numbers": 3, "numbers": [2, 22, 36], "target": 40, "output": "<answer>(2 * (22 - 36)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 121, "n_numbers": 3, "numbers": [19, 39, 18], "target": 76, "output": "<answer>(19 - 18) * 3</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 122, "n_numbers": 4, "numbers": [29, 64, 87, 23], "target": 99, "output": "<answer>(29 - 64 * 87 + 23)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 123, "n_numbers": 3, "numbers": [38, 96, 92], "target": 42, "output": "<answer>(96 - 38) * 92</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 124, "n_numbers": 3, "numbers": [65, 76, 43], "target": 98, "output": "<answer>(65 - 76 + 43)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 125, "n_numbers": 4, "numbers": [49, 80, 27, 74], "target": 70, "output": "<answer>(80 - 49) * (74 - 27)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 126, "n_numbers": 3, "numbers": [5, 38, 3], "target": 36, "output": "(5 * (38 - 3)) / 4", "tokens": 14, "correct": false, "format_ok": false}
+{"id": 127, "n_numbers": 3, "numbers": [63, 40, 1], "target": 22, "output": "<answer>(63 - 40) * 1</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 128, "n_numbers": 4, "numbers": [53, 97, 69, 45], "target": 70, "output": "(53 - 97) * (69 + 45) / 2", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 129, "n_numbers": 4, "numbers": [96, 29, 4, 77], "target": 44, "output": "<answer>(96 - 29) * 4 + 77 = 44</answer>", "tokens": 25, "correct": false, "format_ok": true}
+{"id": 130, "n_numbers": 3, "numbers": [7, 61, 20], "target": 79, "output": "<answer>(7 * (61 - 20)) / 7</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 131, "n_numbers": 3, "numbers": [10, 39, 65], "target": 16, "output": "<answer>(10 - 65) * 39</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 132, "n_numbers": 4, "numbers": [68, 61, 10, 98], "target": 21, "output": "<answer>(68 - 61) * (10 + 98)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 133, "n_numbers": 3, "numbers": [38, 34, 54], "target": 50, "output": "<answer>(38 - (34 * 54)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 134, "n_numbers": 4, "numbers": [77, 76, 48, 3], "target": 44, "output": "<answer>(77 - 76) * (48 - 3)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 135, "n_numbers": 3, "numbers": [36, 67, 59], "target": 44, "output": "(67 - 36) * 59", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 136, "n_numbers": 4, "numbers": [6, 20, 28, 75], "target": 89, "output": "<answer>(20 - 6) * (75 / 28)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 137, "n_numbers": 3, "numbers": [28, 2, 34], "target": 20, "output": "<answer>(28 - 2 * 34)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 138, "n_numbers": 4, "numbers": [2, 49, 9, 94], "target": 36, "output": "<answer>(2 * (49 - 9)) / 94</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 139, "n_numbers": 4, "numbers": [2, 72, 33, 66], "target": 68, "output": "<answer>(2 * (72 - 33)) / 66</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 140, "n_numbers": 3, "numbers": [81, 39, 82], "target": 40, "output": "<answer>(81 - 39) * (82 / 81)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 141, "n_numbers": 4, "numbers": [25, 54, 24, 29], "target": 82, "output": "<answer>(25 - 54 + 24 * 29)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 142, "n_numbers": 3, "numbers": [34, 90, 31], "target": 93, "output": "<answer>(34 - (90 * 31)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 143, "n_numbers": 4, "numbers": [67, 98, 55, 18], "target": 92, "output": "<answer>(98 - (67 + 55)) * 18</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 144, "n_numbers": 4, "numbers": [52, 37, 85, 51], "target": 48, "output": "(52 - 51) * 3 + 85", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 145, "n_numbers": 4, "numbers": [33, 42, 70, 51], "target": 94, "output": "<answer>(42 - 33) * (70 + 51)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 146, "n_numbers": 4, "numbers": [78, 85, 24, 97], "target": 66, "output": "<answer>(97 - (85 * 24)) / 78</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 147, "n_numbers": 4, "numbers": [56, 36, 2, 32], "target": 58, "output": "<answer>(56 - 36) * (2 + 32)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 148, "n_numbers": 3, "numbers": [54, 71, 26], "target": 43, "output": "<answer>(71 - 54) * 26</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 149, "n_numbers": 4, "numbers": [40, 53, 48, 9], "target": 70, "output": "(40 - 53) * (48 / 9)", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 150, "n_numbers": 4, "numbers": [84, 91, 23, 46], "target": 62, "output": "<answer>(91 - 84) * 46</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 151, "n_numbers": 3, "numbers": [55, 12, 38], "target": 29, "output": "<answer>(55 - 12) * (38 - 55)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 152, "n_numbers": 3, "numbers": [37, 6, 18], "target": 71, "output": "<answer>(37 - (6 * 18)) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 153, "n_numbers": 4, "numbers": [23, 24, 85, 5], "target": 79, "output": "<answer>(23 - (24 * 85)) / 5</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 154, "n_numbers": 3, "numbers": [94, 25, 32], "target": 87, "output": "<answer>(94 - 25) * 32</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 155, "n_numbers": 4, "numbers": [75, 72, 6, 6], "target": 33, "output": "<answer>(75 - 72) * (6 + 6)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 156, "n_numbers": 4, "numbers": [32, 54, 84, 56], "target": 28, "output": "(54 - 32) * (84 / 56)", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 157, "n_numbers": 3, "numbers": [33, 18, 2], "target": 49, "output": "<answer>(33 - 18) * 2</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 158, "n_numbers": 3, "numbers": [39, 77, 52], "target": 64, "output": "<answer>(77 - 39) * (52 - 52)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 159, "n_numbers": 3, "numbers": [37, 100, 30], "target": 33, "output": "<answer>(37 - (100 * 30)) / 3</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 160, "n_numbers": 3, "numbers": [22, 24, 3], "target": 42, "output": "<answer>(22 - (24 * 3)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 161, "n_numbers": 3, "numbers": [24, 29, 92], "target": 97, "output": "<answer>(24 - 29 + 92)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 162, "n_numbers": 4, "numbers": [70, 70, 94, 12], "target": 82, "output": "<answer>(70 - 70) * (94 + 12)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 163, "n_numbers": 3, "numbers": [95, 79, 86], "target": 70, "output": "<answer>(86 - 79) * 95</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 164, "n_numbers": 3, "numbers": [64, 50, 96], "target": 82, "output": "<answer>(96 - 50) * 64</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 165, "n_numbers": 4, "numbers": [19, 84, 93, 24], "target": 14, "output": "<answer>(19 - 84 * 93 + 24)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 166, "n_numbers": 3, "numbers": [74, 63, 89], "target": 48, "output": "<answer>(89 - 63) * 74</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 167, "n_numbers": 4, "numbers": [5, 46, 62, 14], "target": 38, "output": "(5 - 46 * 62 + 14) / 3", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 168, "n_numbers": 3, "numbers": [98, 35, 41], "target": 22, "output": "<answer>(98 - 35) * (41 - 41)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 169, "n_numbers": 3, "numbers": [6, 10, 42], "target": 46, "output": "<answer>(6 - 10 + 42) * 46</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 170, "n_numbers": 4, "numbers": [22, 22, 68, 88], "target": 20, "output": "<answer>(22 - 22) * (68 + 88)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 171, "n_numbers": 3, "numbers": [65, 68, 21], "target": 24, "output": "<answer>(65 - 68 + 21)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 172, "n_numbers": 3, "numbers": [28, 52, 8], "target": 10, "output": "<answer>(8 - 52) * 28</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 173, "n_numbers": 3, "numbers": [28, 18, 52], "target": 62, "output": "<answer>(52 - 28) * (18 + 52)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 174, "n_numbers": 3, "numbers": [8, 96, 10], "target": 98, "output": "<answer>(8 - 96 * 10)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 175, "n_numbers": 3, "numbers": [51, 76, 54], "target": 73, "output": "(51 - 54) * 76 = 73", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 176, "n_numbers": 4, "numbers": [29, 57, 94, 50], "target": 58, "output": "<answer>(57 - 29) * (94 + 50)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 177, "n_numbers": 4, "numbers": [65, 86, 27, 7], "target": 41, "output": "<answer>(86 - 65) * (7 + 27)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 178, "n_numbers": 4, "numbers": [46, 57, 53, 45], "target": 95, "output": "(57 - 46) * (53 + 45) / 5", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 179, "n_numbers": 3, "numbers": [14, 88, 39], "target": 63, "output": "<answer>(14 - 88 * 39)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 180, "n_numbers": 3, "numbers": [46, 12, 46], "target": 80, "output": "<answer>(46 - 12) * (46 - 46)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 181, "n_numbers": 4, "numbers": [91, 48, 11, 33], "target": 74, "output": "<answer>(91 - 48) * (11 + 33)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 182, "n_numbers": 4, "numbers": [63, 18, 22, 39], "target": 64, "output": "<answer>(63 - 18) * (22 + 39)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 183, "n_numbers": 4, "numbers": [20, 30, 89, 17], "target": 82, "output": "<answer>(89 - 17) * 20</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 184, "n_numbers": 3, "numbers": [42, 16, 1], "target": 27, "output": "<answer>(42 - 16) * (16 / 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 185, "n_numbers": 4, "numbers": [2, 22, 26, 29], "target": 14, "output": "<answer>(2 * (22 - 26)) / 29</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 186, "n_numbers": 4, "numbers": [41, 70, 49, 89], "target": 69, "output": "<answer>(41 - (70 * 49)) / 89</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 187, "n_numbers": 4, "numbers": [79, 87, 34, 59], "target": 33, "output": "(59 - 34) * 87", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 188, "n_numbers": 3, "numbers": [55, 76, 3], "target": 24, "output": "(55 - 76) * 3 = 24", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 189, "n_numbers": 3, "numbers": [85, 84, 42], "target": 43, "output": "<answer>(85 - (84 * 42)) / 85</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 190, "n_numbers": 3, "numbers": [57, 90, 62], "target": 95, "output": "<answer>(90 - 57) * 62</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 191, "n_numbers": 4, "numbers": [18, 11, 22, 11], "target": 40, "output": "<answer>(18 - 11) * (22 - 11)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 192, "n_numbers": 4, "numbers": [75, 30, 29, 51], "target": 83, "output": "<answer>(75 - 30) * (29 + 51)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 193, "n_numbers": 4, "numbers": [85, 33, 77, 87], "target": 62, "output": "<answer>(85 - 33) * (77 + 87)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 194, "n_numbers": 3, "numbers": [39, 5, 58], "target": 24, "output": "<answer>(5 * (39 - 5)) / 58</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 195, "n_numbers": 3, "numbers": [39, 1, 54], "target": 15, "output": "<answer>(39 - 1 + 54) * (1 + 54 / 3)</answer>", "tokens": 27, "correct": false, "format_ok": true}
+{"id": 196, "n_numbers": 3, "numbers": [19, 21, 92], "target": 90, "output": "<answer>(21 - 19) * 92</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 197, "n_numbers": 3, "numbers": [47, 87, 41], "target": 93, "output": "<answer>(47 - 87 + 41)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 198, "n_numbers": 3, "numbers": [29, 74, 45], "target": 90, "output": "<answer>(29 - 74 + 45)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 199, "n_numbers": 3, "numbers": [36, 72, 34], "target": 17, "output": "<answer>(36 - 72 + 34)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 200, "n_numbers": 3, "numbers": [96, 6, 96], "target": 80, "output": "<answer>(96 - 6 * 96)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 201, "n_numbers": 4, "numbers": [34, 87, 12, 18], "target": 83, "output": "<answer>(87 - 18) * 3</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 202, "n_numbers": 3, "numbers": [54, 91, 50], "target": 95, "output": "<answer>(54 - 50) * 91</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 203, "n_numbers": 4, "numbers": [56, 7, 15, 62], "target": 55, "output": "(15 - 6) * 7 + 56 = 55", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 204, "n_numbers": 3, "numbers": [54, 11, 9], "target": 56, "output": "<answer>(54 - 11) * 9</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 205, "n_numbers": 4, "numbers": [30, 78, 42, 34], "target": 32, "output": "<answer>(30 - (78 - 42)) * 34</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 206, "n_numbers": 4, "numbers": [76, 28, 88, 53], "target": 93, "output": "<answer>(88 - 53) * 76</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 207, "n_numbers": 4, "numbers": [10, 85, 6, 4], "target": 86, "output": "<answer>(10 - 85 * 6 + 4)</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 208, "n_numbers": 4, "numbers": [22, 30, 36, 53], "target": 37, "output": "<answer>(36 - (53 - 30)) * 22</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 209, "n_numbers": 3, "numbers": [25, 23, 21], "target": 19, "output": "<answer>(25 - 23) * (21 - 25)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 210, "n_numbers": 4, "numbers": [35, 54, 91, 77], "target": 75, "output": "<answer>(54 - 35) * 77 / 91</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 211, "n_numbers": 4, "numbers": [62, 24, 6, 6], "target": 50, "output": "<answer>(6 * (62 - 24)) / 6</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 212, "n_numbers": 4, "numbers": [83, 15, 39, 35], "target": 64, "output": "<answer>(83 - 15) * (39 + 35)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 213, "n_numbers": 3, "numbers": [47, 41, 92], "target": 98, "output": "<answer>(47 - 41) * 92</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 214, "n_numbers": 3, "numbers": [69, 17, 81], "target": 29, "output": "<answer>(81 - 17) * 69</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 215, "n_numbers": 4, "numbers": [1, 81, 62, 62], "target": 82, "output": "<answer>(81 - (62 * 62)) / 1</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 216, "n_numbers": 3, "numbers": [30, 33, 39], "target": 13, "output": "<answer>(30 - (33 * 39)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 217, "n_numbers": 4, "numbers": [90, 47, 73, 73], "target": 43, "output": "(73 - 73) * 90 / 47 = 43", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 218, "n_numbers": 4, "numbers": [38, 72, 87, 94], "target": 41, "output": "<answer>(94 - (87 - 72)) * 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 219, "n_numbers": 4, "numbers": [57, 46, 75, 67], "target": 19, "output": "(75 - 67) * 57 / 46", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 220, "n_numbers": 3, "numbers": [29, 75, 87], "target": 17, "output": "<answer>(87 - 75) * 29</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 221, "n_numbers": 3, "numbers": [26, 83, 8], "target": 49, "output": "<answer>(8 * (83 - 26)) / 8</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 222, "n_numbers": 4, "numbers": [73, 16, 69, 98], "target": 60, "output": "<answer>(98 - (69 * 73)) / 16</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 223, "n_numbers": 3, "numbers": [77, 90, 68], "target": 99, "output": "<answer>(90 - 77) * 68</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 224, "n_numbers": 4, "numbers": [1, 84, 40, 89], "target": 45, "output": "(1 * 84 - 40) / 89", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 225, "n_numbers": 3, "numbers": [28, 25, 17], "target": 36, "output": "<answer>(28 - 25) * 17</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 226, "n_numbers": 4, "numbers": [27, 43, 27, 26], "target": 69, "output": "<answer>(27 - 26) * 43</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 227, "n_numbers": 3, "numbers": [27, 52, 96], "target": 71, "output": "<answer>(52 - 27) * 96</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 228, "n_numbers": 4, "numbers": [11, 24, 7, 18], "target": 12, "output": "<answer>(18 - 11) * (24 - 7)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 229, "n_numbers": 4, "numbers": [88, 82, 22, 93], "target": 55, "output": "<answer>(88 - 82) * (22 - 93)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 230, "n_numbers": 3, "numbers": [1, 11, 86], "target": 97, "output": "<answer>(11 - 1) * 86</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 231, "n_numbers": 4, "numbers": [13, 1, 25, 42], "target": 80, "output": "<answer>(13 - 1) * (25 + 42)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 232, "n_numbers": 4, "numbers": [10, 80, 32, 64], "target": 68, "output": "<answer>(10 - 80 * 32 + 64)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 233, "n_numbers": 4, "numbers": [34, 8, 58, 66], "target": 82, "output": "<answer>(8 * (66 - 58)) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 234, "n_numbers": 3, "numbers": [24, 74, 23], "target": 27, "output": "<answer>(24 - 74 + 23)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 235, "n_numbers": 4, "numbers": [31, 2, 32, 35], "target": 37, "output": "<answer>(31 - 2) * (35 + 32)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 236, "n_numbers": 4, "numbers": [18, 18, 28, 50], "target": 14, "output": "<answer>(18 - 18) * (28 + 50)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 237, "n_numbers": 4, "numbers": [63, 65, 63, 99], "target": 34, "output": "<answer>(63 - 65) * (63 + 99)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 238, "n_numbers": 4, "numbers": [87, 63, 28, 20], "target": 16, "output": "<answer>(87 - 63) * (28 + 20)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 239, "n_numbers": 4, "numbers": [9, 6, 73, 45], "target": 25, "output": "(9 - 6) * 73 / 45 = 25", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 240, "n_numbers": 4, "numbers": [11, 62, 40, 44], "target": 77, "output": "<answer>(40 - 44) * 62</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 241, "n_numbers": 3, "numbers": [55, 33, 45], "target": 67, "output": "(55 - 33) * 45", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 242, "n_numbers": 4, "numbers": [38, 1, 56, 37], "target": 55, "output": "(38 - 1) * (56 + 37) / 3", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 243, "n_numbers": 3, "numbers": [47, 81, 91], "target": 37, "output": "<answer>(91 - 81) * 47</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 244, "n_numbers": 4, "numbers": [95, 49, 98, 57], "target": 11, "output": "<answer>(95 - 49) * (98 - 57)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 245, "n_numbers": 3, "numbers": [1, 7, 85], "target": 78, "output": "(1 * 85 - 7) / 1", "tokens": 14, "correct": false, "format_ok": false}
+{"id": 246, "n_numbers": 3, "numbers": [64, 4, 49], "target": 19, "output": "<answer>(64 - 4 * 49) / 4</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 247, "n_numbers": 3, "numbers": [13, 59, 79], "target": 33, "output": "<answer>(13 - 59 + 79)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 248, "n_numbers": 3, "numbers": [19, 60, 95], "target": 54, "output": "<answer>(95 - (60 * 19)) / 5</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 249, "n_numbers": 3, "numbers": [71, 9, 6], "target": 74, "output": "<answer>(71 - 9 + 6)</answer>", "tokens": 15, "correct": false, "format_ok": true}
+{"id": 250, "n_numbers": 4, "numbers": [72, 59, 20, 49], "target": 56, "output": "<answer>(72 - 59) * (20 + 49)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 251, "n_numbers": 3, "numbers": [78, 6, 21], "target": 93, "output": "<answer>(78 - (6 * 21)) / 78</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 252, "n_numbers": 4, "numbers": [82, 73, 82, 6], "target": 79, "output": "<answer>(82 - (73 * 6)) / 82</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 253, "n_numbers": 4, "numbers": [73, 96, 8, 48], "target": 67, "output": "<answer>(96 - 73) * 48</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 254, "n_numbers": 3, "numbers": [62, 45, 85], "target": 22, "output": "<answer>(85 - 45) * 62</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 255, "n_numbers": 3, "numbers": [52, 1, 34], "target": 18, "output": "<answer>(52 - 1 + 34) * 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 256, "n_numbers": 3, "numbers": [2, 63, 16], "target": 49, "output": "<answer>(2 * (63 - 16)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 257, "n_numbers": 3, "numbers": [26, 91, 78], "target": 39, "output": "<answer>(26 - 91 + 78)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 258, "n_numbers": 4, "numbers": [1, 33, 98, 7], "target": 71, "output": "(7 * (98 - 33)) / 1", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 259, "n_numbers": 4, "numbers": [88, 42, 96, 66], "target": 100, "output": "<answer>(96 - (66 * 42)) / 88</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 260, "n_numbers": 3, "numbers": [78, 84, 86], "target": 80, "output": "<answer>(84 - (86 - 78)) * 8</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 261, "n_numbers": 3, "numbers": [34, 29, 1], "target": 63, "output": "<answer>(34 - 29) * 1</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 262, "n_numbers": 3, "numbers": [72, 90, 65], "target": 52, "output": "<answer>(90 - 72) * 65</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 263, "n_numbers": 4, "numbers": [85, 48, 9, 12], "target": 98, "output": "<answer>(85 - 48) * (9 + 12)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 264, "n_numbers": 4, "numbers": [5, 13, 87, 2], "target": 67, "output": "(5 - 13) * (87 / 2)", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 265, "n_numbers": 3, "numbers": [88, 54, 49], "target": 93, "output": "<answer>(88 - 54) * (49 + 49)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 266, "n_numbers": 4, "numbers": [21, 46, 6, 43], "target": 18, "output": "<answer>(46 - 21) * (6 + 43)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 267, "n_numbers": 4, "numbers": [96, 37, 81, 34], "target": 56, "output": "<answer>(81 - 34) * 3</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 268, "n_numbers": 3, "numbers": [78, 16, 13], "target": 49, "output": "<answer>(78 - 16) * (13 - 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 269, "n_numbers": 4, "numbers": [62, 59, 1, 93], "target": 90, "output": "<answer>(93 - (59 * 62)) / 93</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 270, "n_numbers": 4, "numbers": [15, 24, 13, 38], "target": 90, "output": "<answer>(15 - 24 + 13 * 38)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 271, "n_numbers": 3, "numbers": [13, 61, 17], "target": 31, "output": "<answer>(13 - 61 + 17)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 272, "n_numbers": 4, "numbers": [84, 4, 46, 55], "target": 79, "output": "<answer>(84 - 4 * 46) / 55</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 273, "n_numbers": 4, "numbers": [64, 81, 7, 34], "target": 24, "output": "<answer>(81 - 64) * 7</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 274, "n_numbers": 3, "numbers": [10, 1, 62], "target": 52, "output": "<answer>(10 - 1) * 62 / 52</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 275, "n_numbers": 3, "numbers": [24, 58, 97], "target": 63, "output": "<answer>(97 - (58 * 24)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 276, "n_numbers": 4, "numbers": [91, 97, 49, 11], "target": 44, "output": "(91 - 97) * (49 - 11) = 44", "tokens": 22, "correct": false, "format_ok": false}
+{"id": 277, "n_numbers": 4, "numbers": [29, 89, 50, 96], "target": 28, "output": "(50 - 96) * 89", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 278, "n_numbers": 3, "numbers": [86, 46, 61], "target": 21, "output": "<answer>(86 - 46) * (61 - 61)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 279, "n_numbers": 4, "numbers": [71, 65, 43, 6], "target": 87, "output": "<answer>(71 - 65) * (43 + 6)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 280, "n_numbers": 4, "numbers": [1, 76, 79, 26], "target": 30, "output": "(76 - 26) * 79", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 281, "n_numbers": 4, "numbers": [95, 70, 69, 57], "target": 39, "output": "<answer>(95 - 57) * 70</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 282, "n_numbers": 4, "numbers": [7, 59, 64, 38], "target": 92, "output": "<answer>(7 - 59 * 64 + 38)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 283, "n_numbers": 3, "numbers": [31, 27, 79], "target": 75, "output": "<answer>(31 - 27) * 79</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 284, "n_numbers": 3, "numbers": [87, 37, 35], "target": 15, "output": "<answer>(87 - 37) * (35 - 37)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 285, "n_numbers": 3, "numbers": [40, 21, 29], "target": 90, "output": "<answer>(40 - 21) * (29 - 21)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 286, "n_numbers": 4, "numbers": [19, 67, 23, 84], "target": 59, "output": "<answer>(84 - 23) * (67 - 19)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 287, "n_numbers": 4, "numbers": [55, 9, 57, 1], "target": 11, "output": "(55 - 57) * 9 / 1", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 288, "n_numbers": 3, "numbers": [21, 70, 14], "target": 35, "output": "<answer>(21 - 70 + 14)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 289, "n_numbers": 4, "numbers": [73, 4, 77, 9], "target": 72, "output": "<answer>(73 - 4) * (77 + 9)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 290, "n_numbers": 4, "numbers": [45, 21, 26, 97], "target": 57, "output": "<answer>(97 - (26 * 21)) / 45</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 291, "n_numbers": 3, "numbers": [1, 45, 4], "target": 49, "output": "<answer>(45 - 1) * 4</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 292, "n_numbers": 4, "numbers": [45, 99, 59, 8], "target": 77, "output": "<answer>(8 - (59 - 99)) * 45</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 293, "n_numbers": 3, "numbers": [23, 25, 82], "target": 80, "output": "<answer>(23 - (25 * 82)) / 25</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 294, "n_numbers": 4, "numbers": [67, 82, 79, 5], "target": 99, "output": "<answer>(82 - 79) * 5</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 295, "n_numbers": 4, "numbers": [32, 15, 4, 46], "target": 59, "output": "<answer>(4 * (32 - 15)) / 46</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 296, "n_numbers": 4, "numbers": [66, 74, 25, 61], "target": 94, "output": "<answer>(66 - 61) * 74</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 297, "n_numbers": 4, "numbers": [16, 14, 18, 14], "target": 30, "output": "<answer>(16 - 14) * (14 + 18)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 298, "n_numbers": 4, "numbers": [25, 55, 58, 4], "target": 24, "output": "(55 - 58) * 25", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 299, "n_numbers": 3, "numbers": [94, 62, 9], "target": 41, "output": "<answer>(9 * (6 - 9)) / 9</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 300, "n_numbers": 3, "numbers": [64, 12, 88], "target": 36, "output": "<answer>(64 - 12) * (88 / 8)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 301, "n_numbers": 3, "numbers": [69, 31, 29], "target": 67, "output": "<answer>(69 - 31) * 29</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 302, "n_numbers": 4, "numbers": [71, 15, 98, 47], "target": 35, "output": "<answer>(71 - 15) * (98 + 47)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 303, "n_numbers": 3, "numbers": [7, 31, 58], "target": 96, "output": "<answer>(7 * (31 - 58)) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 304, "n_numbers": 3, "numbers": [46, 6, 29], "target": 23, "output": "<answer>(46 - 6 * 29)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 305, "n_numbers": 3, "numbers": [65, 56, 60], "target": 69, "output": "<answer>(65 - 56) * 60</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 306, "n_numbers": 4, "numbers": [18, 3, 6, 71], "target": 92, "output": "<answer>(18 - 3 * 6) / 71</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 307, "n_numbers": 3, "numbers": [37, 71, 61], "target": 95, "output": "<answer>(71 - 61) * 37</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 308, "n_numbers": 4, "numbers": [1, 21, 2, 78], "target": 59, "output": "(21 - 1) * 78 = 59", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 309, "n_numbers": 3, "numbers": [26, 79, 51], "target": 54, "output": "<answer>(26 - 79 + 51)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 310, "n_numbers": 4, "numbers": [25, 56, 62, 73], "target": 20, "output": "(73 - 62) * 56 / 25", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 311, "n_numbers": 4, "numbers": [37, 22, 50, 11], "target": 46, "output": "<answer>(50 - 11) * 22</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 312, "n_numbers": 3, "numbers": [12, 74, 24], "target": 37, "output": "<answer>(12 - 74 * 24)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 313, "n_numbers": 3, "numbers": [53, 83, 66], "target": 70, "output": "<answer>(83 - 53) * (66 - 66)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 314, "n_numbers": 4, "numbers": [81, 42, 37, 65], "target": 63, "output": "<answer>(65 - (42 * 37)) / 81</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 315, "n_numbers": 4, "numbers": [17, 93, 3, 39], "target": 87, "output": "<answer>(17 - 93 * 3 + 39)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 316, "n_numbers": 3, "numbers": [12, 57, 55], "target": 14, "output": "<answer>(12 - 55) * 57</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 317, "n_numbers": 4, "numbers": [86, 70, 18, 34], "target": 68, "output": "<answer>(86 - 70) * (18 + 34)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 318, "n_numbers": 3, "numbers": [1, 1, 23], "target": 22, "output": "<answer>(1 * (1 + 1)) / 23</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 319, "n_numbers": 3, "numbers": [48, 19, 62], "target": 33, "output": "<answer>(48 - 19) * 62</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 320, "n_numbers": 4, "numbers": [88, 74, 23, 11], "target": 20, "output": "<answer>(88 - 74) * (23 + 11)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 321, "n_numbers": 4, "numbers": [71, 28, 69, 60], "target": 30, "output": "<answer>(71 - (28 * 60)) / 69</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 322, "n_numbers": 4, "numbers": [70, 48, 28, 17], "target": 67, "output": "<answer>(70 - 48) * (28 + 17)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 323, "n_numbers": 3, "numbers": [32, 1, 82], "target": 50, "output": "<answer>(32 - 1 + 82) * 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 324, "n_numbers": 3, "numbers": [2, 13, 56], "target": 71, "output": "<answer>(2 * (13 - 56)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 325, "n_numbers": 3, "numbers": [62, 30, 11], "target": 81, "output": "<answer>(62 - 30) * (11 + 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 326, "n_numbers": 4, "numbers": [73, 89, 78, 80], "target": 18, "output": "<answer>(89 - 73) * (80 - 78)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 327, "n_numbers": 4, "numbers": [55, 50, 12, 77], "target": 94, "output": "<answer>(55 - (50 - 12)) * 77</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 328, "n_numbers": 3, "numbers": [99, 80, 17], "target": 36, "output": "<answer>(99 - 80) * (17 - 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 329, "n_numbers": 4, "numbers": [41, 68, 99, 92], "target": 20, "output": "(99 - 92) * 68", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 330, "n_numbers": 4, "numbers": [14, 44, 53, 73], "target": 78, "output": "<answer>(73 - (53 * 44)) / 14</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 331, "n_numbers": 4, "numbers": [88, 57, 80, 35], "target": 76, "output": "<answer>(88 - (57 * 80)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 332, "n_numbers": 4, "numbers": [40, 75, 32, 88], "target": 85, "output": "<answer>(88 - (75 * 32)) / 40</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 333, "n_numbers": 3, "numbers": [30, 49, 50], "target": 31, "output": "<answer>(50 - 49) * 30</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 334, "n_numbers": 4, "numbers": [91, 74, 74, 74], "target": 16, "output": "<answer>(74 - (74 - 91)) * 74 / 74</answer>", "tokens": 26, "correct": false, "format_ok": true}
+{"id": 335, "n_numbers": 4, "numbers": [50, 20, 74, 17], "target": 21, "output": "(50 - 20) * (74 / 17)", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 336, "n_numbers": 4, "numbers": [45, 38, 9, 56], "target": 18, "output": "<answer>(9 - 56) * 45</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 337, "n_numbers": 3, "numbers": [44, 97, 9], "target": 62, "output": "<answer>(9 - 44) * 9</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 338, "n_numbers": 3, "numbers": [26, 29, 92], "target": 89, "output": "<answer>(26 - 29 + 92)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 339, "n_numbers": 3, "numbers": [3, 54, 11], "target": 68, "output": "<answer>(3 * (54 - 11)) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 340, "n_numbers": 3, "numbers": [80, 89, 16], "target": 25, "output": "<answer>(80 - 89 + 16) * 25</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 341, "n_numbers": 3, "numbers": [30, 53, 40], "target": 43, "output": "<answer>(53 - 30) * 40</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 342, "n_numbers": 4, "numbers": [83, 51, 22, 15], "target": 25, "output": "<answer>(83 - 51) * (22 + 15)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 343, "n_numbers": 3, "numbers": [7, 63, 38], "target": 94, "output": "<answer>(7 - 63 * 38)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 344, "n_numbers": 3, "numbers": [70, 74, 45], "target": 49, "output": "<answer>(70 - 74 + 45)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 345, "n_numbers": 4, "numbers": [96, 60, 5, 79], "target": 72, "output": "<answer>(96 - 60) * (5 + 79)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 346, "n_numbers": 3, "numbers": [51, 98, 69], "target": 22, "output": "(51 - 98 + 69) * 2", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 347, "n_numbers": 4, "numbers": [6, 94, 74, 2], "target": 51, "output": "<answer>(94 - 6) * (74 - 2)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 348, "n_numbers": 3, "numbers": [82, 82, 61], "target": 60, "output": "<answer>(82 - 82) * 61</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 349, "n_numbers": 3, "numbers": [25, 43, 75], "target": 93, "output": "<answer>(75 - 43) * 25</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 350, "n_numbers": 4, "numbers": [22, 25, 72, 39], "target": 80, "output": "<answer>(22 - 25 + 72 * 39)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 351, "n_numbers": 4, "numbers": [93, 63, 14, 3], "target": 62, "output": "<answer>(1 * (6 - 3)) / 93</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 352, "n_numbers": 4, "numbers": [59, 9, 53, 40], "target": 81, "output": "<answer>(59 - 9 + 53 * 40)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 353, "n_numbers": 4, "numbers": [97, 62, 15, 84], "target": 90, "output": "(97 - 62) * (15 + 84) / 2", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 354, "n_numbers": 3, "numbers": [9, 85, 24], "target": 100, "output": "<answer>(9 - (85 * 24)) / 1</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 355, "n_numbers": 3, "numbers": [27, 37, 74], "target": 64, "output": "<answer>(74 - (37 * 27)) / 74</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 356, "n_numbers": 3, "numbers": [23, 50, 30], "target": 57, "output": "<answer>(23 - (50 * 30)) / 23</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 357, "n_numbers": 3, "numbers": [74, 86, 64], "target": 52, "output": "<answer>(86 - 74) * (64 + 64)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 358, "n_numbers": 4, "numbers": [71, 51, 14, 18], "target": 24, "output": "<answer>(18 - 14) * (51 - 71)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 359, "n_numbers": 4, "numbers": [95, 47, 86, 98], "target": 42, "output": "(95 - 47) * (86 + 98) / 2", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 360, "n_numbers": 3, "numbers": [30, 9, 5], "target": 16, "output": "<answer>(30 - 9) * 5</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 361, "n_numbers": 4, "numbers": [42, 14, 14, 85], "target": 43, "output": "<answer>(85 - (14 * 42)) / 14</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 362, "n_numbers": 3, "numbers": [17, 52, 5], "target": 30, "output": "<answer>(5 * (52 - 17)) / 5</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 363, "n_numbers": 3, "numbers": [15, 7, 39], "target": 66, "output": "<answer>(15 - 7) * 39 = 66</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 364, "n_numbers": 4, "numbers": [76, 92, 78, 68], "target": 58, "output": "<answer>(76 - 68) * 92</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 365, "n_numbers": 3, "numbers": [18, 47, 51], "target": 80, "output": "<answer>(51 - (47 * 18)) / 2</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 366, "n_numbers": 4, "numbers": [63, 15, 45, 10], "target": 90, "output": "<answer>(63 - 15) * (45 + 10)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 367, "n_numbers": 3, "numbers": [69, 35, 72], "target": 32, "output": "<answer>(69 - 35) * (72 / 3)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 368, "n_numbers": 4, "numbers": [18, 18, 26, 10], "target": 45, "output": "<answer>(18 - 18) * (26 + 10)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 369, "n_numbers": 3, "numbers": [6, 50, 38], "target": 72, "output": "<answer>(6 - 50 * 38)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 370, "n_numbers": 3, "numbers": [84, 22, 78], "target": 28, "output": "<answer>(84 - 22) * (78 - 84)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 371, "n_numbers": 3, "numbers": [52, 34, 100], "target": 14, "output": "<answer>(100 - (34 * 52)) / 100</answer>", "tokens": 24, "correct": false, "format_ok": true}
+{"id": 372, "n_numbers": 3, "numbers": [4, 92, 8], "target": 25, "output": "<answer>(4 * (92 - 8)) / 2</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 373, "n_numbers": 4, "numbers": [2, 7, 3, 34], "target": 22, "output": "<answer>(2 * (7 - 3)) / 3</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 374, "n_numbers": 3, "numbers": [35, 6, 10], "target": 51, "output": "<answer>(35 - (6 * 10)) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 375, "n_numbers": 3, "numbers": [1, 51, 63], "target": 13, "output": "<answer>(1 * 51 - 63)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 376, "n_numbers": 4, "numbers": [65, 46, 7, 42], "target": 76, "output": "<answer>(7 * (6 - 5)) / 4</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 377, "n_numbers": 3, "numbers": [43, 82, 91], "target": 34, "output": "<answer>(91 - 82) * 43</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 378, "n_numbers": 3, "numbers": [87, 46, 70], "target": 63, "output": "<answer>(87 - 46) * (70 - 70)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 379, "n_numbers": 3, "numbers": [77, 4, 54], "target": 92, "output": "<answer>(77 - 4 * 54)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 380, "n_numbers": 3, "numbers": [52, 9, 44], "target": 17, "output": "<answer>(52 - 44) * 9</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 381, "n_numbers": 3, "numbers": [44, 41, 34], "target": 31, "output": "<answer>(44 - 41) * 34</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 382, "n_numbers": 4, "numbers": [7, 11, 6, 3], "target": 20, "output": "<answer>(7 - 11 * 6 + 3)</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 383, "n_numbers": 4, "numbers": [57, 21, 40, 60], "target": 16, "output": "(57 - 21) * (40 + 60) / 5", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 384, "n_numbers": 4, "numbers": [18, 78, 56, 51], "target": 65, "output": "<answer>(56 - 51) * 78</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 385, "n_numbers": 4, "numbers": [47, 99, 62, 86], "target": 76, "output": "(47 - 99 + 62 * 86) / 100", "tokens": 22, "correct": false, "format_ok": false}
+{"id": 386, "n_numbers": 3, "numbers": [7, 83, 62], "target": 28, "output": "<answer>(7 - 83 * 62)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 387, "n_numbers": 4, "numbers": [54, 22, 27, 78], "target": 25, "output": "(27 - 78) * 22", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 388, "n_numbers": 4, "numbers": [27, 31, 44, 64], "target": 78, "output": "<answer>(44 - (31 * 27)) / 64</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 389, "n_numbers": 4, "numbers": [69, 2, 54, 82], "target": 55, "output": "<answer>(54 - 69) * 82</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 390, "n_numbers": 4, "numbers": [56, 15, 15, 13], "target": 69, "output": "<answer>(15 - 15) * (56 + 13)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 391, "n_numbers": 4, "numbers": [1, 61, 53, 22], "target": 93, "output": "(53 - 22) * 61", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 392, "n_numbers": 4, "numbers": [83, 59, 40, 81], "target": 17, "output": "<answer>(83 - 59) * (40 + 81)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 393, "n_numbers": 3, "numbers": [32, 39, 43], "target": 36, "output": "<answer>(32 - (39 * 43)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 394, "n_numbers": 3, "numbers": [4, 23, 95], "target": 76, "output": "<answer>(4 * (23 - 95)) / 4</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 395, "n_numbers": 3, "numbers": [51, 83, 43], "target": 11, "output": "(51 - 83 + 43) * 2", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 396, "n_numbers": 4, "numbers": [73, 10, 44, 27], "target": 12, "output": "<answer>(73 - 10) * (44 + 27)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 397, "n_numbers": 4, "numbers": [45, 75, 84, 97], "target": 43, "output": "(97 - 75) * 45 / 84", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 398, "n_numbers": 3, "numbers": [3, 100, 13], "target": 90, "output": "<answer>(100 - 3) * 13</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 399, "n_numbers": 4, "numbers": [10, 50, 9, 32], "target": 82, "output": "<answer>(10 - 50 * 9 + 32)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 400, "n_numbers": 4, "numbers": [11, 5, 27, 71], "target": 82, "output": "<answer>(11 - 5) * (27 + 71)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 401, "n_numbers": 4, "numbers": [16, 33, 43, 10], "target": 70, "output": "<answer>(16 - 10) * 3 + 43</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 402, "n_numbers": 4, "numbers": [20, 79, 89, 86], "target": 56, "output": "<answer>(89 - (86 * 79)) / 20</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 403, "n_numbers": 3, "numbers": [5, 44, 5], "target": 43, "output": "(5 - 44) * 5", "tokens": 11, "correct": false, "format_ok": false}
+{"id": 404, "n_numbers": 3, "numbers": [16, 66, 84], "target": 34, "output": "<answer>(84 - (66 * 16)) / 66</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 405, "n_numbers": 4, "numbers": [23, 8, 11, 77], "target": 35, "output": "<answer>(11 - 77) * 8</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 406, "n_numbers": 4, "numbers": [67, 15, 49, 59], "target": 92, "output": "<answer>(49 - 59) * 67</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 407, "n_numbers": 3, "numbers": [36, 26, 1], "target": 62, "output": "<answer>(36 - 26) * 1</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 408, "n_numbers": 3, "numbers": [38, 71, 19], "target": 90, "output": "<answer>(71 - 38) * 19</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 409, "n_numbers": 4, "numbers": [7, 60, 28, 20], "target": 61, "output": "<answer>(7 * (60 - 28)) / 20</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 410, "n_numbers": 3, "numbers": [66, 59, 70], "target": 77, "output": "<answer>(70 - 59) * 66</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 411, "n_numbers": 3, "numbers": [7, 76, 39], "target": 30, "output": "<answer>(7 * (76 - 39)) / 4</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 412, "n_numbers": 3, "numbers": [22, 31, 4], "target": 36, "output": "<answer>(4 - 3 * 22) / 3</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 413, "n_numbers": 4, "numbers": [54, 44, 43, 65], "target": 10, "output": "(65 - 44) * 44 - 54", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 414, "n_numbers": 4, "numbers": [57, 22, 59, 83], "target": 11, "output": "(57 - 22) * (59 + 83) / 4", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 415, "n_numbers": 4, "numbers": [38, 16, 82, 90], "target": 46, "output": "<answer>(82 - (90 - 38)) * 16</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 416, "n_numbers": 4, "numbers": [1, 3, 42, 11], "target": 50, "output": "(1 * 3 - 42) / 11 = 50", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 417, "n_numbers": 4, "numbers": [17, 15, 15, 68], "target": 51, "output": "<answer>(17 - 15) * (15 + 68)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 418, "n_numbers": 3, "numbers": [6, 22, 64], "target": 36, "output": "<answer>(6 * (22 - 64)) / 22</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 419, "n_numbers": 4, "numbers": [56, 78, 85, 62], "target": 45, "output": "(56 - 62) * 78 / 85", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 420, "n_numbers": 4, "numbers": [74, 23, 17, 69], "target": 88, "output": "<answer>(74 - (23 * 69)) / 17</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 421, "n_numbers": 4, "numbers": [40, 53, 51, 28], "target": 70, "output": "<answer>(53 - 40) * (51 - 28)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 422, "n_numbers": 3, "numbers": [40, 36, 72], "target": 20, "output": "<answer>(40 - 36) * 72</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 423, "n_numbers": 4, "numbers": [96, 63, 88, 38], "target": 17, "output": "<answer>(88 - 38) * 63</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 424, "n_numbers": 3, "numbers": [77, 88, 80], "target": 91, "output": "<answer>(88 - 77) * 80</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 425, "n_numbers": 3, "numbers": [41, 58, 35], "target": 52, "output": "<answer>(58 - 41) * (35 - 58)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 426, "n_numbers": 4, "numbers": [82, 75, 26, 85], "target": 98, "output": "<answer>(82 - (75 * 26)) / 85</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 427, "n_numbers": 3, "numbers": [82, 15, 4], "target": 93, "output": "<answer>(82 - 15) * 4 = 93</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 428, "n_numbers": 3, "numbers": [88, 7, 83], "target": 12, "output": "<answer>(88 - 83) * 7</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 429, "n_numbers": 3, "numbers": [16, 2, 8], "target": 10, "output": "<answer>(16 - 2 * 8)</answer>", "tokens": 15, "correct": false, "format_ok": true}
+{"id": 430, "n_numbers": 4, "numbers": [8, 81, 69, 87], "target": 83, "output": "<answer>(8 * (81 - 69)) / 87</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 431, "n_numbers": 3, "numbers": [6, 24, 52], "target": 92, "output": "<answer>(6 * (24 - 52)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 432, "n_numbers": 3, "numbers": [47, 100, 18], "target": 35, "output": "<answer>(47 - (100 * 18)) / 1</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 433, "n_numbers": 3, "numbers": [29, 10, 61], "target": 42, "output": "<answer>(29 - 10 * 61)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 434, "n_numbers": 3, "numbers": [100, 46, 23], "target": 31, "output": "<answer>(100 - 46) * 23</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 435, "n_numbers": 4, "numbers": [48, 57, 6, 11], "target": 100, "output": "(6 - 11) * 57", "tokens": 12, "correct": false, "format_ok": false}
+{"id": 436, "n_numbers": 3, "numbers": [62, 20, 59], "target": 23, "output": "<answer>(62 - 20) * (59 - 59)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 437, "n_numbers": 4, "numbers": [22, 41, 98, 1], "target": 36, "output": "<answer>(98 - 1) * 41</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 438, "n_numbers": 3, "numbers": [39, 100, 41], "target": 98, "output": "<answer>(39 - (100 * 41)) / 100</answer>", "tokens": 24, "correct": false, "format_ok": true}
+{"id": 439, "n_numbers": 4, "numbers": [78, 38, 54, 9], "target": 23, "output": "<answer>(54 - 9) * 78</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 440, "n_numbers": 3, "numbers": [19, 81, 77], "target": 15, "output": "<answer>(19 - 81 + 77)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 441, "n_numbers": 4, "numbers": [67, 23, 80, 43], "target": 33, "output": "<answer>(80 - 43) * 67</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 442, "n_numbers": 3, "numbers": [65, 90, 80], "target": 75, "output": "<answer>(90 - 65) * 80</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 443, "n_numbers": 4, "numbers": [97, 14, 28, 35], "target": 48, "output": "(97 - 14) * (28 + 35) / 4", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 444, "n_numbers": 3, "numbers": [18, 96, 10], "target": 68, "output": "<answer>(18 - 96 + 10)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 445, "n_numbers": 4, "numbers": [53, 56, 10, 1], "target": 13, "output": "(10 - 53) * 56 / 1 + 53", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 446, "n_numbers": 3, "numbers": [36, 58, 24], "target": 46, "output": "<answer>(58 - 36) * 24</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 447, "n_numbers": 4, "numbers": [47, 68, 61, 1], "target": 55, "output": "(68 - 47) * 61 / 1", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 448, "n_numbers": 4, "numbers": [87, 26, 65, 75], "target": 57, "output": "(87 - 26) * (65 + 75) / 4", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 449, "n_numbers": 3, "numbers": [43, 13, 5], "target": 35, "output": "<answer>(43 - 13) * 5</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 450, "n_numbers": 4, "numbers": [6, 7, 57, 28], "target": 30, "output": "<answer>(6 - (7 * 57)) / 28</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 451, "n_numbers": 3, "numbers": [2, 26, 85], "target": 57, "output": "<answer>(2 * (26 - 85)) / 26</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 452, "n_numbers": 4, "numbers": [26, 7, 63, 60], "target": 22, "output": "<answer>(26 - 7) * (63 / 60)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 453, "n_numbers": 4, "numbers": [45, 73, 30, 18], "target": 20, "output": "<answer>(45 - 30) * (73 + 18)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 454, "n_numbers": 3, "numbers": [87, 84, 95], "target": 98, "output": "<answer>(87 - 84) * 95</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 455, "n_numbers": 4, "numbers": [48, 70, 34, 68], "target": 10, "output": "(48 - 70 + 34) * 68", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 456, "n_numbers": 4, "numbers": [15, 98, 10, 44], "target": 29, "output": "<answer>(15 - 98 * 10 + 44)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 457, "n_numbers": 3, "numbers": [19, 10, 57], "target": 48, "output": "<answer>(19 - 10 * 57)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 458, "n_numbers": 4, "numbers": [32, 64, 94, 37], "target": 89, "output": "<answer>(32 - 64 * 94 + 37)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 459, "n_numbers": 4, "numbers": [44, 69, 100, 63], "target": 76, "output": "<answer>(69 - 44) * (100 + 63)</answer>", "tokens": 23, "correct": false, "format_ok": true}
+{"id": 460, "n_numbers": 4, "numbers": [91, 2, 24, 50], "target": 67, "output": "<answer>(91 - 2 * 24) / 50</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 461, "n_numbers": 3, "numbers": [39, 34, 27], "target": 100, "output": "<answer>(39 - 34) * 27</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 462, "n_numbers": 4, "numbers": [32, 83, 70, 48], "target": 73, "output": "<answer>(32 - 83 * 70 + 48)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 463, "n_numbers": 4, "numbers": [74, 38, 22, 85], "target": 99, "output": "<answer>(85 - (22 * 3)) / 74</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 464, "n_numbers": 3, "numbers": [2, 34, 27], "target": 88, "output": "<answer>(2 * (34 - 27)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 465, "n_numbers": 3, "numbers": [19, 37, 34], "target": 16, "output": "<answer>(19 - 37 + 34)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 466, "n_numbers": 4, "numbers": [37, 5, 7, 44], "target": 88, "output": "<answer>(37 - 5 * 7) / 44</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 467, "n_numbers": 3, "numbers": [62, 70, 5], "target": 76, "output": "<answer>(70 - 62) * 5</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 468, "n_numbers": 4, "numbers": [33, 74, 73, 29], "target": 62, "output": "<answer>(74 - 33) * (73 + 29)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 469, "n_numbers": 4, "numbers": [25, 19, 90, 36], "target": 48, "output": "<answer>(90 - 36) * 25</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 470, "n_numbers": 4, "numbers": [4, 18, 34, 35], "target": 83, "output": "<answer>(4 * (18 - 34)) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 471, "n_numbers": 3, "numbers": [59, 46, 51], "target": 54, "output": "(59 - 46) * 51", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 472, "n_numbers": 4, "numbers": [52, 99, 94, 57], "target": 84, "output": "<answer>(52 - 99 + 94 + 57)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 473, "n_numbers": 4, "numbers": [89, 90, 56, 40], "target": 16, "output": "<answer>(89 - (90 - 56)) * 40</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 474, "n_numbers": 3, "numbers": [7, 15, 50], "target": 58, "output": "<answer>(7 - 50 * 15) / 50</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 475, "n_numbers": 3, "numbers": [34, 26, 43], "target": 17, "output": "<answer>(34 - 26) * 43</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 476, "n_numbers": 4, "numbers": [96, 89, 70, 35], "target": 80, "output": "<answer>(89 - 96) * (70 - 35)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 477, "n_numbers": 4, "numbers": [73, 17, 89, 99], "target": 98, "output": "<answer>(89 - 99) * 73</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 478, "n_numbers": 3, "numbers": [11, 23, 57], "target": 69, "output": "<answer>(11 - 23 + 57)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 479, "n_numbers": 3, "numbers": [43, 22, 24], "target": 45, "output": "<answer>(43 - 22) * (24 + 2)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 480, "n_numbers": 4, "numbers": [1, 72, 83, 72], "target": 82, "output": "<answer>(83 - 72) * 72 / 1</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 481, "n_numbers": 3, "numbers": [43, 65, 9], "target": 99, "output": "<answer>(9 - 9) * 43</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 482, "n_numbers": 4, "numbers": [52, 24, 76, 28], "target": 27, "output": "(52 - 24) * (76 + 28) / 5", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 483, "n_numbers": 4, "numbers": [10, 20, 51, 25], "target": 16, "output": "<answer>(10 - 20 + 51 * 25)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 484, "n_numbers": 3, "numbers": [35, 16, 48], "target": 32, "output": "<answer>(35 - 16) * 48 = 32</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 485, "n_numbers": 3, "numbers": [45, 70, 49], "target": 74, "output": "<answer>(45 - 70 + 49)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 486, "n_numbers": 4, "numbers": [100, 7, 56, 12], "target": 80, "output": "<answer>(100 - 7) * (56 + 12)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 487, "n_numbers": 3, "numbers": [74, 95, 1], "target": 21, "output": "<answer>(95 - 74) * (1 + 95)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 488, "n_numbers": 4, "numbers": [8, 66, 63, 28], "target": 23, "output": "(8 - 66) * (63 + 28) / 4", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 489, "n_numbers": 3, "numbers": [77, 84, 87], "target": 94, "output": "<answer>(84 - (87 - 77)) * 84</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 490, "n_numbers": 3, "numbers": [51, 14, 13], "target": 78, "output": "(51 - 14) * 13 = 78", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 491, "n_numbers": 3, "numbers": [6, 3, 80], "target": 89, "output": "<answer>(80 - 6) * 3 + 80</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 492, "n_numbers": 3, "numbers": [16, 7, 31], "target": 54, "output": "<answer>(16 - 7) * 31 = 54</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 493, "n_numbers": 3, "numbers": [53, 39, 57], "target": 35, "output": "(53 - 39) * (57 - 53) / 3", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 494, "n_numbers": 3, "numbers": [23, 66, 36], "target": 79, "output": "<answer>(23 - (66 * 36)) / 4</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 495, "n_numbers": 3, "numbers": [50, 89, 40], "target": 99, "output": "(89 - 50) * 40 / 2", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 496, "n_numbers": 3, "numbers": [8, 97, 99], "target": 10, "output": "(99 - 97) * 8", "tokens": 12, "correct": false, "format_ok": false}
+{"id": 497, "n_numbers": 4, "numbers": [64, 96, 30, 27], "target": 54, "output": "<answer>(96 - 64) * 27</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 498, "n_numbers": 3, "numbers": [53, 57, 11], "target": 99, "output": "<answer>(53 - 57 + 11)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 499, "n_numbers": 3, "numbers": [15, 17, 69], "target": 71, "output": "<answer>(15 - 17) * 69</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 500, "n_numbers": 4, "numbers": [21, 72, 86, 64], "target": 36, "output": "<answer>(86 - (64 * 72)) / 21</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 501, "n_numbers": 3, "numbers": [2, 48, 26], "target": 11, "output": "<answer>(2 * (48 - 26)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 502, "n_numbers": 3, "numbers": [4, 76, 14], "target": 86, "output": "<answer>(4 * (76 - 14)) / 4</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 503, "n_numbers": 3, "numbers": [80, 12, 8], "target": 76, "output": "<answer>(8 * (80 - 12)) / 8</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 504, "n_numbers": 3, "numbers": [93, 17, 28], "target": 82, "output": "<answer>(93 - 17) * 28</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 505, "n_numbers": 4, "numbers": [21, 28, 86, 21], "target": 58, "output": "<answer>(21 - (28 * 86)) / 21</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 506, "n_numbers": 3, "numbers": [33, 77, 2], "target": 46, "output": "<answer>(33 - 77 + 2)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 507, "n_numbers": 3, "numbers": [18, 37, 43], "target": 24, "output": "<answer>(43 - 37) * 18</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 508, "n_numbers": 4, "numbers": [86, 51, 1, 43], "target": 94, "output": "<answer>(86 - 51) * (1 + 43)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 509, "n_numbers": 4, "numbers": [4, 31, 57, 45], "target": 22, "output": "(4 * (31 - 57)) / 45", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 510, "n_numbers": 4, "numbers": [53, 77, 47, 45], "target": 26, "output": "(45 - 47) * 77 + 53 = 26", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 511, "n_numbers": 4, "numbers": [59, 99, 91, 100], "target": 49, "output": "(100 - 99) * 91 / 59", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 512, "n_numbers": 4, "numbers": [75, 74, 25, 27], "target": 53, "output": "<answer>(75 - 74) * 25 + 27 = 53</answer>", "tokens": 26, "correct": false, "format_ok": true}
+{"id": 513, "n_numbers": 4, "numbers": [43, 24, 53, 45], "target": 11, "output": "(43 - 24) * (53 - 45)", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 514, "n_numbers": 3, "numbers": [92, 57, 62], "target": 27, "output": "<answer>(92 - 57) * (62 - 62)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 515, "n_numbers": 3, "numbers": [89, 40, 31], "target": 98, "output": "<answer>(89 - 40 + 31)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 516, "n_numbers": 4, "numbers": [71, 58, 4, 24], "target": 83, "output": "<answer>(71 - (58 * 4)) / 24</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 517, "n_numbers": 4, "numbers": [35, 8, 13, 15], "target": 18, "output": "<answer>(13 - 5) * 8</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 518, "n_numbers": 3, "numbers": [58, 11, 82], "target": 13, "output": "<answer>(82 - 11) * 58</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 519, "n_numbers": 3, "numbers": [7, 16, 51], "target": 28, "output": "<answer>(7 - 16 + 51) * (16 / 51)</answer>", "tokens": 25, "correct": false, "format_ok": true}
+{"id": 520, "n_numbers": 4, "numbers": [8, 24, 2, 7], "target": 42, "output": "<answer>(8 - 24) * (2 + 7)</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 521, "n_numbers": 3, "numbers": [14, 78, 28], "target": 36, "output": "<answer>(14 - 78 * 28)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 522, "n_numbers": 4, "numbers": [69, 96, 52, 45], "target": 20, "output": "<answer>(96 - 69) * 45</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 523, "n_numbers": 4, "numbers": [16, 27, 2, 98], "target": 12, "output": "<answer>(16 - 27 + 2 * 98)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 524, "n_numbers": 4, "numbers": [49, 47, 44, 73], "target": 67, "output": "<answer>(49 - 47) * (44 - 73)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 525, "n_numbers": 4, "numbers": [67, 59, 66, 20], "target": 94, "output": "<answer>(67 - (59 + 66)) * 20</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 526, "n_numbers": 4, "numbers": [18, 88, 86, 81], "target": 40, "output": "<answer>(88 - 81) * 86</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 527, "n_numbers": 3, "numbers": [77, 8, 49], "target": 36, "output": "<answer>(8 - 77) * 49</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 528, "n_numbers": 4, "numbers": [46, 24, 29, 11], "target": 52, "output": "<answer>(24 - 11) * 46</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 529, "n_numbers": 4, "numbers": [78, 60, 39, 34], "target": 91, "output": "<answer>(78 - (60 * 34)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 530, "n_numbers": 4, "numbers": [17, 7, 27, 41], "target": 92, "output": "<answer>(17 - 7) * (27 - 41)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 531, "n_numbers": 4, "numbers": [19, 98, 60, 43], "target": 100, "output": "<answer>(19 - 98 + 60 - 43)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 532, "n_numbers": 4, "numbers": [28, 85, 36, 18], "target": 59, "output": "<answer>(28 - 85 + 36 * 18)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 533, "n_numbers": 3, "numbers": [54, 89, 18], "target": 53, "output": "(89 - 54) * 18", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 534, "n_numbers": 3, "numbers": [71, 12, 27], "target": 56, "output": "<answer>(71 - 12) * (27 - 2)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 535, "n_numbers": 4, "numbers": [1, 85, 34, 30], "target": 20, "output": "(1 * 85 - 34) / 3", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 536, "n_numbers": 3, "numbers": [93, 83, 95], "target": 81, "output": "<answer>(93 - 83) * 95</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 537, "n_numbers": 3, "numbers": [81, 79, 74], "target": 86, "output": "<answer>(81 - 79) * (74 - 74)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 538, "n_numbers": 3, "numbers": [43, 40, 25], "target": 22, "output": "<answer>(43 - 40) * 25</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 539, "n_numbers": 3, "numbers": [81, 25, 58], "target": 48, "output": "<answer>(81 - 25) * 58</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 540, "n_numbers": 4, "numbers": [70, 16, 6, 8], "target": 29, "output": "<answer>(70 - 16) * (6 + 8)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 541, "n_numbers": 3, "numbers": [20, 15, 83], "target": 78, "output": "<answer>(20 - 15) * 83</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 542, "n_numbers": 3, "numbers": [52, 32, 19], "target": 39, "output": "<answer>(52 - 32) * (19 + 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 543, "n_numbers": 4, "numbers": [41, 13, 96, 5], "target": 63, "output": "<answer>(96 - 5) * (41 + 13)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 544, "n_numbers": 4, "numbers": [49, 64, 59, 74], "target": 20, "output": "(74 - 64) * 49 / 59", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 545, "n_numbers": 4, "numbers": [11, 81, 72, 87], "target": 55, "output": "<answer>(87 - (81 * 72)) / 11</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 546, "n_numbers": 3, "numbers": [46, 45, 63], "target": 62, "output": "<answer>(46 - 45) * 63</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 547, "n_numbers": 3, "numbers": [41, 49, 74], "target": 82, "output": "<answer>(41 - 49 + 74)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 548, "n_numbers": 3, "numbers": [37, 17, 26], "target": 28, "output": "<answer>(26 - 17) * 3</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 549, "n_numbers": 3, "numbers": [21, 24, 16], "target": 14, "output": "<answer>(21 - 16) * 24</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 550, "n_numbers": 4, "numbers": [31, 92, 1, 81], "target": 42, "output": "<answer>(31 - 92 + 1 + 81)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 551, "n_numbers": 4, "numbers": [47, 35, 74, 29], "target": 33, "output": "<answer>(74 - 47) * (35 - 29)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 552, "n_numbers": 3, "numbers": [79, 16, 12], "target": 83, "output": "<answer>(16 - 79) * 12</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 553, "n_numbers": 3, "numbers": [40, 96, 44], "target": 12, "output": "<answer>(40 - 96 + 44)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 554, "n_numbers": 4, "numbers": [66, 79, 72, 70], "target": 61, "output": "<answer>(79 - 66) * (72 / 70)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 555, "n_numbers": 3, "numbers": [15, 65, 70], "target": 20, "output": "<answer>(70 - (65 * 15)) / 25</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 556, "n_numbers": 3, "numbers": [80, 74, 56], "target": 62, "output": "<answer>(80 - 74) * 56</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 557, "n_numbers": 3, "numbers": [67, 95, 32], "target": 60, "output": "<answer>(67 - 95 + 32)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 558, "n_numbers": 3, "numbers": [74, 93, 73], "target": 54, "output": "<answer>(74 - 93 + 73)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 559, "n_numbers": 3, "numbers": [9, 99, 13], "target": 95, "output": "<answer>(9 * (99 - 13)) / 9</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 560, "n_numbers": 4, "numbers": [3, 47, 11, 5], "target": 19, "output": "(11 - 5) * 47", "tokens": 12, "correct": false, "format_ok": false}
+{"id": 561, "n_numbers": 4, "numbers": [39, 30, 64, 32], "target": 41, "output": "<answer>(39 - (30 * 64)) / 32</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 562, "n_numbers": 3, "numbers": [65, 66, 12], "target": 13, "output": "<answer>(65 - 66 + 12)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 563, "n_numbers": 3, "numbers": [56, 70, 28], "target": 35, "output": "(56 - 28) * 70", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 564, "n_numbers": 4, "numbers": [75, 97, 70, 49], "target": 43, "output": "<answer>(75 - 49) * 97</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 565, "n_numbers": 3, "numbers": [54, 65, 19], "target": 100, "output": "<answer>(65 - 54) * (19 - 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 566, "n_numbers": 3, "numbers": [61, 3, 36], "target": 22, "output": "<answer>(61 - 3 * 36) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 567, "n_numbers": 3, "numbers": [49, 74, 29], "target": 54, "output": "<answer>(49 - 74 + 29)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 568, "n_numbers": 4, "numbers": [72, 40, 45, 34], "target": 33, "output": "<answer>(72 - 40) * (45 - 34)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 569, "n_numbers": 4, "numbers": [21, 37, 55, 97], "target": 58, "output": "<answer>(55 - 97) * 3 + 21</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 570, "n_numbers": 4, "numbers": [77, 21, 22, 24], "target": 52, "output": "<answer>(21 - (24 - 22)) * 77</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 571, "n_numbers": 3, "numbers": [34, 22, 82], "target": 94, "output": "<answer>(82 - 22) * 34</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 572, "n_numbers": 3, "numbers": [90, 69, 96], "target": 63, "output": "<answer>(90 - 69) * (96 / 6)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 573, "n_numbers": 4, "numbers": [88, 11, 10, 9], "target": 76, "output": "<answer>(88 - 11) * (10 + 9)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 574, "n_numbers": 3, "numbers": [18, 13, 81], "target": 86, "output": "<answer>(18 - 13) * 81</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 575, "n_numbers": 3, "numbers": [48, 44, 61], "target": 57, "output": "<answer>(48 - 44) * 61</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 576, "n_numbers": 3, "numbers": [42, 53, 83], "target": 12, "output": "<answer>(83 - 53) * 42</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 577, "n_numbers": 4, "numbers": [74, 4, 36, 22], "target": 56, "output": "<answer>(74 - 4 * 36) / 22</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 578, "n_numbers": 3, "numbers": [54, 40, 64], "target": 50, "output": "(64 - 40) * 54 / 5", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 579, "n_numbers": 4, "numbers": [85, 61, 12, 63], "target": 51, "output": "<answer>(85 - 61) * (12 + 63)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 580, "n_numbers": 4, "numbers": [64, 25, 63, 41], "target": 66, "output": "<answer>(64 - 25) * (63 / 41)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 581, "n_numbers": 3, "numbers": [76, 67, 51], "target": 60, "output": "<answer>(76 - 67) * (51 - 51)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 582, "n_numbers": 4, "numbers": [5, 76, 28, 11], "target": 42, "output": "(5 - 76 * 28 + 11) / 42", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 583, "n_numbers": 4, "numbers": [31, 71, 2, 89], "target": 47, "output": "<answer>(89 - 2 * 71) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 584, "n_numbers": 3, "numbers": [98, 65, 64], "target": 31, "output": "<answer>(98 - 65) * (64 / 6)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 585, "n_numbers": 4, "numbers": [1, 90, 10, 24], "target": 56, "output": "<answer>(1 * 90 - 10) / 24</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 586, "n_numbers": 4, "numbers": [78, 75, 73, 57], "target": 13, "output": "<answer>(78 - 75) * (73 - 57)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 587, "n_numbers": 3, "numbers": [39, 21, 3], "target": 15, "output": "<answer>(3 * (2 - 3)) / 3</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 588, "n_numbers": 3, "numbers": [6, 30, 26], "target": 10, "output": "<answer>(6 - 30 * 26)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 589, "n_numbers": 4, "numbers": [55, 4, 2, 30], "target": 79, "output": "<answer>(55 - 4 * 2) / 3</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 590, "n_numbers": 3, "numbers": [1, 24, 37], "target": 61, "output": "<answer>(1 * 24 - 37)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 591, "n_numbers": 4, "numbers": [42, 26, 14, 64], "target": 87, "output": "<answer>(42 - 26) * (14 + 64)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 592, "n_numbers": 3, "numbers": [31, 40, 86], "target": 77, "output": "<answer>(31 - (40 * 86)) / 2</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 593, "n_numbers": 4, "numbers": [60, 40, 34, 30], "target": 70, "output": "<answer>(60 - 40) * (34 + 30)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 594, "n_numbers": 4, "numbers": [86, 51, 1, 13], "target": 48, "output": "<answer>(86 - 1 * 13) / 51</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 595, "n_numbers": 4, "numbers": [80, 55, 33, 32], "target": 24, "output": "<answer>(80 - (55 * 32)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 596, "n_numbers": 3, "numbers": [78, 28, 22], "target": 13, "output": "<answer>(78 - 28) * (22 - 2)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 597, "n_numbers": 4, "numbers": [31, 1, 16, 18], "target": 33, "output": "<answer>(31 - (16 * 18)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 598, "n_numbers": 4, "numbers": [85, 72, 67, 26], "target": 64, "output": "<answer>(85 - 72) * (67 - 26)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 599, "n_numbers": 3, "numbers": [43, 46, 17], "target": 14, "output": "<answer>(43 - 46 + 17)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 600, "n_numbers": 3, "numbers": [64, 96, 5], "target": 37, "output": "<answer>(64 - 5) * 96</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 601, "n_numbers": 4, "numbers": [25, 52, 38, 21], "target": 94, "output": "<answer>(25 - 52 + 38 - 21)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 602, "n_numbers": 4, "numbers": [23, 77, 30, 95], "target": 25, "output": "<answer>(23 - (77 * 30)) / 95</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 603, "n_numbers": 4, "numbers": [23, 18, 21, 55], "target": 35, "output": "<answer>(23 - (18 * 21)) / 55</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 604, "n_numbers": 4, "numbers": [22, 16, 1, 93], "target": 88, "output": "<answer>(22 - 16) * (1 + 93)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 605, "n_numbers": 4, "numbers": [13, 60, 60, 4], "target": 17, "output": "<answer>(13 - (60 * 60)) / 4</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 606, "n_numbers": 3, "numbers": [67, 36, 74], "target": 43, "output": "<answer>(67 - 36) * (74 - 67)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 607, "n_numbers": 3, "numbers": [77, 20, 64], "target": 33, "output": "<answer>(77 - 20) * (64 / 3)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 608, "n_numbers": 4, "numbers": [3, 29, 22, 55], "target": 56, "output": "<answer>(3 * (29 - 55)) / 22</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 609, "n_numbers": 4, "numbers": [3, 1, 2, 90], "target": 32, "output": "(3 * (1 - 2)) / 90", "tokens": 14, "correct": false, "format_ok": false}
+{"id": 610, "n_numbers": 4, "numbers": [78, 81, 52, 20], "target": 69, "output": "<answer>(81 - 78) * (52 - 20)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 611, "n_numbers": 4, "numbers": [83, 87, 45, 2], "target": 47, "output": "<answer>(83 - (87 - 45)) * 2</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 612, "n_numbers": 3, "numbers": [1, 73, 8], "target": 80, "output": "<answer>(1 * 8 - 73) / 1</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 613, "n_numbers": 4, "numbers": [27, 68, 3, 20], "target": 57, "output": "<answer>(27 - (68 * 20)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 614, "n_numbers": 3, "numbers": [31, 27, 28], "target": 32, "output": "<answer>(31 - 27) * 28</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 615, "n_numbers": 3, "numbers": [45, 37, 65], "target": 73, "output": "<answer>(65 - 37) * 45</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 616, "n_numbers": 3, "numbers": [4, 56, 2], "target": 62, "output": "<answer>(4 * (56 - 2)) / 2</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 617, "n_numbers": 4, "numbers": [68, 95, 22, 98], "target": 43, "output": "<answer>(98 - 22) * (95 - 68)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 618, "n_numbers": 4, "numbers": [39, 83, 19, 9], "target": 54, "output": "<answer>(39 - (83 * 9)) / 19</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 619, "n_numbers": 3, "numbers": [22, 13, 94], "target": 85, "output": "<answer>(22 - 13) * 94</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 620, "n_numbers": 3, "numbers": [26, 3, 80], "target": 51, "output": "<answer>(26 - 3 * 80)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 621, "n_numbers": 4, "numbers": [42, 69, 51, 76], "target": 86, "output": "<answer>(76 - (69 - 42)) * 51</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 622, "n_numbers": 4, "numbers": [39, 6, 57, 64], "target": 76, "output": "<answer>(6 * (57 - 6)) / 3</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 623, "n_numbers": 3, "numbers": [40, 53, 36], "target": 23, "output": "<answer>(53 - 40) * 3</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 624, "n_numbers": 3, "numbers": [46, 39, 91], "target": 84, "output": "<answer>(46 - 39) * 91</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 625, "n_numbers": 3, "numbers": [42, 58, 4], "target": 64, "output": "<answer>(4 * (58 - 4)) / 42</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 626, "n_numbers": 4, "numbers": [71, 83, 97, 75], "target": 10, "output": "(97 - 75) * 83", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 627, "n_numbers": 4, "numbers": [55, 74, 42, 48], "target": 13, "output": "<answer>(55 - 48) * 74</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 628, "n_numbers": 3, "numbers": [62, 1, 46], "target": 16, "output": "<answer>(62 - 1) * (46 + 1)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 629, "n_numbers": 3, "numbers": [20, 1, 44], "target": 63, "output": "<answer>(20 - 1 + 44) * 63</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 630, "n_numbers": 4, "numbers": [74, 36, 68, 100], "target": 58, "output": "<answer>(100 - 68) * 74</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 631, "n_numbers": 3, "numbers": [27, 76, 19], "target": 68, "output": "<answer>(27 - 76 + 19)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 632, "n_numbers": 3, "numbers": [11, 85, 21], "target": 95, "output": "<answer>(11 - 85 * 21)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 633, "n_numbers": 3, "numbers": [77, 41, 95], "target": 23, "output": "<answer>(77 - 41) * (95 - 95)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 634, "n_numbers": 3, "numbers": [77, 8, 1], "target": 69, "output": "<answer>(8 - 77) * 1</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 635, "n_numbers": 3, "numbers": [75, 39, 90], "target": 24, "output": "<answer>(75 - 39) * 90</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 636, "n_numbers": 4, "numbers": [25, 94, 18, 92], "target": 45, "output": "<answer>(94 - 25) * (18 + 92)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 637, "n_numbers": 4, "numbers": [72, 94, 35, 53], "target": 98, "output": "<answer>(94 - (53 * 72)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 638, "n_numbers": 4, "numbers": [43, 74, 54, 6], "target": 22, "output": "<answer>(74 - 43) * (6 + 54)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 639, "n_numbers": 4, "numbers": [35, 92, 1, 85], "target": 28, "output": "(85 - 1) * 92 / 3 + 35", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 640, "n_numbers": 3, "numbers": [79, 82, 52], "target": 55, "output": "<answer>(82 - 79) * 52</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 641, "n_numbers": 3, "numbers": [57, 40, 47], "target": 64, "output": "<answer>(57 - 40) * (47 - 40)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 642, "n_numbers": 3, "numbers": [55, 81, 49], "target": 87, "output": "<answer>(81 - 55) * 49</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 643, "n_numbers": 4, "numbers": [20, 42, 46, 44], "target": 96, "output": "<answer>(46 - (44 - 20)) * 42</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 644, "n_numbers": 3, "numbers": [61, 3, 43], "target": 15, "output": "<answer>(61 - 3 * 43)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 645, "n_numbers": 3, "numbers": [75, 4, 40], "target": 65, "output": "<answer>(75 - 4 * 40) / 4</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 646, "n_numbers": 3, "numbers": [16, 59, 12], "target": 31, "output": "<answer>(16 - 59 + 12)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 647, "n_numbers": 4, "numbers": [58, 80, 29, 16], "target": 94, "output": "<answer>(80 - 58) * (29 + 16)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 648, "n_numbers": 4, "numbers": [44, 59, 35, 26], "target": 76, "output": "<answer>(59 - 44) * (35 + 26)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 649, "n_numbers": 3, "numbers": [12, 72, 33], "target": 27, "output": "<answer>(12 - 72) * 3</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 650, "n_numbers": 3, "numbers": [99, 12, 20], "target": 91, "output": "<answer>(99 - (12 * 20)) / 99</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 651, "n_numbers": 4, "numbers": [77, 18, 85, 69], "target": 79, "output": "<answer>(77 - 18) * (85 + 69)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 652, "n_numbers": 4, "numbers": [72, 10, 47, 45], "target": 80, "output": "<answer>(47 - 45) * 72</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 653, "n_numbers": 3, "numbers": [38, 48, 4], "target": 26, "output": "<answer>(4 * (3 - 8)) / 4</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 654, "n_numbers": 4, "numbers": [90, 63, 65, 60], "target": 98, "output": "(65 - 63) * 90 / 60", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 655, "n_numbers": 4, "numbers": [80, 67, 92, 69], "target": 10, "output": "<answer>(92 - (67 * 69)) / 80</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 656, "n_numbers": 3, "numbers": [95, 98, 11], "target": 14, "output": "<answer>(95 - 98 + 11)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 657, "n_numbers": 4, "numbers": [63, 2, 2, 42], "target": 23, "output": "<answer>(63 - 2 * 2 + 42)</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 658, "n_numbers": 3, "numbers": [12, 21, 88], "target": 97, "output": "<answer>(12 - 21 + 88)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 659, "n_numbers": 4, "numbers": [75, 45, 59, 20], "target": 49, "output": "<answer>(75 - 45) * (59 - 20)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 660, "n_numbers": 3, "numbers": [6, 67, 79], "target": 18, "output": "<answer>(6 * (67 - 79)) / 6</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 661, "n_numbers": 3, "numbers": [14, 9, 42], "target": 27, "output": "<answer>(14 - 9) * 42</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 662, "n_numbers": 3, "numbers": [65, 22, 11], "target": 63, "output": "<answer>(65 - 22) * (11 + 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 663, "n_numbers": 3, "numbers": [48, 21, 13], "target": 14, "output": "<answer>(48 - 21) * (13 - 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 664, "n_numbers": 3, "numbers": [11, 16, 63], "target": 90, "output": "<answer>(16 - 11) * 63</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 665, "n_numbers": 3, "numbers": [63, 32, 61], "target": 92, "output": "<answer>(63 - 32) * (61 + 63)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 666, "n_numbers": 4, "numbers": [50, 50, 1, 24], "target": 100, "output": "<answer>(50 - 50) * 1 + 24</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 667, "n_numbers": 4, "numbers": [36, 1, 7, 32], "target": 75, "output": "<answer>(36 - 1 * 7 + 32) / 3</answer>", "tokens": 23, "correct": false, "format_ok": true}
+{"id": 668, "n_numbers": 3, "numbers": [23, 9, 98], "target": 84, "output": "<answer>(23 - (9 * 98)) / 23</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 669, "n_numbers": 3, "numbers": [62, 28, 13], "target": 77, "output": "<answer>(62 - 28) * (13 + 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 670, "n_numbers": 3, "numbers": [53, 3, 4], "target": 54, "output": "<answer>(53 - 3 * 4)</answer>", "tokens": 15, "correct": false, "format_ok": true}
+{"id": 671, "n_numbers": 4, "numbers": [26, 11, 34, 73], "target": 54, "output": "<answer>(26 - 11) * (34 + 73)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 672, "n_numbers": 4, "numbers": [1, 67, 14, 22], "target": 76, "output": "(1 * 67 - 14) / 22 = 76", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 673, "n_numbers": 3, "numbers": [18, 93, 44], "target": 67, "output": "<answer>(18 - 93 * 44)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 674, "n_numbers": 3, "numbers": [68, 46, 99], "target": 15, "output": "<answer>(99 - 46) * 68</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 675, "n_numbers": 3, "numbers": [16, 47, 50], "target": 13, "output": "<answer>(16 - 47 + 50)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 676, "n_numbers": 4, "numbers": [84, 28, 2, 45], "target": 65, "output": "<answer>(84 - 28) * (2 + 45)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 677, "n_numbers": 4, "numbers": [56, 56, 57, 66], "target": 11, "output": "(56 - 56) * (57 - 66) / 56", "tokens": 22, "correct": false, "format_ok": false}
+{"id": 678, "n_numbers": 4, "numbers": [59, 43, 75, 12], "target": 15, "output": "(15 - 5) * (75 - 43) / 12 = 15", "tokens": 25, "correct": false, "format_ok": false}
+{"id": 679, "n_numbers": 3, "numbers": [16, 47, 11], "target": 42, "output": "<answer>(16 - 47 + 11)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 680, "n_numbers": 4, "numbers": [62, 81, 25, 57], "target": 63, "output": "<answer>(81 - 57) * 62</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 681, "n_numbers": 4, "numbers": [58, 34, 34, 80], "target": 46, "output": "(58 - 34) * (34 + 80) / 58", "tokens": 22, "correct": false, "format_ok": false}
+{"id": 682, "n_numbers": 4, "numbers": [58, 25, 81, 71], "target": 43, "output": "(58 - 25) * (81 / 71)", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 683, "n_numbers": 3, "numbers": [33, 11, 48], "target": 70, "output": "<answer>(33 - 11) * (48 / 4)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 684, "n_numbers": 4, "numbers": [2, 5, 95, 76], "target": 47, "output": "(2 * (5 - 95)) / 76 = 47", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 685, "n_numbers": 4, "numbers": [33, 72, 66, 29], "target": 76, "output": "<answer>(33 - (72 * 66)) / 29</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 686, "n_numbers": 3, "numbers": [39, 19, 34], "target": 24, "output": "<answer>(39 - 19) * (34 - 3)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 687, "n_numbers": 4, "numbers": [90, 30, 84, 14], "target": 54, "output": "<answer>(90 - 30) * (84 + 14)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 688, "n_numbers": 3, "numbers": [68, 33, 58], "target": 23, "output": "<answer>(68 - 33) * (58 - 58)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 689, "n_numbers": 4, "numbers": [78, 97, 48, 31], "target": 60, "output": "<answer>(78 - (97 * 48)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 690, "n_numbers": 4, "numbers": [27, 32, 61, 16], "target": 36, "output": "<answer>(32 - 16) * 61</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 691, "n_numbers": 3, "numbers": [95, 78, 29], "target": 46, "output": "<answer>(95 - (78 * 29)) / 95</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 692, "n_numbers": 4, "numbers": [23, 43, 13, 21], "target": 28, "output": "<answer>(23 - (43 - 13)) * 21</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 693, "n_numbers": 4, "numbers": [11, 75, 76, 5], "target": 19, "output": "<answer>(11 - 75 * 76 / 5)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 694, "n_numbers": 3, "numbers": [46, 2, 41], "target": 85, "output": "<answer>(46 - 2 * 41) / 4</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 695, "n_numbers": 4, "numbers": [25, 29, 52, 29], "target": 27, "output": "<answer>(25 - 29 + 52 * 29)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 696, "n_numbers": 3, "numbers": [76, 75, 45], "target": 44, "output": "<answer>(76 - 75) * 45</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 697, "n_numbers": 3, "numbers": [20, 74, 5], "target": 89, "output": "<answer>(20 - 74 + 5)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 698, "n_numbers": 4, "numbers": [60, 33, 69, 40], "target": 16, "output": "<answer>(60 - 33) * (69 / 40)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 699, "n_numbers": 4, "numbers": [46, 60, 2, 75], "target": 91, "output": "<answer>(46 - 60 + 2 * 75)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 700, "n_numbers": 3, "numbers": [86, 85, 78], "target": 79, "output": "<answer>(86 - 85) * 78</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 701, "n_numbers": 4, "numbers": [43, 61, 8, 57], "target": 39, "output": "<answer>(8 - 57) * 61</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 702, "n_numbers": 3, "numbers": [75, 45, 46], "target": 76, "output": "<answer>(75 - 45) * (46 - 45)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 703, "n_numbers": 3, "numbers": [24, 81, 25], "target": 82, "output": "<answer>(24 - 81 + 25)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 704, "n_numbers": 3, "numbers": [16, 36, 9], "target": 29, "output": "<answer>(16 - 36 + 9)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 705, "n_numbers": 3, "numbers": [63, 67, 84], "target": 46, "output": "<answer>(84 - (67 * 63)) / 46</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 706, "n_numbers": 3, "numbers": [42, 31, 43], "target": 32, "output": "<answer>(42 - 31) * 43</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 707, "n_numbers": 3, "numbers": [99, 14, 74], "target": 39, "output": "<answer>(99 - 14) * (74 - 74)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 708, "n_numbers": 3, "numbers": [11, 3, 2], "target": 12, "output": "<answer>(11 - 3 * 2)</answer>", "tokens": 15, "correct": false, "format_ok": true}
+{"id": 709, "n_numbers": 3, "numbers": [20, 40, 48], "target": 12, "output": "<answer>(40 - 20) * 48</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 710, "n_numbers": 3, "numbers": [70, 4, 5], "target": 71, "output": "<answer>(70 - 4 + 5)</answer>", "tokens": 15, "correct": true, "format_ok": true}
+{"id": 711, "n_numbers": 3, "numbers": [42, 32, 7], "target": 67, "output": "<answer>(42 - 32) * 7</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 712, "n_numbers": 4, "numbers": [21, 53, 45, 60], "target": 25, "output": "(21 - 53) * (45 + 60) / 2", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 713, "n_numbers": 4, "numbers": [32, 69, 76, 93], "target": 84, "output": "<answer>(93 - (69 * 76)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 714, "n_numbers": 3, "numbers": [2, 22, 84], "target": 31, "output": "<answer>(2 * (22 - 84)) / 22</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 715, "n_numbers": 4, "numbers": [4, 36, 33, 75], "target": 76, "output": "<answer>(4 * (36 - 33)) / 75</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 716, "n_numbers": 4, "numbers": [19, 51, 80, 94], "target": 84, "output": "<answer>(80 - (94 - 51)) * 19</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 717, "n_numbers": 3, "numbers": [64, 31, 48], "target": 81, "output": "<answer>(64 - 31) * 48</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 718, "n_numbers": 3, "numbers": [16, 36, 83], "target": 31, "output": "<answer>(16 - 83) * 36</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 719, "n_numbers": 3, "numbers": [7, 40, 68], "target": 35, "output": "<answer>(7 - 40 * 68)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 720, "n_numbers": 4, "numbers": [75, 20, 10, 18], "target": 84, "output": "<answer>(75 - 20) * (10 + 18)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 721, "n_numbers": 3, "numbers": [6, 70, 2], "target": 66, "output": "<answer>(6 * (70 - 6)) / 2</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 722, "n_numbers": 4, "numbers": [88, 31, 80, 69], "target": 92, "output": "<answer>(88 - (31 * 80)) / 69</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 723, "n_numbers": 4, "numbers": [71, 68, 82, 58], "target": 27, "output": "<answer>(82 - 58) * 71</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 724, "n_numbers": 3, "numbers": [20, 32, 8], "target": 60, "output": "<answer>(20 - (32 * 8)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 725, "n_numbers": 3, "numbers": [44, 3, 76], "target": 35, "output": "<answer>(44 - 3 * 76)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 726, "n_numbers": 3, "numbers": [89, 36, 43], "target": 96, "output": "<answer>(89 - 36) * (43 + 4)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 727, "n_numbers": 3, "numbers": [44, 25, 88], "target": 19, "output": "<answer>(88 - 25) * 44</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 728, "n_numbers": 4, "numbers": [43, 31, 7, 4], "target": 77, "output": "<answer>(4 * (31 - 43)) / 7</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 729, "n_numbers": 3, "numbers": [72, 78, 62], "target": 56, "output": "<answer>(72 - 78 + 62)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 730, "n_numbers": 4, "numbers": [12, 24, 64, 31], "target": 69, "output": "<answer>(64 - (24 * 31)) / 12</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 731, "n_numbers": 3, "numbers": [36, 84, 17], "target": 65, "output": "<answer>(36 - 84 + 17)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 732, "n_numbers": 4, "numbers": [4, 62, 56, 22], "target": 100, "output": "<answer>(4 * (62 - 56)) / 22</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 733, "n_numbers": 4, "numbers": [14, 3, 70, 6], "target": 65, "output": "<answer>(14 - 3 * 70) / 6</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 734, "n_numbers": 3, "numbers": [75, 76, 34], "target": 33, "output": "<answer>(75 - 76 * 34)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 735, "n_numbers": 3, "numbers": [99, 22, 43], "target": 78, "output": "<answer>(99 - 22) * 43</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 736, "n_numbers": 3, "numbers": [78, 13, 23], "target": 68, "output": "<answer>(78 - 13) * (23 - 2)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 737, "n_numbers": 4, "numbers": [25, 4, 89, 26], "target": 93, "output": "<answer>(25 - 4) * (89 + 26)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 738, "n_numbers": 4, "numbers": [28, 56, 43, 85], "target": 100, "output": "<answer>(85 - (56 * 28)) / 43</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 739, "n_numbers": 3, "numbers": [9, 38, 2], "target": 31, "output": "<answer>(9 - 38 * 2)</answer>", "tokens": 15, "correct": false, "format_ok": true}
+{"id": 740, "n_numbers": 3, "numbers": [25, 32, 36], "target": 21, "output": "<answer>(36 - (32 * 25)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 741, "n_numbers": 4, "numbers": [83, 58, 74, 100], "target": 78, "output": "<answer>(100 - (74 * 58)) / 83</answer>", "tokens": 23, "correct": false, "format_ok": true}
+{"id": 742, "n_numbers": 4, "numbers": [73, 49, 49, 9], "target": 82, "output": "<answer>(73 - (49 * 49)) / 9</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 743, "n_numbers": 3, "numbers": [32, 12, 56], "target": 100, "output": "<answer>(32 - 12) * (56 + 56)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 744, "n_numbers": 4, "numbers": [44, 28, 73, 15], "target": 72, "output": "<answer>(44 - 28) * (73 + 15)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 745, "n_numbers": 4, "numbers": [67, 54, 28, 98], "target": 83, "output": "<answer>(98 - (54 * 67)) / 28</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 746, "n_numbers": 4, "numbers": [17, 85, 68, 70], "target": 66, "output": "<answer>(17 - (85 * 68)) / 70</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 747, "n_numbers": 4, "numbers": [76, 68, 23, 27], "target": 12, "output": "<answer>(76 - 68) * (23 + 27)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 748, "n_numbers": 4, "numbers": [27, 35, 7, 45], "target": 18, "output": "<answer>(7 * (35 - 27)) / 45</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 749, "n_numbers": 3, "numbers": [79, 53, 36], "target": 10, "output": "<answer>(79 - 53) * (36 - 3)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 750, "n_numbers": 4, "numbers": [97, 61, 8, 50], "target": 94, "output": "<answer>(97 - 61 + 8 - 50)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 751, "n_numbers": 3, "numbers": [15, 14, 3], "target": 59, "output": "<answer>(15 - 14) * 3</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 752, "n_numbers": 4, "numbers": [22, 73, 1, 7], "target": 58, "output": "<answer>(22 - 73 + 1 + 7)</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 753, "n_numbers": 3, "numbers": [41, 77, 55], "target": 19, "output": "<answer>(77 - 41) * (55 - 5)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 754, "n_numbers": 4, "numbers": [8, 9, 8, 79], "target": 71, "output": "<answer>(8 - 9 * 8 + 79) / 8</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 755, "n_numbers": 3, "numbers": [72, 87, 50], "target": 35, "output": "<answer>(87 - 50) * 72</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 756, "n_numbers": 4, "numbers": [25, 1, 48, 34], "target": 40, "output": "<answer>(25 - 1) * (48 + 34)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 757, "n_numbers": 3, "numbers": [99, 79, 18], "target": 38, "output": "<answer>(99 - 79) * (18 - 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 758, "n_numbers": 3, "numbers": [82, 47, 21], "target": 56, "output": "<answer>(82 - 47) * 21</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 759, "n_numbers": 4, "numbers": [9, 59, 9, 30], "target": 47, "output": "<answer>(9 - 59 * 9 + 30)</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 760, "n_numbers": 3, "numbers": [59, 24, 33], "target": 50, "output": "(59 - 24) * 3 = 50", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 761, "n_numbers": 3, "numbers": [69, 55, 72], "target": 52, "output": "<answer>(72 - 55) * 69</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 762, "n_numbers": 3, "numbers": [13, 5, 59], "target": 51, "output": "<answer>(13 - 5 * 59)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 763, "n_numbers": 3, "numbers": [100, 10, 79], "target": 69, "output": "<answer>(100 - 10 * 79)</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 764, "n_numbers": 4, "numbers": [66, 85, 82, 26], "target": 75, "output": "<answer>(85 - 66) * 82 / 26</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 765, "n_numbers": 3, "numbers": [46, 24, 8], "target": 14, "output": "<answer>(46 - 24) * (8 + 8)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 766, "n_numbers": 4, "numbers": [43, 27, 74, 15], "target": 75, "output": "<answer>(74 - 43) * (15 + 27)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 767, "n_numbers": 4, "numbers": [88, 51, 41, 26], "target": 22, "output": "<answer>(88 - 51) * (41 - 26)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 768, "n_numbers": 3, "numbers": [53, 4, 7], "target": 50, "output": "<answer>(53 - 4 * 7)</answer>", "tokens": 15, "correct": false, "format_ok": true}
+{"id": 769, "n_numbers": 4, "numbers": [47, 58, 37, 28], "target": 40, "output": "(28 - 37) * 58", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 770, "n_numbers": 4, "numbers": [44, 35, 17, 37], "target": 99, "output": "<answer>(44 - 35) * (17 + 37)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 771, "n_numbers": 3, "numbers": [72, 15, 19], "target": 76, "output": "<answer>(72 - 15) * (19 - 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 772, "n_numbers": 4, "numbers": [69, 11, 44, 53], "target": 67, "output": "<answer>(69 - 11) * (44 + 53)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 773, "n_numbers": 4, "numbers": [29, 94, 36, 95], "target": 65, "output": "<answer>(95 - (36 * 94)) / 29</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 774, "n_numbers": 3, "numbers": [75, 8, 19], "target": 86, "output": "<answer>(8 * (75 - 19)) / 8</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 775, "n_numbers": 3, "numbers": [67, 42, 24], "target": 85, "output": "<answer>(67 - 42) * (24 + 2)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 776, "n_numbers": 3, "numbers": [17, 73, 27], "target": 63, "output": "<answer>(17 - 73 * 27)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 777, "n_numbers": 3, "numbers": [27, 43, 39], "target": 31, "output": "<answer>(27 - 43 + 39)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 778, "n_numbers": 4, "numbers": [17, 83, 14, 92], "target": 12, "output": "<answer>(17 - 83 * 14 + 92)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 779, "n_numbers": 3, "numbers": [61, 20, 35], "target": 46, "output": "<answer>(61 - 20) * 3</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 780, "n_numbers": 3, "numbers": [1, 22, 48], "target": 26, "output": "(48 - 22) * 1", "tokens": 12, "correct": false, "format_ok": false}
+{"id": 781, "n_numbers": 4, "numbers": [6, 24, 32, 16], "target": 30, "output": "<answer>(6 * (24 - 16)) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 782, "n_numbers": 4, "numbers": [2, 36, 20, 27], "target": 81, "output": "<answer>(2 * (36 - 20)) / 27</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 783, "n_numbers": 4, "numbers": [91, 22, 77, 49], "target": 13, "output": "<answer>(91 - 22) * (77 - 49)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 784, "n_numbers": 3, "numbers": [2, 93, 32], "target": 59, "output": "<answer>(2 * (93 - 32)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 785, "n_numbers": 3, "numbers": [12, 39, 10], "target": 37, "output": "<answer>(12 - 10) * 39</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 786, "n_numbers": 4, "numbers": [87, 4, 67, 86], "target": 62, "output": "<answer>(87 - 4) * (67 + 86)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 787, "n_numbers": 3, "numbers": [10, 8, 55], "target": 73, "output": "<answer>(10 - 8) * 55 = 73</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 788, "n_numbers": 4, "numbers": [62, 31, 3, 87], "target": 92, "output": "<answer>(87 - 31) * 62 / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 789, "n_numbers": 4, "numbers": [76, 33, 6, 6], "target": 86, "output": "<answer>(76 - 6 * 6) / 3</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 790, "n_numbers": 4, "numbers": [61, 92, 61, 80], "target": 12, "output": "<answer>(61 - 61) * 92 + 80 = 12</answer>", "tokens": 26, "correct": false, "format_ok": true}
+{"id": 791, "n_numbers": 3, "numbers": [2, 95, 15], "target": 82, "output": "<answer>(2 * (95 - 15)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 792, "n_numbers": 3, "numbers": [61, 72, 2], "target": 83, "output": "<answer>(72 - 61) * 2</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 793, "n_numbers": 3, "numbers": [24, 79, 30], "target": 73, "output": "<answer>(24 - 79 + 30)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 794, "n_numbers": 4, "numbers": [76, 47, 69, 21], "target": 77, "output": "<answer>(76 - 47) * (69 + 21)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 795, "n_numbers": 3, "numbers": [15, 6, 72], "target": 93, "output": "<answer>(15 - 6) * 72 = 93</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 796, "n_numbers": 4, "numbers": [42, 81, 75, 77], "target": 29, "output": "<answer>(77 - (75 * 81)) / 42</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 797, "n_numbers": 4, "numbers": [21, 13, 3, 69], "target": 80, "output": "<answer>(21 - 13) * (3 + 69)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 798, "n_numbers": 4, "numbers": [43, 5, 34, 34], "target": 38, "output": "(5 * (43 - 34)) / 3", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 799, "n_numbers": 3, "numbers": [17, 80, 69], "target": 28, "output": "<answer>(17 - (80 * 69)) / 28</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 800, "n_numbers": 4, "numbers": [51, 35, 85, 38], "target": 31, "output": "(85 - 51) * 35 / 38", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 801, "n_numbers": 4, "numbers": [49, 78, 27, 61], "target": 59, "output": "(78 - 49) * 61 / 27", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 802, "n_numbers": 4, "numbers": [5, 62, 90, 61], "target": 94, "output": "(62 - 5) * 61 / 90", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 803, "n_numbers": 4, "numbers": [3, 53, 87, 11], "target": 26, "output": "(87 - 11) * 3", "tokens": 12, "correct": false, "format_ok": false}
+{"id": 804, "n_numbers": 4, "numbers": [84, 13, 49, 41], "target": 63, "output": "<answer>(84 - 13) * (49 + 41)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 805, "n_numbers": 3, "numbers": [77, 21, 4], "target": 60, "output": "<answer>(77 - 21) * 4</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 806, "n_numbers": 4, "numbers": [37, 89, 56, 91], "target": 17, "output": "(56 - 91) * 3 + 89", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 807, "n_numbers": 4, "numbers": [9, 52, 30, 29], "target": 16, "output": "<answer>(9 - 52 * 30 + 29)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 808, "n_numbers": 3, "numbers": [1, 15, 36], "target": 51, "output": "<answer>(1 * 15 - 36) / 1</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 809, "n_numbers": 3, "numbers": [57, 46, 23], "target": 80, "output": "(57 - 46) * 23", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 810, "n_numbers": 3, "numbers": [31, 39, 71], "target": 63, "output": "<answer>(31 - 39) * (71 - 31)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 811, "n_numbers": 3, "numbers": [52, 58, 72], "target": 66, "output": "<answer>(52 - (58 * 72)) / 2</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 812, "n_numbers": 4, "numbers": [63, 64, 80, 10], "target": 91, "output": "<answer>(63 - (64 * 10)) / 80</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 813, "n_numbers": 4, "numbers": [32, 12, 13, 2], "target": 96, "output": "<answer>(32 - (12 * 13)) / 2</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 814, "n_numbers": 3, "numbers": [14, 15, 30], "target": 29, "output": "<answer>(14 - 15 + 30) * (14 / 15)</answer>", "tokens": 26, "correct": false, "format_ok": true}
+{"id": 815, "n_numbers": 3, "numbers": [43, 2, 14], "target": 50, "output": "<answer>(43 - 2 * 14)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 816, "n_numbers": 4, "numbers": [14, 46, 85, 82], "target": 35, "output": "(85 - 46) * 14 / 82 = 35", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 817, "n_numbers": 3, "numbers": [93, 81, 61], "target": 73, "output": "<answer>(93 - (81 * 61)) / 2</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 818, "n_numbers": 3, "numbers": [78, 38, 50], "target": 66, "output": "<answer>(78 - 38) * (50 - 50)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 819, "n_numbers": 4, "numbers": [37, 9, 59, 84], "target": 71, "output": "<answer>(59 - 37) * 9</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 820, "n_numbers": 4, "numbers": [23, 68, 58, 60], "target": 93, "output": "<answer>(68 - 23) * (60 + 58)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 821, "n_numbers": 3, "numbers": [62, 39, 20], "target": 43, "output": "<answer>(62 - 39) * 20</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 822, "n_numbers": 3, "numbers": [76, 26, 81], "target": 31, "output": "<answer>(81 - 26) * 76</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 823, "n_numbers": 3, "numbers": [45, 90, 11], "target": 34, "output": "<answer>(45 - 90 + 11)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 824, "n_numbers": 4, "numbers": [3, 35, 8, 66], "target": 42, "output": "<answer>(3 * (35 - 8)) / 66</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 825, "n_numbers": 3, "numbers": [33, 17, 42], "target": 26, "output": "<answer>(33 - 17) * 42</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 826, "n_numbers": 4, "numbers": [5, 25, 36, 13], "target": 69, "output": "<answer>(5 * (25 - 13)) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 827, "n_numbers": 4, "numbers": [25, 96, 98, 13], "target": 36, "output": "<answer>(98 - (96 * 25)) / 13</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 828, "n_numbers": 3, "numbers": [91, 14, 90], "target": 15, "output": "<answer>(91 - 14) * (90 / 9)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 829, "n_numbers": 4, "numbers": [47, 49, 79, 13], "target": 94, "output": "<answer>(47 - 49) * (79 - 13)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 830, "n_numbers": 4, "numbers": [49, 7, 51, 8], "target": 99, "output": "<answer>(49 - 7) * (51 + 8)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 831, "n_numbers": 4, "numbers": [73, 61, 61, 52], "target": 21, "output": "<answer>(61 - (52 * 73)) / 61</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 832, "n_numbers": 3, "numbers": [4, 16, 91], "target": 27, "output": "<answer>(4 - 16) * (91 / 4)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 833, "n_numbers": 4, "numbers": [58, 70, 96, 84], "target": 24, "output": "(96 - 84) * 70", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 834, "n_numbers": 4, "numbers": [38, 15, 37, 1], "target": 14, "output": "(15 - 38) * 1 + 37 = 14", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 835, "n_numbers": 3, "numbers": [7, 51, 74], "target": 30, "output": "<answer>(7 * (51 - 74)) / 51</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 836, "n_numbers": 4, "numbers": [10, 75, 59, 25], "target": 99, "output": "<answer>(10 - 75 * 59) / 25</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 837, "n_numbers": 4, "numbers": [23, 91, 32, 18], "target": 100, "output": "<answer>(23 - (91 * 18)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 838, "n_numbers": 4, "numbers": [90, 95, 4, 86], "target": 77, "output": "<answer>(90 - 95) * (4 + 86)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 839, "n_numbers": 4, "numbers": [63, 43, 39, 62], "target": 83, "output": "<answer>(63 - 43) * (39 + 62)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 840, "n_numbers": 3, "numbers": [61, 90, 18], "target": 66, "output": "<answer>(61 - 90 + 18)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 841, "n_numbers": 3, "numbers": [29, 26, 95], "target": 98, "output": "<answer>(29 - 26) * 95</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 842, "n_numbers": 3, "numbers": [67, 75, 69], "target": 73, "output": "<answer>(67 - 75 + 69)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 843, "n_numbers": 3, "numbers": [68, 28, 23], "target": 17, "output": "<answer>(68 - 28) * (23 - 28)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 844, "n_numbers": 3, "numbers": [1, 72, 58], "target": 15, "output": "<answer>(1 * 72 - 58)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 845, "n_numbers": 4, "numbers": [92, 66, 64, 56], "target": 94, "output": "<answer>(92 - (66 * 64)) / 56</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 846, "n_numbers": 3, "numbers": [100, 42, 35], "target": 23, "output": "<answer>(100 - 42) * (35 - 3)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 847, "n_numbers": 3, "numbers": [54, 61, 41], "target": 48, "output": "(61 - 54) * 41 / 4", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 848, "n_numbers": 3, "numbers": [84, 48, 74], "target": 58, "output": "<answer>(84 - 48) * (74 - 48)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 849, "n_numbers": 3, "numbers": [94, 53, 47], "target": 100, "output": "<answer>(94 - 53) * (47 - 47)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 850, "n_numbers": 3, "numbers": [25, 59, 12], "target": 46, "output": "<answer>(59 - 25) * 12</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 851, "n_numbers": 3, "numbers": [56, 59, 73], "target": 76, "output": "(56 - 59) * 73 = 76", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 852, "n_numbers": 4, "numbers": [22, 37, 1, 36], "target": 95, "output": "<answer>(37 - 22) * (36 - 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 853, "n_numbers": 3, "numbers": [68, 2, 1], "target": 70, "output": "<answer>(68 - 2 * 1)</answer>", "tokens": 15, "correct": false, "format_ok": true}
+{"id": 854, "n_numbers": 3, "numbers": [9, 21, 19], "target": 31, "output": "<answer>(9 - 21 + 19)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 855, "n_numbers": 4, "numbers": [9, 23, 7, 5], "target": 44, "output": "<answer>(9 - 23 * 7 + 5)</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 856, "n_numbers": 4, "numbers": [25, 85, 92, 5], "target": 37, "output": "<answer>(92 - (85 * 5)) / 25</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 857, "n_numbers": 4, "numbers": [59, 48, 3, 9], "target": 23, "output": "(59 - 48) * 3 = 23", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 858, "n_numbers": 4, "numbers": [35, 54, 8, 2], "target": 29, "output": "<answer>(8 - 2) * 54</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 859, "n_numbers": 3, "numbers": [43, 13, 8], "target": 38, "output": "<answer>(43 - 13) * 8</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 860, "n_numbers": 3, "numbers": [27, 98, 28], "target": 43, "output": "<answer>(27 - 98 + 28)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 861, "n_numbers": 3, "numbers": [17, 38, 59], "target": 80, "output": "<answer>(59 - (38 * 17)) / 8</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 862, "n_numbers": 3, "numbers": [12, 77, 48], "target": 17, "output": "<answer>(12 - 77 * 48)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 863, "n_numbers": 4, "numbers": [76, 99, 53, 3], "target": 27, "output": "<answer>(99 - 76) * (53 - 3)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 864, "n_numbers": 4, "numbers": [40, 86, 8, 48], "target": 52, "output": "<answer>(86 - 40) * (88 - 48)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 865, "n_numbers": 4, "numbers": [1, 88, 6, 1], "target": 92, "output": "<answer>(1 * (88 - 1)) / 6</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 866, "n_numbers": 4, "numbers": [3, 6, 44, 43], "target": 10, "output": "(3 * (6 - 44)) / 43", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 867, "n_numbers": 4, "numbers": [35, 62, 17, 43], "target": 24, "output": "(62 - 35) * 43 / 17", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 868, "n_numbers": 3, "numbers": [92, 51, 57], "target": 16, "output": "<answer>(92 - 51) * (57 - 51)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 869, "n_numbers": 3, "numbers": [22, 79, 18], "target": 39, "output": "<answer>(22 - 79 + 18)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 870, "n_numbers": 4, "numbers": [88, 86, 16, 40], "target": 22, "output": "<answer>(88 - 86) * (16 + 40)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 871, "n_numbers": 3, "numbers": [13, 29, 17], "target": 59, "output": "<answer>(13 - 29 + 17)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 872, "n_numbers": 3, "numbers": [59, 90, 52], "target": 21, "output": "(59 - 52) * 90", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 873, "n_numbers": 4, "numbers": [7, 9, 42, 29], "target": 87, "output": "<answer>(7 - 9 * 42 / 29)</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 874, "n_numbers": 4, "numbers": [69, 93, 52, 41], "target": 35, "output": "<answer>(93 - (52 * 41)) / 69</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 875, "n_numbers": 4, "numbers": [32, 57, 18, 13], "target": 94, "output": "<answer>(18 - 13) * 57</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 876, "n_numbers": 3, "numbers": [36, 23, 34], "target": 46, "output": "<answer>(36 - 23) * (34 - 36)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 877, "n_numbers": 4, "numbers": [64, 15, 52, 84], "target": 81, "output": "<answer>(84 - (52 * 84)) / 64</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 878, "n_numbers": 3, "numbers": [81, 7, 26], "target": 48, "output": "<answer>(81 - 7) * 26 = 48</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 879, "n_numbers": 3, "numbers": [80, 34, 44], "target": 70, "output": "<answer>(80 - 34) * 44</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 880, "n_numbers": 3, "numbers": [73, 44, 70], "target": 47, "output": "<answer>(73 - 44) * (70 / 4)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 881, "n_numbers": 3, "numbers": [56, 8, 31], "target": 95, "output": "<answer>(8 - 56) * 31</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 882, "n_numbers": 4, "numbers": [11, 15, 72, 66], "target": 48, "output": "<answer>(11 - 15) * (72 / 66)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 883, "n_numbers": 4, "numbers": [62, 13, 90, 89], "target": 48, "output": "<answer>(90 - 89) * 62</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 884, "n_numbers": 4, "numbers": [18, 68, 9, 82], "target": 41, "output": "<answer>(9 - (82 - 68)) * 18</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 885, "n_numbers": 3, "numbers": [65, 59, 34], "target": 28, "output": "<answer>(65 - 59) * 3</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 886, "n_numbers": 3, "numbers": [12, 97, 31], "target": 78, "output": "<answer>(12 - 97 * 31)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 887, "n_numbers": 4, "numbers": [5, 19, 53, 84], "target": 64, "output": "<answer>(84 - (53 * 5)) / 19</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 888, "n_numbers": 3, "numbers": [30, 24, 5], "target": 49, "output": "<answer>(30 - 24) * 5 = 49</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 889, "n_numbers": 3, "numbers": [70, 38, 14], "target": 94, "output": "<answer>(70 - 38) * (14 + 1)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 890, "n_numbers": 3, "numbers": [63, 41, 78], "target": 56, "output": "<answer>(63 - 41) * (78 - 63)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 891, "n_numbers": 3, "numbers": [26, 42, 57], "target": 41, "output": "<answer>(26 - 42 + 57)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 892, "n_numbers": 3, "numbers": [35, 32, 20], "target": 17, "output": "<answer>(35 - 20) * 32</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 893, "n_numbers": 4, "numbers": [74, 5, 63, 70], "target": 39, "output": "<answer>(74 - (5 * 63)) / 70</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 894, "n_numbers": 4, "numbers": [98, 16, 84, 89], "target": 77, "output": "<answer>(89 - (84 * 16)) / 98</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 895, "n_numbers": 3, "numbers": [64, 40, 64], "target": 39, "output": "<answer>(64 - 40) * 64</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 896, "n_numbers": 4, "numbers": [81, 21, 8, 14], "target": 82, "output": "<answer>(81 - 14) * 8</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 897, "n_numbers": 4, "numbers": [35, 57, 98, 33], "target": 16, "output": "<answer>(57 - 35) * (98 + 33)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 898, "n_numbers": 3, "numbers": [62, 21, 98], "target": 57, "output": "<answer>(62 - 21) * (98 - 98)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 899, "n_numbers": 4, "numbers": [91, 30, 88, 1], "target": 10, "output": "<answer>(91 - 1) * (30 + 88)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 900, "n_numbers": 3, "numbers": [93, 53, 1], "target": 40, "output": "<answer>(93 - 53) * 1</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 901, "n_numbers": 4, "numbers": [71, 77, 89, 63], "target": 32, "output": "<answer>(77 - (71 + 63)) * 89</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 902, "n_numbers": 4, "numbers": [13, 40, 50, 21], "target": 56, "output": "<answer>(50 - (40 * 21)) / 13</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 903, "n_numbers": 3, "numbers": [18, 26, 44], "target": 36, "output": "<answer>(18 - 26 + 44)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 904, "n_numbers": 3, "numbers": [55, 89, 17], "target": 51, "output": "(89 - 55) * 17", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 905, "n_numbers": 3, "numbers": [27, 94, 79], "target": 12, "output": "<answer>(27 - 94 + 79)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 906, "n_numbers": 3, "numbers": [53, 42, 85], "target": 96, "output": "<answer>(85 - (42 * 53)) / 2</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 907, "n_numbers": 3, "numbers": [84, 45, 56], "target": 95, "output": "<answer>(84 - 45) * (56 - 56)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 908, "n_numbers": 3, "numbers": [56, 75, 77], "target": 58, "output": "(77 - 75) * 56 / 5", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 909, "n_numbers": 3, "numbers": [53, 60, 60], "target": 52, "output": "(60 - 53) * 60 / 60", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 910, "n_numbers": 4, "numbers": [2, 39, 16, 32], "target": 21, "output": "(2 * (39 - 16)) / 3", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 911, "n_numbers": 4, "numbers": [33, 31, 3, 8], "target": 75, "output": "(33 - 31) * 3 + 8 = 75", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 912, "n_numbers": 3, "numbers": [39, 47, 55], "target": 31, "output": "(39 - 47) * (55 - 39) / 47 = 31", "tokens": 26, "correct": false, "format_ok": false}
+{"id": 913, "n_numbers": 4, "numbers": [31, 10, 61, 79], "target": 39, "output": "<answer>(31 - (10 * 61)) / 79</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 914, "n_numbers": 4, "numbers": [54, 56, 74, 39], "target": 36, "output": "(54 - 56) * (74 - 39)", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 915, "n_numbers": 3, "numbers": [3, 23, 34], "target": 60, "output": "<answer>(3 * (23 - 34)) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 916, "n_numbers": 3, "numbers": [22, 95, 88], "target": 91, "output": "<answer>(22 - 95 + 88)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 917, "n_numbers": 4, "numbers": [52, 71, 10, 8], "target": 99, "output": "<answer>(10 - 8) * 71</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 918, "n_numbers": 4, "numbers": [34, 57, 20, 91], "target": 88, "output": "<answer>(57 - 34) * (91 - 20)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 919, "n_numbers": 4, "numbers": [76, 39, 97, 80], "target": 54, "output": "<answer>(97 - (80 * 76)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 920, "n_numbers": 3, "numbers": [92, 64, 61], "target": 33, "output": "<answer>(92 - 64) * (61 + 64)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 921, "n_numbers": 4, "numbers": [1, 40, 32, 40], "target": 48, "output": "<answer>(40 - 1 * 40) / 3</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 922, "n_numbers": 4, "numbers": [71, 39, 68, 62], "target": 26, "output": "<answer>(68 - 62) * 71</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 923, "n_numbers": 4, "numbers": [69, 10, 23, 68], "target": 34, "output": "<answer>(69 - 10) * (23 + 68)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 924, "n_numbers": 4, "numbers": [96, 62, 2, 4], "target": 17, "output": "<answer>(96 - 62) * 2 + 4 = 17</answer>", "tokens": 24, "correct": false, "format_ok": true}
+{"id": 925, "n_numbers": 3, "numbers": [16, 69, 95], "target": 10, "output": "<answer>(16 - 69 * 95)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 926, "n_numbers": 4, "numbers": [96, 72, 45, 68], "target": 69, "output": "<answer>(96 - 68) * 72</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 927, "n_numbers": 3, "numbers": [14, 80, 12], "target": 82, "output": "<answer>(14 - 80 * 12)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 928, "n_numbers": 3, "numbers": [60, 59, 54], "target": 53, "output": "<answer>(54 - 59 * 60) / 59</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 929, "n_numbers": 4, "numbers": [88, 84, 3, 68], "target": 32, "output": "<answer>(88 - (84 * 68)) / 3</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 930, "n_numbers": 4, "numbers": [2, 1, 36, 100], "target": 62, "output": "<answer>(2 * (100 - 36)) / 1</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 931, "n_numbers": 4, "numbers": [1, 89, 36, 14], "target": 67, "output": "(1 * 89 - 36) / 14 = 67", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 932, "n_numbers": 3, "numbers": [87, 42, 88], "target": 41, "output": "<answer>(87 - 42) * (88 - 88)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 933, "n_numbers": 4, "numbers": [8, 57, 36, 92], "target": 79, "output": "<answer>(8 - 57 * 36 + 92) / 4</answer>", "tokens": 24, "correct": false, "format_ok": true}
+{"id": 934, "n_numbers": 4, "numbers": [48, 64, 99, 44], "target": 57, "output": "(48 - 64) * (99 - 44)", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 935, "n_numbers": 4, "numbers": [28, 74, 47, 77], "target": 16, "output": "<answer>(74 - 28) * (77 - 47)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 936, "n_numbers": 4, "numbers": [2, 26, 63, 21], "target": 14, "output": "<answer>(2 * (26 - 63)) / 21</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 937, "n_numbers": 4, "numbers": [4, 11, 77, 11], "target": 82, "output": "<answer>(11 - 77 * 4) / 11</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 938, "n_numbers": 4, "numbers": [36, 41, 12, 96], "target": 73, "output": "<answer>(41 - 36) * (96 - 12)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 939, "n_numbers": 3, "numbers": [80, 97, 64], "target": 81, "output": "<answer>(80 - 97 + 64)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 940, "n_numbers": 3, "numbers": [99, 41, 12], "target": 70, "output": "<answer>(99 - 41 + 12)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 941, "n_numbers": 4, "numbers": [53, 39, 19, 75], "target": 42, "output": "<answer>(53 - (39 * 19)) / 75</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 942, "n_numbers": 4, "numbers": [20, 22, 20, 2], "target": 11, "output": "<answer>(20 - 20 + 22) * 2</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 943, "n_numbers": 3, "numbers": [9, 39, 6], "target": 24, "output": "<answer>(9 - (39 * 6)) / 2</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 944, "n_numbers": 3, "numbers": [36, 14, 71], "target": 21, "output": "<answer>(36 - 14) * (71 - 71)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 945, "n_numbers": 4, "numbers": [39, 9, 9, 10], "target": 27, "output": "<answer>(39 - (9 * 9)) / 10</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 946, "n_numbers": 4, "numbers": [43, 84, 1, 28], "target": 70, "output": "<answer>(84 - 43) * (1 + 28)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 947, "n_numbers": 4, "numbers": [94, 96, 77, 77], "target": 36, "output": "<answer>(96 - (77 * 94)) / 77</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 948, "n_numbers": 4, "numbers": [44, 49, 45, 80], "target": 32, "output": "<answer>(44 - 49) * (45 - 80)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 949, "n_numbers": 4, "numbers": [76, 36, 9, 39], "target": 41, "output": "<answer>(9 - 3 * 6) / 7</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 950, "n_numbers": 4, "numbers": [66, 21, 26, 31], "target": 40, "output": "<answer>(66 - 21) * (26 + 31)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 951, "n_numbers": 4, "numbers": [56, 29, 66, 17], "target": 36, "output": "(66 - 17) * 56 / 29", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 952, "n_numbers": 4, "numbers": [44, 55, 53, 28], "target": 14, "output": "<answer>(55 - 44) * (53 - 28)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 953, "n_numbers": 4, "numbers": [14, 51, 57, 12], "target": 30, "output": "<answer>(14 - 51 * 57 + 12)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 954, "n_numbers": 4, "numbers": [100, 40, 12, 63], "target": 65, "output": "<answer>(100 - 40) * (12 + 63)</answer>", "tokens": 23, "correct": false, "format_ok": true}
+{"id": 955, "n_numbers": 4, "numbers": [3, 16, 70, 24], "target": 65, "output": "<answer>(3 * (16 - 70)) / 24</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 956, "n_numbers": 3, "numbers": [15, 54, 14], "target": 55, "output": "<answer>(15 - 54 + 14)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 957, "n_numbers": 3, "numbers": [84, 37, 94], "target": 47, "output": "<answer>(84 - 37) * (94 - 94)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 958, "n_numbers": 4, "numbers": [42, 97, 73, 38], "target": 28, "output": "<answer>(42 - 97 * 73 + 38)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 959, "n_numbers": 4, "numbers": [58, 81, 38, 9], "target": 83, "output": "(58 - 81 + 38) * 9", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 960, "n_numbers": 3, "numbers": [70, 29, 83], "target": 42, "output": "<answer>(83 - 29) * 70</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 961, "n_numbers": 4, "numbers": [62, 87, 73, 90], "target": 14, "output": "<answer>(90 - (87 - 73)) * 62</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 962, "n_numbers": 3, "numbers": [52, 84, 41], "target": 73, "output": "<answer>(84 - 52) * 41</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 963, "n_numbers": 4, "numbers": [41, 14, 23, 20], "target": 70, "output": "<answer>(23 - 14) * (41 - 20)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 964, "n_numbers": 4, "numbers": [38, 99, 30, 48], "target": 17, "output": "(38 - 99) * (30 + 48) = 17", "tokens": 22, "correct": false, "format_ok": false}
+{"id": 965, "n_numbers": 3, "numbers": [17, 2, 46], "target": 65, "output": "<answer>(17 - 2 * 46)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 966, "n_numbers": 4, "numbers": [95, 35, 67, 33], "target": 96, "output": "<answer>(95 - (35 * 67)) / 33</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 967, "n_numbers": 3, "numbers": [24, 58, 64], "target": 18, "output": "<answer>(24 - 58 * 64)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 968, "n_numbers": 4, "numbers": [1, 1, 43, 25], "target": 19, "output": "<answer>(1 * 1 - 43 / 25)</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 969, "n_numbers": 3, "numbers": [34, 50, 32], "target": 16, "output": "<answer>(34 - (50 - 32)) * 2</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 970, "n_numbers": 3, "numbers": [53, 25, 82], "target": 54, "output": "<answer>(82 - 25) * 53 / 53</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 971, "n_numbers": 3, "numbers": [36, 73, 65], "target": 28, "output": "<answer>(36 - 73 + 65)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 972, "n_numbers": 4, "numbers": [35, 14, 84, 91], "target": 10, "output": "(35 - 14) * (84 / 91)", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 973, "n_numbers": 4, "numbers": [100, 14, 1, 1], "target": 84, "output": "<answer>(100 - 14) * (14 + 1)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 974, "n_numbers": 4, "numbers": [11, 37, 20, 78], "target": 72, "output": "<answer>(11 - 78) * 37 + 20 = 72</answer>", "tokens": 26, "correct": false, "format_ok": true}
+{"id": 975, "n_numbers": 4, "numbers": [87, 96, 49, 82], "target": 29, "output": "<answer>(87 - 96 * 49 + 82)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 976, "n_numbers": 4, "numbers": [76, 6, 24, 1], "target": 80, "output": "<answer>(76 - 6 * 24) / 1</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 977, "n_numbers": 4, "numbers": [16, 86, 11, 24], "target": 35, "output": "<answer>(16 - 86 * 11 + 24)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 978, "n_numbers": 4, "numbers": [65, 39, 23, 29], "target": 26, "output": "<answer>(23 - 29) * 65</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 979, "n_numbers": 3, "numbers": [47, 31, 41], "target": 25, "output": "<answer>(47 - 31) * (41 - 47)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 980, "n_numbers": 3, "numbers": [76, 95, 76], "target": 57, "output": "<answer>(76 - 76) * 95</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 981, "n_numbers": 3, "numbers": [47, 13, 88], "target": 54, "output": "<answer>(88 - 13) * 47</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 982, "n_numbers": 3, "numbers": [51, 11, 48], "target": 88, "output": "<answer>(51 - 11) * 48</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 983, "n_numbers": 3, "numbers": [87, 17, 95], "target": 25, "output": "<answer>(87 - 17) * (95 - 95)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 984, "n_numbers": 4, "numbers": [60, 46, 11, 40], "target": 65, "output": "<answer>(60 - 46) * (11 + 40)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 985, "n_numbers": 4, "numbers": [100, 21, 95, 36], "target": 62, "output": "<answer>(100 - 21) * (95 - 36)</answer>", "tokens": 23, "correct": false, "format_ok": true}
+{"id": 986, "n_numbers": 3, "numbers": [2, 15, 12], "target": 21, "output": "<answer>(2 * (15 - 12)) / 2</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 987, "n_numbers": 4, "numbers": [39, 66, 68, 26], "target": 67, "output": "(66 - 39) * 68 / 26 = 67", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 988, "n_numbers": 3, "numbers": [78, 17, 48], "target": 47, "output": "(48 - 78) * 17 / 48", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 989, "n_numbers": 3, "numbers": [72, 56, 49], "target": 33, "output": "<answer>(72 - 56) * (49 - 49)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 990, "n_numbers": 3, "numbers": [92, 97, 46], "target": 41, "output": "<answer>(92 - 97 + 46)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 991, "n_numbers": 3, "numbers": [15, 20, 88], "target": 83, "output": "<answer>(15 - 20 + 88)</answer>", "tokens": 17, "correct": true, "format_ok": true}
+{"id": 992, "n_numbers": 3, "numbers": [16, 33, 6], "target": 43, "output": "<answer>(16 - 33 + 6)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 993, "n_numbers": 4, "numbers": [29, 49, 50, 98], "target": 69, "output": "<answer>(98 - (50 * 49)) / 29</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 994, "n_numbers": 3, "numbers": [44, 95, 19], "target": 32, "output": "<answer>(44 - 95 + 19)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 995, "n_numbers": 3, "numbers": [39, 49, 24], "target": 14, "output": "<answer>(39 - 49) * 24</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 996, "n_numbers": 3, "numbers": [42, 52, 90], "target": 80, "output": "<answer>(90 - 52) * 42</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 997, "n_numbers": 3, "numbers": [6, 32, 71], "target": 33, "output": "<answer>(6 - 32 * 71)</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 998, "n_numbers": 3, "numbers": [3, 8, 11], "target": 22, "output": "<answer>(8 - 3) * 11</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 999, "n_numbers": 3, "numbers": [47, 54, 20], "target": 27, "output": "<answer>(47 - 54 + 20)</answer>", "tokens": 17, "correct": false, "format_ok": true}

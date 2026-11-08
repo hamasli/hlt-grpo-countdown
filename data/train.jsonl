@@ -4,7 +4,7 @@
 {"id": 3, "numbers": [73, 51, 50], "target": 28, "n_numbers": 3, "solution": "51 - (73 - 50)"}
 {"id": 4, "numbers": [26, 65, 74, 41], "target": 76, "n_numbers": 4, "solution": "((26 + 41) + 74) - 65"}
 {"id": 5, "numbers": [4, 17, 48, 60], "target": 85, "n_numbers": 4, "solution": "(60 * (17 * 4)) / 48"}
-{"id": 6, "numbers": [2, 64, 46, 39], "target": 55, "n_numbers": 4, "solution": "((64 - 2) - 46) + 39"}
+{"id": 6, "numbers": [2, 64, 46, 39],"target": 55, "n_numbers": 4, "solution": "((64 - 2) - 46) + 39"}
 {"id": 7, "numbers": [45, 5, 39, 35], "target": 54, "n_numbers": 4, "solution": "(39 - 35) + (5 + 45)"}
 {"id": 8, "numbers": [72, 36, 27], "target": 63, "n_numbers": 3, "solution": "(72 - 36) + 27"}
 {"id": 9, "numbers": [35, 78, 40], "target": 83, "n_numbers": 3, "solution": "(78 + 40) - 35"}

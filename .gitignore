@@ -1,5 +1,23 @@
+# Python
 venv/
 .venv/
 __pycache__/
+*.pyc
+
+# Models and training outputs (too big for GitHub)
 checkpoints/
 *.safetensors
+*.bin
+*.pt
+
+# Archives and notebook temp files
+*.zip
+.ipynb_checkpoints/
+
+# Secrets and logs
+.env
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db

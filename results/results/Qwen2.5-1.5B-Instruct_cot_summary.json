@@ -1,0 +1,26 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter": null,
+  "method": "cot",
+  "device": "Tesla T4",
+  "seconds": 107.8,
+  "peak_gpu_mem_gb": 3.49,
+  "4_numbers": {
+    "n": 500,
+    "accuracy": 1.2,
+    "format_rate": 100.0,
+    "mean_tokens": 55.4
+  },
+  "3_numbers": {
+    "n": 500,
+    "accuracy": 1.8,
+    "format_rate": 100.0,
+    "mean_tokens": 45.9
+  },
+  "all": {
+    "n": 1000,
+    "accuracy": 1.5,
+    "format_rate": 100.0,
+    "mean_tokens": 50.6
+  }
+}
