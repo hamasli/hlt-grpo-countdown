@@ -26,12 +26,12 @@ def load_jsonl(path, limit=None):
 
 def load_model(name, adapter=None):
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    dtype = torch.float16 if device == "cuda" else torch.float32  # T4 has no bf16
+    dtype = torch.float16 if device == "cuda" else torch.float32  # T4 has no native bf16
     tok = AutoTokenizer.from_pretrained(name, padding_side="left")  # left pad for generation
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
-    
-    model = AutoModelForCausalLM.from_pretrained(name, dtype=dtype).to(device)
+
+    model = AutoModelForCausalLM.from_pretrained(name, torch_dtype=dtype).to(device)
     if adapter:  # LoRA weights from GRPO training
         from peft import PeftModel
         model = PeftModel.from_pretrained(model, adapter).merge_and_unload()
@@ -43,9 +43,15 @@ def load_model(name, adapter=None):
 def generate(tok, model, device, prompts, max_new_tokens):
     """Greedy decoding for a batch. Returns texts and number of generated tokens."""
     enc = tok(prompts, return_tensors="pt", padding=True).to(device)
-    out = model.generate(**enc, max_new_tokens=max_new_tokens, do_sample=False,
-                         temperature=None, top_p=None, top_k=None,
-                         pad_token_id=tok.pad_token_id)
+    out = model.generate(
+        **enc,
+        max_new_tokens=max_new_tokens,
+        do_sample=False,
+        temperature=None,
+        top_p=None,
+        top_k=None,
+        pad_token_id=tok.pad_token_id,
+    )
     new = out[:, enc["input_ids"].shape[1]:]
     n_tokens = (new != tok.pad_token_id).sum(dim=1).tolist()
     texts = tok.batch_decode(new, skip_special_tokens=True)
@@ -82,10 +88,16 @@ def main():
         texts, n_tokens = generate(tok, model, device, prompts, max_new)
         for q, text, n in zip(batch, texts, n_tokens):
             text = PREFILL[args.method] + text  # add the prefill back so the checker sees the full answer
-            records.append({"id": q["id"], "n_numbers": q["n_numbers"], "numbers": q["numbers"],
-                            "target": q["target"], "output": text, "tokens": n,
-                            "correct": is_correct(text, q["numbers"], q["target"]),
-                            "format_ok": format_ok(text, args.method)})
+            records.append({
+                "id": q["id"],
+                "n_numbers": q["n_numbers"],
+                "numbers": q["numbers"],
+                "target": q["target"],
+                "output": text,
+                "tokens": n,
+                "correct": is_correct(text, q["numbers"], q["target"]),
+                "format_ok": format_ok(text, args.method),
+            })
         print(f"  {len(records)}/{len(puzzles)} done")
     elapsed = time.time() - start
 
@@ -94,15 +106,21 @@ def main():
     for r in records:
         groups[f"{r['n_numbers']}_numbers"].append(r)
     groups["all"] = records
-    summary = {"model": args.model, "adapter": args.adapter, "method": args.method,
-               "device": torch.cuda.get_device_name(0) if device == "cuda" else "cpu",
-               "seconds": round(elapsed, 1),
-               "peak_gpu_mem_gb": round(torch.cuda.max_memory_allocated() / 1e9, 2) if device == "cuda" else None}
+    summary = {
+        "model": args.model,
+        "adapter": args.adapter,
+        "method": args.method,
+        "device": torch.cuda.get_device_name(0) if device == "cuda" else "cpu",
+        "seconds": round(elapsed, 1),
+        "peak_gpu_mem_gb": round(torch.cuda.max_memory_allocated() / 1e9, 2) if device == "cuda" else None,
+    }
     for name, rs in groups.items():
-        summary[name] = {"n": len(rs),
-                         "accuracy": round(100 * sum(r["correct"] for r in rs) / len(rs), 2),
-                         "format_rate": round(100 * sum(r["format_ok"] for r in rs) / len(rs), 2),
-                         "mean_tokens": round(sum(r["tokens"] for r in rs) / len(rs), 1)}
+        summary[name] = {
+            "n": len(rs),
+            "accuracy": round(100 * sum(r["correct"] for r in rs) / len(rs), 2),
+            "format_rate": round(100 * sum(r["format_ok"] for r in rs) / len(rs), 2),
+            "mean_tokens": round(sum(r["tokens"] for r in rs) / len(rs), 1),
+        }
 
     tag = f"{args.model.split('/')[-1]}_{args.method}"
     out = Path(args.out_dir)
@@ -110,7 +128,7 @@ def main():
     with open(out / f"{tag}_outputs.jsonl", "w", encoding="utf-8") as f:
         for r in records:
             f.write(json.dumps(r) + "\n")
-    with open(out / f"{tag}_summary.json", "w") as f:
+    with open(out / f"{tag}_summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
     print(json.dumps(summary, indent=2))
 

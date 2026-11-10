@@ -63,9 +63,10 @@ def main():
         for p in puzzles:
             level = p["n_numbers"]
             total[level] += 1
-            # for target_in_numbers: try every number
+            # In Countdown, every equation must use all numbers.
+            # Thus, writing a single number is only legal if len(numbers) == 1.
             if name == "target_in_numbers":
-                ok = any(check_equation(str(x), p["numbers"], p["target"]) for x in p["numbers"])
+                ok = (p["target"] in p["numbers"]) and (len(p["numbers"]) == 1)
             else:
                 ok = check_equation(trick(p["numbers"], p["target"]), p["numbers"], p["target"])
             solved[level] += ok

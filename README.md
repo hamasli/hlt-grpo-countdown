@@ -13,7 +13,7 @@ Example: numbers `[3, 25, 50]`, target `72` → `50 + 25 - 3`
 ## Methods compared
 1. **Direct (zero-shot):** the model gives only the equation
 2. **Chain-of-thought (CoT):** the model reasons in `<think>`, then answers in `<answer>`
-3. **GRPO:** the model is trained with RL, using the CoT prompt *(in progress)*
+3. **GRPO:** the model is trained with RL, using the CoT prompt
 
 Rewards: **1.0** for a correct equation, **+0.1** for the right format.
 Metrics: accuracy, answer length (tokens), cost (GPU time and memory).
@@ -21,7 +21,7 @@ Metrics: accuracy, answer length (tokens), cost (GPU time and memory).
 ## Models
 - `Qwen2.5-0.5B-Instruct`: to build and test the pipeline
 - `Qwen2.5-1.5B-Instruct`: main model
-- Training with **LoRA** (full fine-tuning of 1.5B needs ~24 GB, more than Kaggle's 16 GB)
+- Training with **LoRA** (full fine-tuning of 1.5B needs ~24 GB, exceeding Kaggle's 16 GB budget)
 
 ## Project structure
 ```
@@ -33,7 +33,7 @@ src/data/            generate.py: puzzle generator
 src/reward/          verify.py: checker + reward functions
 src/prompts.py       prompts for direct / CoT / GRPO
 src/eval/            evaluate.py, trick_baselines.py, error_analysis.py
-src/train/           GRPO training (coming next)
+src/train/           train_grpo.py: GRPO training with TRL and LoRA
 tests/               tests for the checker
 ```
 
@@ -41,6 +41,7 @@ tests/               tests for the checker
 ```bash
 python -m venv venv
 venv\Scripts\activate            # Windows
+# or: source venv/bin/activate   # Linux / Mac
 pip install -r requirements.txt
 ```
 GPU runs are done on Kaggle (Tesla T4, 16 GB).
@@ -52,6 +53,8 @@ python -m pytest -v                              # test the checker
 python -m src.eval.trick_baselines               # simple tricks
 python -m src.eval.evaluate --method cot         # model baseline (GPU recommended)
 python -m src.eval.error_analysis                # why answers fail
+python -m src.train.train_grpo                   # train model with GRPO and LoRA
+python -m src.eval.evaluate --method grpo --adapter checkpoints/grpo_lora  # evaluate GRPO model
 ```
 
 ## Progress
@@ -63,7 +66,7 @@ Repo, Python 3.11 environment, Kaggle GPU.
 - Puzzles with 3 and 4 numbers (1–100), targets 10–100, every puzzle solvable
 - Splits: train 10,000 / val 200 / test 1,000 (half 3-number, half 4-number), seed 42
 - Checker: safe parsing with `ast` (no `eval`), each number exactly once, exact fractions
-- 23/23 tests pass
+- Tests pass with pytest
 
 **Trick baselines (test set):**
 
@@ -80,9 +83,11 @@ Repo, Python 3.11 environment, Kaggle GPU.
 | Model | Method | Acc 3 nums | Acc 4 nums | Acc all | Format | Tokens | Time (T4) |
 |---|---|---|---|---|---|---|---|
 | 0.5B | direct | 3.2% | 0.2% | 1.7% | 87.0% | 19.5 | 29 s |
-| 0.5B | CoT | 2.2% | 0.6% | 1.4% | 0.2% | 49.5 | 137 s |
+| 0.5B | CoT | 2.2% | 0.6% | 1.4% | 0.2%* | 49.5 | 137 s |
 | 1.5B | direct | 2.0% | 0.4% | 1.2% | 99.9% | 20.2 | 52 s |
 | 1.5B | CoT | 1.8% | 1.2% | 1.5% | 100% | 50.6 | 110 s |
+
+*\*Note: 0.5B CoT closed `<think>` tags with `</th>` instead of `</think>`, causing strict format rejection.*
 
 **Error analysis (all levels):**
 
@@ -96,7 +101,7 @@ Repo, Python 3.11 environment, Kaggle GPU.
 **Findings:**
 1. Before training, all models solve only 1–2% of puzzles, below one random equation (6.7%).
 2. CoT gives no accuracy gain at this scale (consistent with Wei et al., 2022).
-3. The 1.5B model follows the format perfectly but is not more accurate.
+3. The 1.5B model follows the format reliably but is not more accurate.
 4. The main error is *wrong value*: the models write valid equations but cannot find the right combination.
 5. CoT helps the 1.5B model respect the rules (wrong numbers on 4-number puzzles: 25.6% → 4.2%).
 6. Most correct answers come from cancelling tricks (×1, ×k ÷k), not real search.

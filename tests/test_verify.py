@@ -22,6 +22,12 @@ def test_order_does_not_matter():
 def test_equals_sign_allowed():
     assert is_correct(ans("50 + 25 - 3 = 72"), NUMS, TARGET)
 
+def test_target_on_left_allowed():
+    assert is_correct(ans("72 = 50 + 25 - 3"), NUMS, TARGET)
+
+def test_markdown_backticks_allowed():
+    assert is_correct(ans("`50 + 25 - 3`"), NUMS, TARGET)
+
 def test_unicode_ops():
     assert is_correct(ans("(34 ÷ 17) × (82 - 50)"), [34, 82, 50, 17], 64)
 
@@ -72,6 +78,10 @@ def test_too_long_rejected():
 def test_format_ok():
     assert has_format(ans("50 + 25 - 3"))
 
+def test_format_prefilled_think():
+    # Prompt prefill puts <think> in the prompt; completion starts after <think>
+    assert has_format("reasoning step by step </think><answer>50 + 25 - 3</answer>")
+
 def test_format_missing_think():
     assert not has_format("<answer>50 + 25 - 3</answer>")
 
@@ -87,6 +97,11 @@ def test_rewards_plain_text():
 
 def test_rewards_chat_format():
     comps = [[{"role": "assistant", "content": ans("50 + 25 - 3")}]]
+    assert correctness_reward(comps, [NUMS], [TARGET]) == [1.0]
+    assert format_reward(comps) == [0.1]
+
+def test_rewards_prefilled_completion():
+    comps = ["step by step reasoning </think><answer>50 + 25 - 3</answer>"]
     assert correctness_reward(comps, [NUMS], [TARGET]) == [1.0]
     assert format_reward(comps) == [0.1]
 

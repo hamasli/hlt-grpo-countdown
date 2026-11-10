@@ -2,25 +2,25 @@
   "model": "Qwen/Qwen2.5-0.5B-Instruct",
   "adapter": null,
   "method": "direct",
-  "device": "cpu",
-  "seconds": 9.2,
-  "peak_gpu_mem_gb": null,
+  "device": "Tesla T4",
+  "seconds": 29.0,
+  "peak_gpu_mem_gb": 1.18,
   "4_numbers": {
-    "n": 4,
-    "accuracy": 0.0,
-    "format_rate": 75.0,
-    "mean_tokens": 20.0
+    "n": 500,
+    "accuracy": 0.2,
+    "format_rate": 80.0,
+    "mean_tokens": 20.3
   },
   "3_numbers": {
-    "n": 1,
-    "accuracy": 0.0,
-    "format_rate": 100.0,
-    "mean_tokens": 21.0
+    "n": 500,
+    "accuracy": 3.2,
+    "format_rate": 94.0,
+    "mean_tokens": 18.7
   },
   "all": {
-    "n": 5,
-    "accuracy": 0.0,
-    "format_rate": 80.0,
-    "mean_tokens": 20.2
+    "n": 1000,
+    "accuracy": 1.7,
+    "format_rate": 87.0,
+    "mean_tokens": 19.5
   }
 }

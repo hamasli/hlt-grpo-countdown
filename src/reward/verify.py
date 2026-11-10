@@ -9,16 +9,19 @@ import re
 from fractions import Fraction
 
 ANSWER_RE = re.compile(r"<answer>(.*?)</answer>", re.DOTALL)
-FORMAT_RE = re.compile(r"\s*<think>.*?</think>\s*<answer>.*?</answer>\s*", re.DOTALL)
-OPS = {ast.Add: lambda a, b: a + b, ast.Sub: lambda a, b: a - b,
-       ast.Mult: lambda a, b: a * b, ast.Div: lambda a, b: a / b}
+# Matches reasoning followed by answer, allowing optional opening <think> for prefilled completions
+FORMAT_RE = re.compile(r"^\s*(?:<think>)?.*?</think>\s*<answer>.*?</answer>\s*$", re.DOTALL)
+OPS = {
+    ast.Add: lambda a, b: a + b,
+    ast.Sub: lambda a, b: a - b,
+    ast.Mult: lambda a, b: a * b,
+    ast.Div: lambda a, b: a / b,
+}
 MAX_LEN = 200  # longer answers are rejected (protects the parser)
 
 
-
-# This function will help to extract the model output in 2 formats
 def get_text(completion):
-    """TRL gives a string, or a chat list like [{"role": "assistant", "content": ...}]."""
+    """TRL passes either a plain string or a chat list like [{'role': 'assistant', 'content': ...}]."""
     if isinstance(completion, list):
         return completion[-1]["content"]
     return completion
@@ -30,11 +33,24 @@ def extract_answer(text):
     if not matches:
         return None
     answer = matches[-1].strip()
-    answer = answer.split("=")[0]                     # "50 + 25 - 3 = 72" -> left side
+    # Remove markdown code formatting if present
+    answer = answer.replace("`", "").strip()
+
+    if "=" in answer:
+        parts = answer.split("=")
+        left, right = parts[0].strip(), parts[1].strip()
+        ops = {"+", "-", "*", "/", "×", "÷"}
+        left_has_op = any(op in left for op in ops)
+        right_has_op = any(op in right for op in ops)
+        # If target is on the left (e.g. "72 = 50 + 25 - 3"), pick the right side with operators
+        if right_has_op and not left_has_op:
+            answer = right
+        else:
+            answer = left
+
     return answer.replace("×", "*").replace("÷", "/").strip()
 
-# safe_eval() calculates the expression’s value and records all numbers used. Then, check_equation() verifies
-# that each given number was used exactly once and that the calculated value equals the target.
+
 def safe_eval(expr):
     """Evaluate expr with exact fractions. Return (value, numbers_used) or None if not allowed."""
     if not expr or len(expr) > MAX_LEN:
@@ -85,8 +101,10 @@ def has_format(text):
 # TRL passes dataset columns (numbers, target) as keyword arguments.
 
 def correctness_reward(completions, numbers, target, **kwargs):
-    return [1.0 if is_correct(get_text(c), n, t) else 0.0
-            for c, n, t in zip(completions, numbers, target)]
+    return [
+        1.0 if is_correct(get_text(c), n, t) else 0.0
+        for c, n, t in zip(completions, numbers, target)
+    ]
 
 
 def format_reward(completions, **kwargs):
