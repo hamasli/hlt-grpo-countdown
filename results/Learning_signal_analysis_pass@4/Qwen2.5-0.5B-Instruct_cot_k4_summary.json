@@ -1,0 +1,45 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter": null,
+  "method": "cot",
+  "data": "data/test.jsonl",
+  "num_samples": 4,
+  "temperature": 1.0,
+  "max_new_tokens": 256,
+  "device": "Tesla T4",
+  "seconds": 630.8,
+  "peak_gpu_mem_gb": 1.47,
+  "2_numbers": {
+    "n": 500,
+    "k": 4,
+    "pass@1": 0.85,
+    "pass@4": 3.4,
+    "useful_groups_correctness": 3.4,
+    "useful_groups_total_reward": 35.8,
+    "format_rate": 9.55,
+    "mean_tokens": 85.3,
+    "clipped_rate": 8.2
+  },
+  "3_numbers": {
+    "n": 500,
+    "k": 4,
+    "pass@1": 0.35,
+    "pass@4": 1.4,
+    "useful_groups_correctness": 1.4,
+    "useful_groups_total_reward": 33.0,
+    "format_rate": 9.35,
+    "mean_tokens": 95.6,
+    "clipped_rate": 10.15
+  },
+  "all": {
+    "n": 1000,
+    "k": 4,
+    "pass@1": 0.6,
+    "pass@4": 2.4,
+    "useful_groups_correctness": 2.4,
+    "useful_groups_total_reward": 34.4,
+    "format_rate": 9.45,
+    "mean_tokens": 90.5,
+    "clipped_rate": 9.18
+  }
+}
