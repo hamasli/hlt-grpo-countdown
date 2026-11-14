@@ -40,11 +40,12 @@ def safe_eval(expr):
     if not expr or len(expr) > MAX_LEN:
         return None
     try:
+        # Turns the text into tree
         tree = ast.parse(expr, mode="eval")
     except SyntaxError:
         return None
     used = []
-
+    # here python is evaluating the whole tree
     def walk(node):
         if isinstance(node, ast.BinOp) and type(node.op) in OPS:
             left, right = walk(node.left), walk(node.right)
@@ -60,6 +61,7 @@ def safe_eval(expr):
         value = walk(tree.body)
     except (ValueError, ZeroDivisionError, RecursionError):
         return None
+    # Result: (value, used) → for "2*5+9" that’s (19, [2, 5, 9]). Any problem → None.
     return value, used
 
 
@@ -83,7 +85,10 @@ def has_format(text):
 
 # ---- reward functions (TRL GRPOTrainer signature) ----
 # TRL passes dataset columns (numbers, target) as keyword arguments.
-
+# TRL calls them with lists: all the answers of a step (e.g. 32), plus the matching numbers and target from our dataset.
+# They return a list of rewards, one per answer: [1.0, 0.0, 0.0, 1.0, …] and [0.1, 0.1, 0.0, …].
+# TRL adds them up, so each answer gets 0, 0.1, 1.0 or 1.1.
+# **kwargs = “accept any other columns TRL sends, and ignore them”.
 def correctness_reward(completions, numbers, target, **kwargs):
     return [1.0 if is_correct(get_text(c), n, t) else 0.0
             for c, n, t in zip(completions, numbers, target)]
