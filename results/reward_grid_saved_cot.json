@@ -1,0 +1,1951 @@
+{
+  "source": "results\\results\\Qwen2.5-1.5B-Instruct_cot_outputs.jsonl",
+  "method": "retrospective fixed-output rescoring",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "results": [
+    {
+      "config": {
+        "correctness": 0.5,
+        "format_bonus": 0,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0075,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.009,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.006,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 0.5,
+        "format_bonus": 0.01,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 0.0175,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 0.019,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 0.016,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 0.5,
+        "format_bonus": 0.01,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0076500000000000005,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.00918,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0061200000000000004,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 0.5,
+        "format_bonus": 0.1,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 0.1075,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 0.109,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 0.10600000000000001,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 0.5,
+        "format_bonus": 0.1,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.009,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.010799999999999999,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0072,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 0.5,
+        "format_bonus": 0.5,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 0.5075,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 0.509,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 0.506,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 0.5,
+        "format_bonus": 0.5,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.015,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.018,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.012,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 0.5,
+        "format_bonus": 1.0,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 1.0075,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 1.009,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 1.006,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 0.5,
+        "format_bonus": 1.0,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0225,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.027,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.018,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 1.0,
+        "format_bonus": 0,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.015,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.018,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.012,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 1.0,
+        "format_bonus": 0.01,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 0.025,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 0.028,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 0.022,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 1.0,
+        "format_bonus": 0.01,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.01515,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.01818,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.01212,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 1.0,
+        "format_bonus": 0.1,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 0.115,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 0.11800000000000001,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 0.112,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 1.0,
+        "format_bonus": 0.1,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0165,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0198,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.013200000000000002,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 1.0,
+        "format_bonus": 0.5,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 0.515,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 0.518,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 0.512,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 1.0,
+        "format_bonus": 0.5,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0225,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.027,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.018,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 1.0,
+        "format_bonus": 1.0,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 1.015,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 1.018,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 1.012,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 1.0,
+        "format_bonus": 1.0,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.03,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.036,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.024,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 2.0,
+        "format_bonus": 0,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.03,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.036,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.024,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 2.0,
+        "format_bonus": 0.01,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 0.039999999999999994,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 0.046,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 0.033999999999999996,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 2.0,
+        "format_bonus": 0.01,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.030149999999999996,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.03618,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.02412,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 2.0,
+        "format_bonus": 0.1,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 0.13,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 0.136,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 0.12400000000000001,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 2.0,
+        "format_bonus": 0.1,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0315,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0378,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0252,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 2.0,
+        "format_bonus": 0.5,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 0.53,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 0.536,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 0.524,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 2.0,
+        "format_bonus": 0.5,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.0375,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.045,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.03,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 2.0,
+        "format_bonus": 1.0,
+        "gate_format_on_correctness": false
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 98.5,
+          "mean_reward": 1.03,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 98.2,
+          "mean_reward": 1.036,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 98.8,
+          "mean_reward": 1.024,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    },
+    {
+      "config": {
+        "correctness": 2.0,
+        "format_bonus": 1.0,
+        "gate_format_on_correctness": true
+      },
+      "metrics": {
+        "all": {
+          "groups": 1000,
+          "completions": 1000,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.5,
+          "pass_at_k": 1.5,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.5,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.045,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "3": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.7999999999999998,
+          "pass_at_k": 1.7999999999999998,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.2,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.054,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        },
+        "4": {
+          "groups": 500,
+          "completions": 500,
+          "group_sizes": [
+            1
+          ],
+          "solve_rate": 1.2,
+          "pass_at_k": 1.2,
+          "format_rate": 100,
+          "formatted_wrong_rate": 98.8,
+          "wrong_bonus_rate": 0,
+          "mean_reward": 0.036,
+          "all_wrong_rollout_groups": 0,
+          "all_wrong_groups_with_format_signal": 0,
+          "all_wrong_format_signal_rate": null,
+          "mixed_rollout_groups": 0,
+          "wrong_ties_best_correct_rate": null,
+          "wrong_outranks_best_correct_rate": null,
+          "wrong_positive_advantage_rate": null,
+          "mean_positive_wrong_advantage": null
+        }
+      }
+    }
+  ]
+}
