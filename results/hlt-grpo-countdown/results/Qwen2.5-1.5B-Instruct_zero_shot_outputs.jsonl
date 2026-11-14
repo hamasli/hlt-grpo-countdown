@@ -1,0 +1,1000 @@
+{"id": 0, "n_numbers": 2, "numbers": [34, 48], "target": 82, "output": "(34 * 2) + 48 = 82", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 1, "n_numbers": 2, "numbers": [2, 23], "target": 25, "output": "(23 - 2) * 2 = 25", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 2, "n_numbers": 3, "numbers": [14, 80, 12], "target": 82, "output": "(14 * 6) + 80 - 12 = 82", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 3, "n_numbers": 2, "numbers": [74, 15], "target": 89, "output": "<answer>(74 - 15) * 2 = 89</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 4, "n_numbers": 3, "numbers": [15, 17, 69], "target": 71, "output": "(15 * 69) - 17 = 71", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 5, "n_numbers": 3, "numbers": [50, 53, 17], "target": 20, "output": "(50 - 53) * 17 = -20", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 6, "n_numbers": 3, "numbers": [69, 17, 81], "target": 29, "output": "<answer>(69 - 17) * 81 = 29</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 7, "n_numbers": 2, "numbers": [89, 19], "target": 70, "output": "<answer>(89 - 19) * 2 = 70</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 8, "n_numbers": 2, "numbers": [8, 81], "target": 89, "output": "(81 - 8) * 1 = 89", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 9, "n_numbers": 2, "numbers": [10, 69], "target": 59, "output": "(69 - 10) * 2 = 59", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 10, "n_numbers": 3, "numbers": [52, 34, 100], "target": 14, "output": "(100 - 34) * 52 = 14", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 11, "n_numbers": 2, "numbers": [35, 49], "target": 14, "output": "(35 - 49) * (-1) = -14", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 12, "n_numbers": 2, "numbers": [75, 39], "target": 36, "output": "<answer>(75 - 39) * 1 = 36</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 13, "n_numbers": 2, "numbers": [54, 24], "target": 78, "output": "(54 - 24) * 3 = 78", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 14, "n_numbers": 3, "numbers": [87, 4, 53], "target": 38, "output": "<answer>(87 - 53) * 4 = 38</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 15, "n_numbers": 2, "numbers": [40, 94], "target": 54, "output": "<answer>(94 - 40) * 1 = 54</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 16, "n_numbers": 3, "numbers": [69, 55, 72], "target": 52, "output": "<answer>(69 - 55) * 72 = 52</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 17, "n_numbers": 2, "numbers": [35, 17], "target": 18, "output": "(35 - 17) * 1 = 18", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 18, "n_numbers": 3, "numbers": [52, 9, 44], "target": 17, "output": "(52 - 44) * 9 = 17", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 19, "n_numbers": 2, "numbers": [7, 31], "target": 38, "output": "<answer>(7 * 31) - 2</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 20, "n_numbers": 2, "numbers": [17, 4], "target": 21, "output": "(17 - 4) * 3 = 21", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 21, "n_numbers": 3, "numbers": [47, 100, 18], "target": 35, "output": "<answer>(100 - 47) * 18 = 35</answer>", "tokens": 23, "correct": false, "format_ok": true}
+{"id": 22, "n_numbers": 3, "numbers": [1, 22, 48], "target": 26, "output": "(48 - 22) * 1 = 26", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 23, "n_numbers": 3, "numbers": [53, 60, 60], "target": 52, "output": "(60 - 53) * 60 = 52", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 24, "n_numbers": 3, "numbers": [92, 64, 61], "target": 33, "output": "(92 - 64) * 61 = 33", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 25, "n_numbers": 2, "numbers": [7, 83], "target": 90, "output": "(83 - 7) * 1 = 90", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 26, "n_numbers": 2, "numbers": [68, 41], "target": 27, "output": "<answer>(68 - 41) * 1 = 27</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 27, "n_numbers": 2, "numbers": [30, 49], "target": 79, "output": "(30 * 2) + 49 = 79", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 28, "n_numbers": 2, "numbers": [2, 87], "target": 89, "output": "<answer>(87 - 2) * 1 = 89</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 29, "n_numbers": 3, "numbers": [77, 90, 68], "target": 99, "output": "<answer>(77 - 68) * 90 = 99</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 30, "n_numbers": 3, "numbers": [45, 81, 45], "target": 25, "output": "(81 - 45) * 45 = 25", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 31, "n_numbers": 3, "numbers": [10, 65, 87], "target": 12, "output": "(87 - 65) * 10 = 12", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 32, "n_numbers": 2, "numbers": [63, 34], "target": 97, "output": "<answer>(63 - 34) * 2 = 97</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 33, "n_numbers": 2, "numbers": [96, 33], "target": 63, "output": "<answer>(96 - 33) * 1 = 63</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 34, "n_numbers": 2, "numbers": [82, 35], "target": 47, "output": "<answer>(82 - 35) * 1 = 47</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 35, "n_numbers": 2, "numbers": [22, 68], "target": 46, "output": "<answer>(68 - 22) * 2 = 46</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 36, "n_numbers": 2, "numbers": [61, 80], "target": 19, "output": "(80 - 61) * 1 = 19", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 37, "n_numbers": 2, "numbers": [32, 98], "target": 66, "output": "(98 - 32) * 2 = 66", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 38, "n_numbers": 2, "numbers": [55, 24], "target": 31, "output": "(55 - 24) * 1 = 31", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 39, "n_numbers": 2, "numbers": [11, 87], "target": 98, "output": "(87 - 11) * 1 = 98", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 40, "n_numbers": 3, "numbers": [99, 41, 12], "target": 70, "output": "(99 - 41) * 12 = 70", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 41, "n_numbers": 3, "numbers": [74, 48, 65], "target": 91, "output": "<answer>(74 - 48) * 65</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 42, "n_numbers": 3, "numbers": [18, 96, 10], "target": 68, "output": "(96 - 18) * 10 = 68", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 43, "n_numbers": 3, "numbers": [16, 47, 11], "target": 42, "output": "<answer>(16 - 47) * 11 = 42</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 44, "n_numbers": 3, "numbers": [77, 88, 80], "target": 91, "output": "<answer>(80 - 77) * 8 = 91</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 45, "n_numbers": 2, "numbers": [58, 80], "target": 22, "output": "(80 - 58) * 1 = 22", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 46, "n_numbers": 3, "numbers": [94, 62, 9], "target": 41, "output": "(94 - 62) * 9 = 41", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 47, "n_numbers": 2, "numbers": [5, 85], "target": 17, "output": "(85 - 5) * 1 = 17", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 48, "n_numbers": 2, "numbers": [33, 62], "target": 95, "output": "(33 * 62) - 1 = 95", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 49, "n_numbers": 2, "numbers": [46, 67], "target": 21, "output": "<answer>(67 - 46) * 1 = 21</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 50, "n_numbers": 2, "numbers": [33, 63], "target": 30, "output": "(63 - 33) * 1 = 30", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 51, "n_numbers": 3, "numbers": [31, 27, 28], "target": 32, "output": "(31 - 27) * 28 = 32", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 52, "n_numbers": 2, "numbers": [24, 19], "target": 43, "output": "<answer>(24 - 19) * 2 = 43</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 53, "n_numbers": 3, "numbers": [73, 2, 17], "target": 58, "output": "<answer>(73 - 2) * 17 = 58</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 54, "n_numbers": 3, "numbers": [23, 25, 82], "target": 80, "output": "<answer>(23 * 4) - 25 + 82</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 55, "n_numbers": 2, "numbers": [18, 96], "target": 78, "output": "(96 - 18) * 2 = 78", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 56, "n_numbers": 3, "numbers": [66, 23, 44], "target": 87, "output": "<answer>(66 - 23) * 44 = 87</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 57, "n_numbers": 3, "numbers": [44, 91, 23], "target": 70, "output": "<answer>(91 - 44) * 23 = 70</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 58, "n_numbers": 3, "numbers": [96, 64, 56], "target": 88, "output": "<answer>(96 - 64) * 56 = 88</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 59, "n_numbers": 2, "numbers": [67, 85], "target": 18, "output": "(85 - 67) * 1 = 18", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 60, "n_numbers": 2, "numbers": [9, 6], "target": 54, "output": "(9 * 6) + (9 - 6) = 54", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 61, "n_numbers": 2, "numbers": [83, 12], "target": 95, "output": "<answer>(83 - 12) * 2 = 95</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 62, "n_numbers": 3, "numbers": [40, 36, 72], "target": 20, "output": "(72 - 36) * 40 = 20", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 63, "n_numbers": 2, "numbers": [61, 18], "target": 43, "output": "<answer>(61 - 18) * 2 = 43</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 64, "n_numbers": 2, "numbers": [24, 36], "target": 60, "output": "<answer>(24 * 3) - 6 = 60</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 65, "n_numbers": 2, "numbers": [33, 1], "target": 34, "output": "(33 - 1) * 1 = 34", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 66, "n_numbers": 3, "numbers": [36, 14, 71], "target": 21, "output": "(36 - 14) * 71 = 21", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 67, "n_numbers": 3, "numbers": [76, 75, 45], "target": 44, "output": "(76 - 75) * 45 = 44", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 68, "n_numbers": 3, "numbers": [55, 76, 3], "target": 24, "output": "(76 - 55) * 3 = 24", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 69, "n_numbers": 3, "numbers": [67, 75, 69], "target": 73, "output": "<answer>(67 - 75) * 69 = 73</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 70, "n_numbers": 3, "numbers": [29, 74, 45], "target": 90, "output": "<answer>(74 - 29) * 45 = 90</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 71, "n_numbers": 3, "numbers": [86, 85, 78], "target": 79, "output": "(86 - 85) * 78 = 79", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 72, "n_numbers": 3, "numbers": [19, 81, 77], "target": 15, "output": "(81 - 19) * 77 = 15", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 73, "n_numbers": 3, "numbers": [77, 8, 49], "target": 36, "output": "<answer>(77 - 8) * 49 = 36</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 74, "n_numbers": 3, "numbers": [95, 78, 29], "target": 46, "output": "<answer>(95 - 78) * 29 = 46</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 75, "n_numbers": 3, "numbers": [20, 71, 56], "target": 35, "output": "<answer>(71 - 56) * 20 = 35</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 76, "n_numbers": 2, "numbers": [37, 58], "target": 95, "output": "(37 * 2) + 58 = 95", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 77, "n_numbers": 2, "numbers": [9, 34], "target": 43, "output": "<answer>(9 * 34) - 1</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 78, "n_numbers": 2, "numbers": [10, 74], "target": 64, "output": "(10 * 7) - 4 = 64", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 79, "n_numbers": 2, "numbers": [30, 70], "target": 40, "output": "(30 - 70) * (-1)", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 80, "n_numbers": 2, "numbers": [93, 83], "target": 10, "output": "<answer>(93 - 83) * 2 = 10</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 81, "n_numbers": 2, "numbers": [8, 37], "target": 45, "output": "<answer>(8 * 37) - 1</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 82, "n_numbers": 2, "numbers": [39, 11], "target": 28, "output": "(39 - 11) * 1 = 28", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 83, "n_numbers": 3, "numbers": [9, 86, 11], "target": 66, "output": "(9 * 86) - 11 = 66", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 84, "n_numbers": 3, "numbers": [43, 98, 59], "target": 82, "output": "<answer>(43 - 59) * 98 = 82</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 85, "n_numbers": 2, "numbers": [88, 99], "target": 11, "output": "<answer>(88 - 9) * 9</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 86, "n_numbers": 2, "numbers": [39, 87], "target": 48, "output": "(39 * 1) - 87 = 48", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 87, "n_numbers": 3, "numbers": [39, 12, 10], "target": 41, "output": "(39 - 12) * 10 = 41", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 88, "n_numbers": 2, "numbers": [36, 50], "target": 14, "output": "(50 - 36) * 2 = 14", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 89, "n_numbers": 2, "numbers": [11, 44], "target": 33, "output": "(44 - 11) * 1 = 33", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 90, "n_numbers": 3, "numbers": [64, 50, 96], "target": 82, "output": "<answer>(96 - 50) * 64</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 91, "n_numbers": 3, "numbers": [88, 54, 49], "target": 93, "output": "<answer>(88 - 54) * 49 = 93</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 92, "n_numbers": 2, "numbers": [82, 38], "target": 44, "output": "<answer>(82 - 38) * 1 = 44</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 93, "n_numbers": 2, "numbers": [35, 40], "target": 75, "output": "(35 * 2) + 40 = 75", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 94, "n_numbers": 3, "numbers": [2, 13, 56], "target": 71, "output": "(56 - 13) * 2 = 71", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 95, "n_numbers": 2, "numbers": [23, 83], "target": 60, "output": "(83 - 23) * 1 = 60", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 96, "n_numbers": 3, "numbers": [12, 57, 55], "target": 14, "output": "(57 - 12) * 55 = 14", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 97, "n_numbers": 2, "numbers": [84, 3], "target": 28, "output": "<answer>(84 - 3) * 1</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 98, "n_numbers": 3, "numbers": [72, 75, 90], "target": 57, "output": "<answer>(75 - 72) * 90</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 99, "n_numbers": 3, "numbers": [72, 48, 91], "target": 29, "output": "<answer>(72 - 48) * 91 = 29</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 100, "n_numbers": 3, "numbers": [12, 85, 38], "target": 35, "output": "(85 - 12) * 38 = 35", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 101, "n_numbers": 2, "numbers": [2, 51], "target": 53, "output": "(51 - 2) * 5 = 53", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 102, "n_numbers": 2, "numbers": [3, 76], "target": 79, "output": "(76 - 3) * 1 = 79", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 103, "n_numbers": 3, "numbers": [1, 56, 7], "target": 63, "output": "(56 - 7) * 1 = 63", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 104, "n_numbers": 2, "numbers": [14, 79], "target": 93, "output": "(79 - 14) * 2 = 93", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 105, "n_numbers": 2, "numbers": [4, 12], "target": 48, "output": "(12 - 4) * 4 = 48", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 106, "n_numbers": 3, "numbers": [25, 55, 58], "target": 28, "output": "(58 - 25) * 55 = 28", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 107, "n_numbers": 2, "numbers": [91, 67], "target": 24, "output": "(91 - 67) * 1 = 24", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 108, "n_numbers": 2, "numbers": [65, 14], "target": 79, "output": "(65 - 14) * 2 = 79", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 109, "n_numbers": 2, "numbers": [23, 57], "target": 34, "output": "<answer>(57 - 23) * 1 = 34</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 110, "n_numbers": 2, "numbers": [13, 92], "target": 79, "output": "(92 - 13) * 4 = 79", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 111, "n_numbers": 3, "numbers": [55, 33, 45], "target": 67, "output": "(55 - 33) * 45 = 67", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 112, "n_numbers": 2, "numbers": [54, 23], "target": 77, "output": "(54 - 23) * 2 = 77", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 113, "n_numbers": 3, "numbers": [56, 8, 31], "target": 95, "output": "(56 - 8) * 31 = 95", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 114, "n_numbers": 3, "numbers": [31, 30, 45], "target": 16, "output": "(31 - 30) * 45 = 16", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 115, "n_numbers": 3, "numbers": [59, 54, 100], "target": 95, "output": "<answer>(59 - 54) * 100</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 116, "n_numbers": 3, "numbers": [18, 37, 43], "target": 24, "output": "(37 - 18) * 43 = 24", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 117, "n_numbers": 2, "numbers": [16, 97], "target": 81, "output": "<answer>(97 - 16) * 1 = 81</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 118, "n_numbers": 3, "numbers": [10, 39, 65], "target": 16, "output": "(65 - 39) * 10 = 16", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 119, "n_numbers": 2, "numbers": [89, 73], "target": 16, "output": "<answer>(89 - 73) * 1 = 16</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 120, "n_numbers": 3, "numbers": [7, 49, 96], "target": 54, "output": "<answer>(7 * 9) - 49</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 121, "n_numbers": 2, "numbers": [11, 81], "target": 70, "output": "(81 - 11) * 1 = 70", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 122, "n_numbers": 3, "numbers": [23, 6, 55], "target": 38, "output": "<answer>(55 - 23) * 6 = 38</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 123, "n_numbers": 3, "numbers": [16, 39, 5], "target": 11, "output": "<answer>(5 - 39/16) * 16</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 124, "n_numbers": 2, "numbers": [53, 29], "target": 82, "output": "(53 - 29) * 1 = 82", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 125, "n_numbers": 3, "numbers": [1, 7, 85], "target": 78, "output": "(85 - 1) * 7 = 78", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 126, "n_numbers": 2, "numbers": [24, 70], "target": 94, "output": "<answer>(70 - 24) * 5</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 127, "n_numbers": 3, "numbers": [76, 95, 76], "target": 57, "output": "<answer>(76 - 95) * (76 / 100)</answer>", "tokens": 23, "correct": false, "format_ok": true}
+{"id": 128, "n_numbers": 3, "numbers": [52, 4, 95], "target": 47, "output": "(95 - 52) * 4 = 47", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 129, "n_numbers": 2, "numbers": [15, 64], "target": 49, "output": "(64 - 15) * (15 + 64) = 49", "tokens": 22, "correct": false, "format_ok": false}
+{"id": 130, "n_numbers": 3, "numbers": [3, 31, 80], "target": 46, "output": "(3 * 31) - 80 = 46", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 131, "n_numbers": 2, "numbers": [7, 40], "target": 33, "output": "(40 - 7) * 5 = 33", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 132, "n_numbers": 2, "numbers": [12, 38], "target": 26, "output": "(38 - 12) * 2 = 26", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 133, "n_numbers": 2, "numbers": [17, 44], "target": 61, "output": "<answer>(17 * 4) + 44</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 134, "n_numbers": 2, "numbers": [33, 2], "target": 31, "output": "(33 - 2) * 1 = 31", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 135, "n_numbers": 3, "numbers": [32, 1, 82], "target": 50, "output": "(82 - 32) * 1 = 50", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 136, "n_numbers": 2, "numbers": [59, 37], "target": 22, "output": "(59 - 37) * 1 = 22", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 137, "n_numbers": 3, "numbers": [28, 11, 52], "target": 91, "output": "<answer>(52 - 11) * 28 = 91</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 138, "n_numbers": 3, "numbers": [64, 9, 9], "target": 82, "output": "<answer>(64 - 9) * 9 = 516</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 139, "n_numbers": 2, "numbers": [40, 57], "target": 17, "output": "<answer>(57 - 40) * 1 = 17</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 140, "n_numbers": 3, "numbers": [88, 28, 26], "target": 34, "output": "<answer>(88 - 28) * 26 = 34</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 141, "n_numbers": 3, "numbers": [27, 52, 96], "target": 71, "output": "<answer>(96 - 52) * 27 = 71</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 142, "n_numbers": 3, "numbers": [12, 72, 33], "target": 27, "output": "(72 - 12) * 33 = 27", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 143, "n_numbers": 2, "numbers": [56, 15], "target": 41, "output": "(56 - 15) * 2 = 41", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 144, "n_numbers": 2, "numbers": [95, 16], "target": 79, "output": "<answer>(95 - 16) * 2 = 79</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 145, "n_numbers": 3, "numbers": [4, 76, 14], "target": 86, "output": "(76 - 14) * 4 = 86", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 146, "n_numbers": 3, "numbers": [17, 29, 47], "target": 35, "output": "<answer>(47 - 29) * 17 = 35</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 147, "n_numbers": 3, "numbers": [2, 15, 12], "target": 21, "output": "(15 - 2) * 12 = 21", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 148, "n_numbers": 3, "numbers": [16, 69, 95], "target": 10, "output": "<answer>(95 - 69) * 16 = 10</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 149, "n_numbers": 2, "numbers": [93, 6], "target": 87, "output": "<answer>(93 - 6) * 1 = 87</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 150, "n_numbers": 3, "numbers": [91, 75, 83], "target": 67, "output": "<answer>(91 - 75) * 83</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 151, "n_numbers": 3, "numbers": [94, 53, 47], "target": 100, "output": "(94 - 53) * 47 = 100", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 152, "n_numbers": 2, "numbers": [2, 54], "target": 27, "output": "(54 - 2) * 3 = 27", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 153, "n_numbers": 2, "numbers": [54, 20], "target": 74, "output": "(54 - 20) * 3 = 74", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 154, "n_numbers": 2, "numbers": [10, 70], "target": 60, "output": "(10 * 6) + (70 / 2)", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 155, "n_numbers": 2, "numbers": [47, 31], "target": 78, "output": "(47 - 31) * 2 = 78", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 156, "n_numbers": 2, "numbers": [20, 1], "target": 19, "output": "(20 - 1) * 1 = 19", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 157, "n_numbers": 3, "numbers": [21, 70, 14], "target": 35, "output": "<answer>(70 - 21) * 14</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 158, "n_numbers": 3, "numbers": [92, 97, 46], "target": 41, "output": "<answer>(97 - 92) * 46</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 159, "n_numbers": 3, "numbers": [44, 41, 34], "target": 31, "output": "<answer>(44 - 34) * 41 = 31</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 160, "n_numbers": 3, "numbers": [62, 30, 11], "target": 81, "output": "(62 - 30) * 11 = 81", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 161, "n_numbers": 3, "numbers": [90, 69, 96], "target": 63, "output": "<answer>(90 - 69) * 96</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 162, "n_numbers": 3, "numbers": [31, 39, 71], "target": 63, "output": "(31 * 2) + 39 - 71 = 63", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 163, "n_numbers": 2, "numbers": [71, 53], "target": 18, "output": "(71 - 53) * 0 = 18", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 164, "n_numbers": 3, "numbers": [22, 95, 88], "target": 91, "output": "<answer>(95 - 88) * 22 = 91</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 165, "n_numbers": 3, "numbers": [23, 66, 36], "target": 79, "output": "(66 - 23) * 36 = 79", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 166, "n_numbers": 2, "numbers": [32, 91], "target": 59, "output": "<answer>(32 * 91) - 32 = 59</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 167, "n_numbers": 3, "numbers": [75, 40, 73], "target": 38, "output": "<answer>(75 - 40) * 73 = 38</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 168, "n_numbers": 2, "numbers": [72, 60], "target": 12, "output": "(72 - 60) * 1 = 12", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 169, "n_numbers": 2, "numbers": [52, 32], "target": 84, "output": "(52 - 32) * 2 = 84", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 170, "n_numbers": 3, "numbers": [34, 22, 82], "target": 94, "output": "(82 - 22) * 34 = 94", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 171, "n_numbers": 2, "numbers": [63, 4], "target": 67, "output": "<answer>(63 - 4) * 5</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 172, "n_numbers": 2, "numbers": [54, 89], "target": 35, "output": "(89 - 54) * 1 = 35", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 173, "n_numbers": 3, "numbers": [2, 63, 16], "target": 49, "output": "<answer>(63 - 2) * 16 = 49</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 174, "n_numbers": 3, "numbers": [42, 32, 7], "target": 67, "output": "<answer>(42 - 32) * 7 = 67</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 175, "n_numbers": 3, "numbers": [2, 93, 32], "target": 59, "output": "<answer>(93 - 32) * 2 = 59</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 176, "n_numbers": 3, "numbers": [19, 39, 18], "target": 76, "output": "(19 - 18) * 39 = 76", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 177, "n_numbers": 3, "numbers": [57, 11, 19], "target": 27, "output": "(57 - 11) * 19 = 27", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 178, "n_numbers": 2, "numbers": [81, 69], "target": 12, "output": "(81 - 69) * 0 = 12", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 179, "n_numbers": 2, "numbers": [13, 19], "target": 32, "output": "(13 * 19) - 1 = 32", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 180, "n_numbers": 3, "numbers": [22, 8, 95], "target": 81, "output": "<answer>(95 - 22) * 8 = 81</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 181, "n_numbers": 2, "numbers": [36, 77], "target": 41, "output": "<answer>(36 * 7) - 77 = 41</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 182, "n_numbers": 3, "numbers": [72, 78, 62], "target": 56, "output": "<answer>(72 - 78) * 62 = 56</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 183, "n_numbers": 2, "numbers": [17, 66], "target": 83, "output": "<answer>(66 - 17) * 5 = 83</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 184, "n_numbers": 3, "numbers": [28, 2, 26], "target": 52, "output": "<answer>(28 - 2) * 26 = 52</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 185, "n_numbers": 2, "numbers": [98, 44], "target": 54, "output": "(98 - 44) * 1 = 54", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 186, "n_numbers": 3, "numbers": [36, 26, 1], "target": 62, "output": "(36 - 26) * 1 = 62", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 187, "n_numbers": 2, "numbers": [21, 88], "target": 67, "output": "<answer>(88 - 21) * 5</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 188, "n_numbers": 2, "numbers": [34, 14], "target": 20, "output": "(34 - 14) * 2 = 20", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 189, "n_numbers": 3, "numbers": [6, 10, 42], "target": 46, "output": "(6 * 10) + 42 = 46", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 190, "n_numbers": 3, "numbers": [61, 72, 2], "target": 83, "output": "<answer>(72 - 61) * 2 = 83</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 191, "n_numbers": 2, "numbers": [4, 59], "target": 63, "output": "(59 - 4) * 5 = 63", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 192, "n_numbers": 2, "numbers": [8, 19], "target": 27, "output": "(19 - 8) * 3 = 27", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 193, "n_numbers": 3, "numbers": [70, 4, 5], "target": 71, "output": "(70 - 4) * 5 = 71", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 194, "n_numbers": 3, "numbers": [9, 38, 2], "target": 31, "output": "<answer>(9 * 3) - 8 + 2</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 195, "n_numbers": 3, "numbers": [21, 24, 16], "target": 14, "output": "(24 - 16) * 21 = 14", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 196, "n_numbers": 2, "numbers": [10, 17], "target": 27, "output": "(17 - 10) * 1 = 27", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 197, "n_numbers": 3, "numbers": [52, 84, 41], "target": 73, "output": "(84 - 52) * 41 = 73", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 198, "n_numbers": 3, "numbers": [2, 22, 84], "target": 31, "output": "(2 * 22) - 84 = 31", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 199, "n_numbers": 2, "numbers": [4, 57], "target": 61, "output": "(57 - 4) * 5 = 61", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 200, "n_numbers": 3, "numbers": [6, 58, 7], "target": 45, "output": "(7 - 6) * 58 = 45", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 201, "n_numbers": 3, "numbers": [15, 7, 39], "target": 66, "output": "(39 - 7) * 15 = 66", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 202, "n_numbers": 3, "numbers": [39, 77, 52], "target": 64, "output": "(77 - 39) * 52 = 64", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 203, "n_numbers": 3, "numbers": [45, 52, 50], "target": 57, "output": "<answer>(52 - 45) * 50 = 57</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 204, "n_numbers": 3, "numbers": [68, 33, 58], "target": 23, "output": "<answer>(68 - 33) * 58 = 23</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 205, "n_numbers": 2, "numbers": [91, 9], "target": 82, "output": "<answer>(91 - 9) * 1 = 82</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 206, "n_numbers": 3, "numbers": [15, 54, 14], "target": 55, "output": "(15 - 14) * 54 = 55", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 207, "n_numbers": 2, "numbers": [34, 29], "target": 63, "output": "(34 - 29) * 1 = 63", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 208, "n_numbers": 3, "numbers": [31, 27, 79], "target": 75, "output": "(79 - 27) * 31 = 75", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 209, "n_numbers": 3, "numbers": [71, 12, 27], "target": 56, "output": "<answer>(71 - 12) * 27 = 56</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 210, "n_numbers": 3, "numbers": [77, 41, 95], "target": 23, "output": "<answer>(77 - 41) * 95 = 23</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 211, "n_numbers": 3, "numbers": [95, 98, 11], "target": 14, "output": "(95 - 98) * 11 = 14", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 212, "n_numbers": 2, "numbers": [82, 15], "target": 67, "output": "<answer>(82 - 15) * 1 = 67</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 213, "n_numbers": 2, "numbers": [9, 73], "target": 64, "output": "<answer>(9 * 7) + 3 = 64</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 214, "n_numbers": 2, "numbers": [32, 17], "target": 15, "output": "(32 - 17) * (32 / 17) = 15", "tokens": 22, "correct": false, "format_ok": false}
+{"id": 215, "n_numbers": 3, "numbers": [71, 68, 82], "target": 79, "output": "(82 - 68) * 71 = 79", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 216, "n_numbers": 2, "numbers": [23, 59], "target": 82, "output": "<answer>(59 - 23) * 2 = 82</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 217, "n_numbers": 2, "numbers": [81, 59], "target": 22, "output": "(81 - 59) * 0 = 22", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 218, "n_numbers": 3, "numbers": [93, 53, 1], "target": 40, "output": "(93 - 53) * 1 = 40", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 219, "n_numbers": 2, "numbers": [4, 96], "target": 92, "output": "<answer>(96 - 4) * 1 = 92</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 220, "n_numbers": 3, "numbers": [99, 12, 20], "target": 91, "output": "<answer>(99 - 12) * 20 = 91</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 221, "n_numbers": 2, "numbers": [98, 7], "target": 91, "output": "<answer>(98 - 7) * 1 = 91</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 222, "n_numbers": 2, "numbers": [28, 79], "target": 51, "output": "<answer>(79 - 28) * 2 = 51</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 223, "n_numbers": 3, "numbers": [93, 79, 76], "target": 62, "output": "<answer>(93 - 79) * 76 = 62</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 224, "n_numbers": 3, "numbers": [75, 39, 90], "target": 24, "output": "(90 - 39) * 75 = 24", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 225, "n_numbers": 3, "numbers": [48, 21, 13], "target": 14, "output": "<answer>(48 - 21) * 13 = 14</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 226, "n_numbers": 2, "numbers": [61, 76], "target": 15, "output": "(76 - 61) * 1 = 15", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 227, "n_numbers": 2, "numbers": [31, 28], "target": 59, "output": "(31 - 28) * 3 = 59", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 228, "n_numbers": 2, "numbers": [41, 70], "target": 29, "output": "<answer>(70 - 41) * 1 = 29</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 229, "n_numbers": 2, "numbers": [37, 2], "target": 74, "output": "(37 - 2) * 2 = 74", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 230, "n_numbers": 3, "numbers": [24, 65, 1], "target": 42, "output": "<answer>(65 - 24) * 1 = 42</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 231, "n_numbers": 2, "numbers": [86, 2], "target": 84, "output": "<answer>(86 - 2) * 2</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 232, "n_numbers": 2, "numbers": [58, 78], "target": 20, "output": "(78 - 58) * 1 = 20", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 233, "n_numbers": 2, "numbers": [60, 70], "target": 10, "output": "(70 - 60) * 1 = 10", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 234, "n_numbers": 3, "numbers": [28, 2, 34], "target": 20, "output": "(34 - 2) * 28 = 20", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 235, "n_numbers": 3, "numbers": [39, 12, 49], "target": 22, "output": "(49 - 39) * 12 = 22", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 236, "n_numbers": 3, "numbers": [73, 49, 2], "target": 26, "output": "<answer>(73 - 49) * 2</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 237, "n_numbers": 3, "numbers": [58, 11, 82], "target": 13, "output": "(82 - 58) * 11 = 13", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 238, "n_numbers": 3, "numbers": [59, 90, 52], "target": 21, "output": "(90 - 52) * 59 = 21", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 239, "n_numbers": 2, "numbers": [42, 72], "target": 30, "output": "(72 - 42) * 1 = 30", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 240, "n_numbers": 2, "numbers": [61, 3], "target": 58, "output": "<answer>(61 - 3) * 2</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 241, "n_numbers": 2, "numbers": [86, 7], "target": 79, "output": "<answer>(86 - 7) * 1 = 79</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 242, "n_numbers": 2, "numbers": [24, 4], "target": 28, "output": "<answer>(24 - 4) * 2 = 28</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 243, "n_numbers": 3, "numbers": [71, 9, 6], "target": 74, "output": "(71 - 9) * 6 = 74", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 244, "n_numbers": 3, "numbers": [77, 21, 4], "target": 60, "output": "<answer>(77 - 21) * 4 = 60</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 245, "n_numbers": 2, "numbers": [28, 65], "target": 93, "output": "<answer>(65 - 28) * 1 = 93</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 246, "n_numbers": 3, "numbers": [16, 36, 38], "target": 58, "output": "<answer>(36 - 16) * 38 = 58</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 247, "n_numbers": 3, "numbers": [13, 29, 17], "target": 59, "output": "(29 - 13) * 17 = 59", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 248, "n_numbers": 2, "numbers": [44, 99], "target": 55, "output": "<answer>(44 - 99) * (-1) = -55</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 249, "n_numbers": 2, "numbers": [52, 33], "target": 85, "output": "(52 - 33) * 1 = 85", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 250, "n_numbers": 2, "numbers": [65, 91], "target": 26, "output": "(91 - 65) * 1 = 26", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 251, "n_numbers": 2, "numbers": [88, 76], "target": 12, "output": "<answer>(88 - 76) * 0 = 12</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 252, "n_numbers": 2, "numbers": [17, 46], "target": 63, "output": "(46 - 17) * 2 = 63", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 253, "n_numbers": 2, "numbers": [11, 88], "target": 77, "output": "(88 - 11) * 1 = 77", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 254, "n_numbers": 2, "numbers": [44, 63], "target": 19, "output": "<answer>(63 - 44) * 2</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 255, "n_numbers": 3, "numbers": [33, 17, 42], "target": 26, "output": "(33 - 17) * 42 = 26", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 256, "n_numbers": 3, "numbers": [46, 39, 91], "target": 84, "output": "<answer>(46 - 39) * 91</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 257, "n_numbers": 2, "numbers": [4, 52], "target": 13, "output": "(52 - 4) * 1 = 13", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 258, "n_numbers": 2, "numbers": [46, 83], "target": 37, "output": "<answer>(83 - 46) * 1 = 37</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 259, "n_numbers": 3, "numbers": [43, 54, 74], "target": 63, "output": "(74 - 43) * 54 = 63", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 260, "n_numbers": 2, "numbers": [5, 8], "target": 13, "output": "(5 * 2) + 8 = 13", "tokens": 14, "correct": false, "format_ok": false}
+{"id": 261, "n_numbers": 2, "numbers": [85, 14], "target": 99, "output": "(85 - 14) * 2 = 99", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 262, "n_numbers": 3, "numbers": [96, 95, 92], "target": 93, "output": "<answer>(96 - 95) * 92</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 263, "n_numbers": 2, "numbers": [54, 90], "target": 36, "output": "(90 - 54) * 1 = 36", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 264, "n_numbers": 3, "numbers": [1, 44, 2], "target": 47, "output": "(44 - 1) * 2 = 47", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 265, "n_numbers": 2, "numbers": [2, 6], "target": 12, "output": "(6 - 2) * 2 = 12", "tokens": 14, "correct": false, "format_ok": false}
+{"id": 266, "n_numbers": 2, "numbers": [61, 5], "target": 66, "output": "(61 - 5) * 6 = 66", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 267, "n_numbers": 3, "numbers": [22, 25, 65], "target": 62, "output": "<answer>(65 - 22) * 25 = 62</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 268, "n_numbers": 2, "numbers": [31, 48], "target": 17, "output": "(48 - 31) * 1 = 17", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 269, "n_numbers": 2, "numbers": [60, 22], "target": 82, "output": "<answer>(60 - 22) * 2 = 82</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 270, "n_numbers": 3, "numbers": [95, 79, 86], "target": 70, "output": "(95 - 86) * 79 = 70", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 271, "n_numbers": 3, "numbers": [68, 6, 25], "target": 87, "output": "<answer>(68 - 6) * 25 = 87</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 272, "n_numbers": 2, "numbers": [37, 22], "target": 15, "output": "(37 - 22) * 0 = 15", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 273, "n_numbers": 3, "numbers": [69, 73, 50], "target": 54, "output": "<answer>(69 - 73) * 50 = 54</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 274, "n_numbers": 3, "numbers": [30, 95, 90], "target": 98, "output": "(95 - 30) * 90 = 98", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 275, "n_numbers": 2, "numbers": [30, 62], "target": 92, "output": "(30 * 6) + 2 = 92", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 276, "n_numbers": 2, "numbers": [77, 1], "target": 76, "output": "(77 - 1) * 1 = 76", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 277, "n_numbers": 3, "numbers": [1, 48, 34], "target": 14, "output": "(48 - 34) * 1 = 14", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 278, "n_numbers": 3, "numbers": [57, 66, 89], "target": 98, "output": "(89 - 57) * 66 = 98", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 279, "n_numbers": 3, "numbers": [6, 3, 80], "target": 89, "output": "<answer>(80 - 6) * 3 = 89</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 280, "n_numbers": 2, "numbers": [19, 32], "target": 13, "output": "<answer>(32 - 19) * 1 = 13</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 281, "n_numbers": 2, "numbers": [46, 6], "target": 40, "output": "(46 - 6) * 2 = 40", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 282, "n_numbers": 2, "numbers": [33, 42], "target": 75, "output": "(33 * 2) + 42 = 75", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 283, "n_numbers": 2, "numbers": [56, 94], "target": 38, "output": "(94 - 56) * 1 = 38", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 284, "n_numbers": 3, "numbers": [25, 23, 21], "target": 19, "output": "(25 - 23) * 21 = 19", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 285, "n_numbers": 3, "numbers": [52, 11, 20], "target": 83, "output": "(52 - 11) * 20 = 83", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 286, "n_numbers": 3, "numbers": [1, 50, 11], "target": 61, "output": "(50 - 1) * 11 = 61", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 287, "n_numbers": 3, "numbers": [40, 62, 7], "target": 95, "output": "<answer>(62 - 40) * 7 = 95</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 288, "n_numbers": 3, "numbers": [29, 40, 42], "target": 27, "output": "<answer>(40 - 29) * 42 = 27</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 289, "n_numbers": 3, "numbers": [33, 36, 49], "target": 20, "output": "(49 - 36) * 33 = 20", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 290, "n_numbers": 3, "numbers": [54, 91, 50], "target": 95, "output": "(54 - 50) * 91 = 95", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 291, "n_numbers": 3, "numbers": [39, 21, 3], "target": 15, "output": "(39 - 21) * 3 = 15", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 292, "n_numbers": 2, "numbers": [8, 27], "target": 35, "output": "<answer>(8 * 27) - 1</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 293, "n_numbers": 2, "numbers": [63, 22], "target": 41, "output": "<answer>(63 - 22) * 2 = 41</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 294, "n_numbers": 3, "numbers": [90, 84, 7], "target": 13, "output": "(90 - 84) * 7 = 13", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 295, "n_numbers": 3, "numbers": [31, 88, 77], "target": 42, "output": "(88 - 31) * 77 = 42", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 296, "n_numbers": 2, "numbers": [21, 36], "target": 57, "output": "(36 - 21) * 3 = 57", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 297, "n_numbers": 2, "numbers": [65, 3], "target": 68, "output": "(65 - 3) * 2 = 68", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 298, "n_numbers": 2, "numbers": [77, 15], "target": 92, "output": "<answer>(77 - 15) * 2 = 92</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 299, "n_numbers": 3, "numbers": [67, 36, 74], "target": 43, "output": "<answer>(67 - 36) * 74 = 43</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 300, "n_numbers": 2, "numbers": [60, 17], "target": 77, "output": "(60 - 17) * 1 = 77", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 301, "n_numbers": 2, "numbers": [4, 98], "target": 94, "output": "<answer>(98 - 4) * 1 = 94</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 302, "n_numbers": 2, "numbers": [97, 21], "target": 76, "output": "<answer>(97 - 21) * 1 = 76</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 303, "n_numbers": 3, "numbers": [5, 78, 10], "target": 93, "output": "(78 - 5) * 10 = 93", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 304, "n_numbers": 3, "numbers": [95, 35, 13], "target": 73, "output": "(95 - 35) * 13 = 73", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 305, "n_numbers": 2, "numbers": [10, 88], "target": 78, "output": "(10 * 8) + 8 - 88 = 78", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 306, "n_numbers": 3, "numbers": [10, 39, 47], "target": 18, "output": "(47 - 10) * 39 = 18", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 307, "n_numbers": 2, "numbers": [69, 58], "target": 11, "output": "<answer>(69 - 58) * 1 = 11</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 308, "n_numbers": 3, "numbers": [53, 71, 43], "target": 81, "output": "(71 - 53) * 43 = 81", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 309, "n_numbers": 2, "numbers": [61, 34], "target": 95, "output": "<answer>(61 - 34) * 2 = 95</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 310, "n_numbers": 3, "numbers": [84, 37, 94], "target": 47, "output": "<answer>(84 - 37) * 94 = 47</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 311, "n_numbers": 2, "numbers": [10, 11], "target": 21, "output": "(10 - 1) * 11 = 21", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 312, "n_numbers": 3, "numbers": [29, 16, 58], "target": 32, "output": "<answer>(58 - 16) * 29 = 32</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 313, "n_numbers": 3, "numbers": [53, 25, 82], "target": 54, "output": "(53 - 25) * 82 = 54", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 314, "n_numbers": 3, "numbers": [6, 24, 52], "target": 92, "output": "<answer>(6 * 24) + 52</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 315, "n_numbers": 2, "numbers": [100, 22], "target": 78, "output": "(100 - 22) * 5 = 78", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 316, "n_numbers": 3, "numbers": [51, 38, 24], "target": 37, "output": "(51 - 38) * 24 = 37", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 317, "n_numbers": 2, "numbers": [78, 17], "target": 95, "output": "<answer>(78 - 17) * 2 = 95</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 318, "n_numbers": 2, "numbers": [1, 69], "target": 70, "output": "(69 - 1) * 2 = 70", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 319, "n_numbers": 2, "numbers": [15, 31], "target": 46, "output": "(31 - 15) * 2 = 46", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 320, "n_numbers": 2, "numbers": [23, 24], "target": 47, "output": "<answer>(23 * 2) + 4 = 47</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 321, "n_numbers": 2, "numbers": [99, 12], "target": 87, "output": "<answer>(99 - 12) * 1 = 87</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 322, "n_numbers": 2, "numbers": [52, 3], "target": 49, "output": "(52 - 3) * (52 - 3) = 49", "tokens": 20, "correct": false, "format_ok": false}
+{"id": 323, "n_numbers": 2, "numbers": [75, 85], "target": 10, "output": "(75 - 85) * (-1) = -10", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 324, "n_numbers": 2, "numbers": [64, 42], "target": 22, "output": "<answer>(64 - 42) * 1 = 22</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 325, "n_numbers": 3, "numbers": [9, 21, 19], "target": 31, "output": "<answer>(9 * 21) - 19</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 326, "n_numbers": 3, "numbers": [79, 41, 22], "target": 98, "output": "<answer>(79 - 41) * 22 = 98</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 327, "n_numbers": 3, "numbers": [6, 50, 38], "target": 72, "output": "(6 * 50) - 38 = 72", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 328, "n_numbers": 3, "numbers": [3, 100, 13], "target": 90, "output": "(100 - 3) * 13 = 90", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 329, "n_numbers": 2, "numbers": [43, 99], "target": 56, "output": "<answer>(99 - 43) * 1 = 56</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 330, "n_numbers": 3, "numbers": [97, 35, 48], "target": 84, "output": "<answer>(97 - 35) * 48 = 84</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 331, "n_numbers": 2, "numbers": [9, 61], "target": 70, "output": "(9 * 61) - 1 = 70", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 332, "n_numbers": 3, "numbers": [66, 59, 70], "target": 77, "output": "<answer>(66 - 59) * 70</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 333, "n_numbers": 3, "numbers": [46, 24, 8], "target": 14, "output": "(46 - 24) * 8 = 14", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 334, "n_numbers": 2, "numbers": [65, 2], "target": 63, "output": "(65 - 2) * 1 = 63", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 335, "n_numbers": 3, "numbers": [54, 89, 18], "target": 53, "output": "(89 - 54) * 18 = 53", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 336, "n_numbers": 3, "numbers": [43, 40, 25], "target": 22, "output": "(43 - 25) * 40 = 22", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 337, "n_numbers": 2, "numbers": [72, 26], "target": 46, "output": "<answer>(72 - 26) * 1 = 46</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 338, "n_numbers": 3, "numbers": [63, 40, 1], "target": 22, "output": "<answer>(63 - 40) * 1 = 22</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 339, "n_numbers": 2, "numbers": [5, 59], "target": 54, "output": "(59 - 5) * 5 = 54", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 340, "n_numbers": 2, "numbers": [81, 91], "target": 10, "output": "<answer>(81 - 9) * 1</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 341, "n_numbers": 3, "numbers": [16, 36, 83], "target": 31, "output": "<answer>(83 - 36) * 16 = 31</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 342, "n_numbers": 3, "numbers": [20, 74, 5], "target": 89, "output": "<answer>(20 - 5) * 74 = 89</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 343, "n_numbers": 3, "numbers": [72, 36, 41], "target": 82, "output": "<answer>(72 - 36) * 41 = 82</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 344, "n_numbers": 2, "numbers": [16, 73], "target": 89, "output": "<answer>(16 * 73) - 1</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 345, "n_numbers": 2, "numbers": [72, 83], "target": 11, "output": "<answer>(72 - 83) * (-1)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 346, "n_numbers": 3, "numbers": [66, 2, 19], "target": 94, "output": "<answer>(66 - 2) * 19 = 94</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 347, "n_numbers": 2, "numbers": [71, 59], "target": 12, "output": "(71 - 59) * 1 = 12", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 348, "n_numbers": 3, "numbers": [3, 23, 34], "target": 60, "output": "(3 * 23) + 34 = 60", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 349, "n_numbers": 3, "numbers": [51, 83, 43], "target": 11, "output": "(51 - 83) * 43 = -11", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 350, "n_numbers": 3, "numbers": [70, 55, 64], "target": 79, "output": "(70 - 55) * 64 = 79", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 351, "n_numbers": 3, "numbers": [15, 22, 61], "target": 24, "output": "(61 - 22) * 15 = 24", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 352, "n_numbers": 3, "numbers": [18, 93, 44], "target": 67, "output": "<answer>(93 - 18) * 44 = 67</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 353, "n_numbers": 3, "numbers": [19, 10, 57], "target": 48, "output": "(19 - 10) * 57 = 48", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 354, "n_numbers": 2, "numbers": [93, 5], "target": 98, "output": "<answer>(93 - 5) * 2 = 98</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 355, "n_numbers": 2, "numbers": [49, 49], "target": 98, "output": "<answer>(49 * 2) - 49</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 356, "n_numbers": 3, "numbers": [3, 54, 11], "target": 68, "output": "(54 - 3) * 11 = 68", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 357, "n_numbers": 2, "numbers": [48, 76], "target": 28, "output": "<answer>(76 - 48) * 1 = 28</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 358, "n_numbers": 3, "numbers": [43, 30, 73], "target": 86, "output": "<answer>(43 - 30) * 73</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 359, "n_numbers": 3, "numbers": [65, 56, 60], "target": 69, "output": "(65 - 56) * 60 = 69", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 360, "n_numbers": 3, "numbers": [93, 17, 28], "target": 82, "output": "<answer>(93 - 17) * 28 = 82</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 361, "n_numbers": 2, "numbers": [61, 7], "target": 54, "output": "(61 - 7) * 6 = 54", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 362, "n_numbers": 3, "numbers": [13, 18, 94], "target": 63, "output": "(13 * 94) - 18 = 63", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 363, "n_numbers": 3, "numbers": [27, 94, 79], "target": 12, "output": "(94 - 27) * 79 = 12", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 364, "n_numbers": 3, "numbers": [27, 37, 74], "target": 64, "output": "<answer>(74 - 37) * 27 = 64</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 365, "n_numbers": 2, "numbers": [11, 82], "target": 93, "output": "(82 - 11) * 1 = 93", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 366, "n_numbers": 3, "numbers": [54, 65, 19], "target": 100, "output": "(65 - 54) * 19 = 100", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 367, "n_numbers": 3, "numbers": [50, 63, 85], "target": 28, "output": "(63 - 50) * 85 = 28", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 368, "n_numbers": 3, "numbers": [24, 74, 23], "target": 27, "output": "<answer>(24 - 74) * 23 = 27</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 369, "n_numbers": 2, "numbers": [10, 40], "target": 50, "output": "(40 - 10) * 5 = 50", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 370, "n_numbers": 3, "numbers": [96, 68, 96], "target": 69, "output": "<answer>(96 - 68) * 96</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 371, "n_numbers": 3, "numbers": [76, 26, 81], "target": 31, "output": "<answer>(76 - 26) * 81 = 31</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 372, "n_numbers": 3, "numbers": [9, 99, 13], "target": 95, "output": "<answer>(99 - 13) * 9 = 95</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 373, "n_numbers": 3, "numbers": [34, 29, 1], "target": 63, "output": "(34 - 29) * 1 = 63", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 374, "n_numbers": 3, "numbers": [65, 90, 80], "target": 75, "output": "(90 - 65) * 80 = 75", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 375, "n_numbers": 3, "numbers": [39, 19, 34], "target": 24, "output": "(39 - 19) * 34 = 24", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 376, "n_numbers": 2, "numbers": [45, 8], "target": 37, "output": "<answer>(45 - 8) * 1 = 37</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 377, "n_numbers": 2, "numbers": [30, 50], "target": 80, "output": "(30 * 2) + 50 = 80", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 378, "n_numbers": 3, "numbers": [36, 23, 34], "target": 46, "output": "(36 - 23) * 34 = 46", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 379, "n_numbers": 3, "numbers": [47, 81, 91], "target": 37, "output": "<answer>(81 - 47) * 91</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 380, "n_numbers": 2, "numbers": [19, 5], "target": 24, "output": "(19 - 5) * 3 = 24", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 381, "n_numbers": 2, "numbers": [32, 33], "target": 65, "output": "(32 * 3) - 33 = 65", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 382, "n_numbers": 3, "numbers": [16, 70, 36], "target": 90, "output": "(70 - 16) * 36 = 90", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 383, "n_numbers": 3, "numbers": [1, 11, 86], "target": 97, "output": "(11 - 1) * 86 = 97", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 384, "n_numbers": 3, "numbers": [11, 23, 57], "target": 69, "output": "(57 - 23) * 11 = 69", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 385, "n_numbers": 2, "numbers": [89, 15], "target": 74, "output": "<answer>(89 - 15) * 2 = 74</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 386, "n_numbers": 3, "numbers": [26, 83, 8], "target": 49, "output": "<answer>(83 - 26) * 8 = 49</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 387, "n_numbers": 2, "numbers": [64, 95], "target": 31, "output": "<answer>(64 - 95) * (-1)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 388, "n_numbers": 3, "numbers": [79, 16, 12], "target": 83, "output": "<answer>(79 - 16) * 12 = 83</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 389, "n_numbers": 3, "numbers": [85, 84, 42], "target": 43, "output": "<answer>(85 - 42) * 84 = 43</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 390, "n_numbers": 2, "numbers": [9, 39], "target": 48, "output": "<answer>(9 * 39) - 1</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 391, "n_numbers": 2, "numbers": [71, 7], "target": 78, "output": "(71 - 7) * 1 = 78", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 392, "n_numbers": 3, "numbers": [12, 74, 24], "target": 37, "output": "(74 - 12) * 24 = 37", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 393, "n_numbers": 3, "numbers": [57, 90, 62], "target": 95, "output": "(90 - 57) * 62 = 95", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 394, "n_numbers": 2, "numbers": [50, 88], "target": 38, "output": "(50 - 8) * 8 = 38", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 395, "n_numbers": 2, "numbers": [4, 47], "target": 43, "output": "<answer>(47 - 4) * 4</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 396, "n_numbers": 2, "numbers": [2, 23], "target": 21, "output": "(23 - 2) * 2 = 21", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 397, "n_numbers": 3, "numbers": [16, 66, 84], "target": 34, "output": "<answer>(84 - 66) * 16 = 34</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 398, "n_numbers": 3, "numbers": [44, 97, 9], "target": 62, "output": "<answer>(97 - 44) * 9 = 62</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 399, "n_numbers": 2, "numbers": [53, 84], "target": 31, "output": "(84 - 53) * 1 = 31", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 400, "n_numbers": 2, "numbers": [47, 86], "target": 39, "output": "<answer>(86 - 47) * 1 = 39</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 401, "n_numbers": 3, "numbers": [73, 58, 82], "target": 97, "output": "<answer>(73 - 58) * 82</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 402, "n_numbers": 3, "numbers": [29, 75, 87], "target": 17, "output": "<answer>(87 - 75) * 29</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 403, "n_numbers": 2, "numbers": [63, 24], "target": 39, "output": "<answer>(63 - 24) * 1 = 39</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 404, "n_numbers": 2, "numbers": [72, 56], "target": 16, "output": "<answer>(72 - 56) * 0 = 16</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 405, "n_numbers": 3, "numbers": [38, 96, 92], "target": 42, "output": "(96 - 38) * 92 = 42", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 406, "n_numbers": 2, "numbers": [53, 39], "target": 14, "output": "(53 - 39) * 2 = 14", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 407, "n_numbers": 2, "numbers": [2, 90], "target": 45, "output": "(90 - 2) * 1 = 45", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 408, "n_numbers": 2, "numbers": [47, 42], "target": 89, "output": "(47 - 42) * 3 = 89", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 409, "n_numbers": 3, "numbers": [38, 71, 19], "target": 90, "output": "(38 - 19) * 71 = 90", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 410, "n_numbers": 3, "numbers": [75, 2, 34], "target": 58, "output": "<answer>(75 - 2) * 34 = 58</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 411, "n_numbers": 3, "numbers": [4, 96, 32], "target": 68, "output": "<answer>(96 - 32) * 4 = 68</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 412, "n_numbers": 3, "numbers": [29, 22, 12], "target": 63, "output": "(29 - 12) * 22 = 63", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 413, "n_numbers": 3, "numbers": [7, 63, 38], "target": 94, "output": "<answer>(7 * (63 - 38))</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 414, "n_numbers": 3, "numbers": [84, 48, 74], "target": 58, "output": "<answer>(84 - 48) * 74 = 58</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 415, "n_numbers": 3, "numbers": [1, 73, 8], "target": 80, "output": "(8 * 73) - 1 = 80", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 416, "n_numbers": 2, "numbers": [5, 71], "target": 66, "output": "(71 - 5) * 5 = 66", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 417, "n_numbers": 3, "numbers": [78, 6, 21], "target": 93, "output": "<answer>(78 - 6) * 21 = 93</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 418, "n_numbers": 2, "numbers": [51, 41], "target": 92, "output": "(51 - 41) * 2 = 92", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 419, "n_numbers": 2, "numbers": [48, 40], "target": 88, "output": "<answer>(48 - 40) * 2 = 88</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 420, "n_numbers": 2, "numbers": [65, 6], "target": 59, "output": "<answer>(65 - 6) * 1 = 59</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 421, "n_numbers": 2, "numbers": [32, 61], "target": 93, "output": "(32 * 3) + 61 = 93", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 422, "n_numbers": 3, "numbers": [13, 11, 55], "target": 65, "output": "(55 - 13) * 11 = 65", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 423, "n_numbers": 3, "numbers": [47, 30, 2], "target": 75, "output": "(47 - 30) * 2 = 75", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 424, "n_numbers": 2, "numbers": [10, 5], "target": 50, "output": "(10 - 5) * 10 = 50", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 425, "n_numbers": 3, "numbers": [6, 67, 79], "target": 18, "output": "(79 - 6) * 67 = 18", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 426, "n_numbers": 3, "numbers": [61, 72, 53], "target": 80, "output": "<answer>(61 - 53) * 72 = 80</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 427, "n_numbers": 2, "numbers": [5, 23], "target": 18, "output": "(5 * 2) + (3 - 23) = 18", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 428, "n_numbers": 3, "numbers": [22, 6, 2], "target": 26, "output": "(22 - 6) * 2 = 26", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 429, "n_numbers": 2, "numbers": [65, 99], "target": 34, "output": "<answer>(65 - 99) * (-1) = 34</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 430, "n_numbers": 3, "numbers": [92, 57, 62], "target": 27, "output": "(92 - 57) * 62 = 27", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 431, "n_numbers": 2, "numbers": [12, 52], "target": 40, "output": "(52 - 12) * 2 = 40", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 432, "n_numbers": 2, "numbers": [42, 8], "target": 34, "output": "<answer>(42 - 8) * 1 = 34</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 433, "n_numbers": 2, "numbers": [29, 39], "target": 68, "output": "<answer>(39 - 29) * 1 = 68</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 434, "n_numbers": 3, "numbers": [30, 51, 68], "target": 89, "output": "(68 - 30) * 51 = 89", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 435, "n_numbers": 3, "numbers": [24, 58, 97], "target": 63, "output": "<answer>(97 - 24) * 58 = 63</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 436, "n_numbers": 2, "numbers": [3, 15], "target": 12, "output": "(15 - 3) * 1 = 12", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 437, "n_numbers": 2, "numbers": [100, 45], "target": 55, "output": "(100 - 45) * 1 = 55", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 438, "n_numbers": 2, "numbers": [1, 16], "target": 17, "output": "(16 - 1) * 2 = 32 / 2 = 17", "tokens": 22, "correct": false, "format_ok": false}
+{"id": 439, "n_numbers": 2, "numbers": [30, 37], "target": 67, "output": "(30 * 2) + 37 = 67", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 440, "n_numbers": 3, "numbers": [29, 54, 12], "target": 95, "output": "<answer>(54 - 12) * 29 = 95</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 441, "n_numbers": 2, "numbers": [48, 21], "target": 69, "output": "<answer>(48 - 21) * 3 = 69</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 442, "n_numbers": 3, "numbers": [52, 27, 39], "target": 64, "output": "(52 - 27) * 39 = 64", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 443, "n_numbers": 2, "numbers": [42, 52], "target": 10, "output": "<answer>(42 - 52) * (-1)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 444, "n_numbers": 2, "numbers": [12, 88], "target": 100, "output": "(88 - 12) * 1 = 100", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 445, "n_numbers": 3, "numbers": [80, 89, 16], "target": 25, "output": "(80 - 89) * (16 / 89) = 25", "tokens": 22, "correct": false, "format_ok": false}
+{"id": 446, "n_numbers": 3, "numbers": [60, 23, 62], "target": 99, "output": "<answer>(60 - 23) * 62 = 99</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 447, "n_numbers": 3, "numbers": [99, 36, 34], "target": 97, "output": "<answer>(99 - 36) * 34 = 97</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 448, "n_numbers": 3, "numbers": [17, 38, 59], "target": 80, "output": "(59 - 38) * 17 = 80", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 449, "n_numbers": 3, "numbers": [42, 56, 73], "target": 87, "output": "<answer>(73 - 42) * 56 = 87</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 450, "n_numbers": 3, "numbers": [80, 74, 56], "target": 62, "output": "<answer>(80 - 74) * 56</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 451, "n_numbers": 2, "numbers": [79, 26], "target": 53, "output": "<answer>(79 - 26) * 1 = 53</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 452, "n_numbers": 3, "numbers": [70, 74, 45], "target": 49, "output": "<answer>(70 - 74) * 45</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 453, "n_numbers": 3, "numbers": [6, 16, 72], "target": 62, "output": "<answer>(72 - 16) * 6 = 62</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 454, "n_numbers": 2, "numbers": [85, 11], "target": 96, "output": "(85 - 11) * 8 = 96", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 455, "n_numbers": 2, "numbers": [35, 53], "target": 18, "output": "(35 - 53) * (-1) = -18", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 456, "n_numbers": 2, "numbers": [3, 46], "target": 43, "output": "<answer>(3 * 46) - 1</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 457, "n_numbers": 3, "numbers": [77, 4, 54], "target": 92, "output": "(77 - 4) * 54 = 92", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 458, "n_numbers": 2, "numbers": [73, 85], "target": 12, "output": "<answer>(73 - 85) * (-1)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 459, "n_numbers": 2, "numbers": [25, 42], "target": 67, "output": "<answer>(25 * 2) + 42</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 460, "n_numbers": 2, "numbers": [28, 12], "target": 40, "output": "<answer>(28 - 12) * 2 = 40</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 461, "n_numbers": 3, "numbers": [23, 5, 18], "target": 10, "output": "(23 - 18) * 5 = 10", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 462, "n_numbers": 2, "numbers": [44, 83], "target": 39, "output": "<answer>(83 - 44) * 1 = 39</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 463, "n_numbers": 2, "numbers": [38, 74], "target": 36, "output": "(74 - 38) * 1 = 36", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 464, "n_numbers": 2, "numbers": [35, 47], "target": 82, "output": "(35 * 2) + 47 = 82", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 465, "n_numbers": 2, "numbers": [72, 2], "target": 70, "output": "<answer>(72 - 2) * 5</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 466, "n_numbers": 2, "numbers": [10, 91], "target": 81, "output": "(91 - 10) * 9 = 81", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 467, "n_numbers": 2, "numbers": [16, 6], "target": 22, "output": "<answer>(16 - 6) * 2</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 468, "n_numbers": 3, "numbers": [79, 76, 77], "target": 38, "output": "<answer>(79 - 77) * 76 = 38</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 469, "n_numbers": 2, "numbers": [87, 18], "target": 69, "output": "<answer>(87 - 18) * 3</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 470, "n_numbers": 2, "numbers": [56, 11], "target": 45, "output": "(56 - 11) * 5 = 45", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 471, "n_numbers": 3, "numbers": [4, 92, 8], "target": 25, "output": "<answer>(92 - 8) * 4 = 25</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 472, "n_numbers": 3, "numbers": [1, 4, 36], "target": 32, "output": "(4 - 1/36) * 4 = 32", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 473, "n_numbers": 3, "numbers": [94, 12, 70], "target": 36, "output": "(94 - 12) * 70 = 36", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 474, "n_numbers": 3, "numbers": [62, 19, 24], "target": 67, "output": "<answer>(62 - 19) * 24 = 67</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 475, "n_numbers": 3, "numbers": [72, 15, 19], "target": 76, "output": "<answer>(72 - 15) * 19 = 76</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 476, "n_numbers": 3, "numbers": [51, 76, 54], "target": 73, "output": "(76 - 51) * 54 = 73", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 477, "n_numbers": 2, "numbers": [15, 34], "target": 49, "output": "(34 - 15) * 2 = 49", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 478, "n_numbers": 3, "numbers": [1, 24, 37], "target": 61, "output": "(37 - 1) * 24 = 61", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 479, "n_numbers": 3, "numbers": [47, 31, 41], "target": 25, "output": "<answer>(47 - 31) * 41 = 25</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 480, "n_numbers": 2, "numbers": [35, 26], "target": 61, "output": "(35 - 26) * 2 = 61", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 481, "n_numbers": 3, "numbers": [97, 81, 93], "target": 85, "output": "<answer>(97 - 81) * 93 = 85</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 482, "n_numbers": 3, "numbers": [6, 94, 9], "target": 97, "output": "<answer>(94 - 6) * 9 = 97</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 483, "n_numbers": 2, "numbers": [100, 30], "target": 70, "output": "(100 - 30) * 2 = 70", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 484, "n_numbers": 3, "numbers": [54, 11, 9], "target": 56, "output": "(54 - 11) * 9 = 56", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 485, "n_numbers": 3, "numbers": [48, 19, 62], "target": 33, "output": "<answer>(48 - 19) * 62 = 33</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 486, "n_numbers": 2, "numbers": [98, 82], "target": 16, "output": "(98 - 82) * 1 = 16", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 487, "n_numbers": 2, "numbers": [3, 65], "target": 62, "output": "(65 - 3) * 5 = 62", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 488, "n_numbers": 2, "numbers": [2, 42], "target": 44, "output": "(42 - 2) * 2 = 44", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 489, "n_numbers": 2, "numbers": [55, 18], "target": 37, "output": "(55 - 18) * 2 = 37", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 490, "n_numbers": 2, "numbers": [75, 22], "target": 97, "output": "<answer>(75 - 22) * 2 = 97</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 491, "n_numbers": 2, "numbers": [99, 57], "target": 42, "output": "<answer>(99 - 57) * 1 = 42</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 492, "n_numbers": 2, "numbers": [55, 44], "target": 99, "output": "(55 - 44) * 2 = 99", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 493, "n_numbers": 3, "numbers": [12, 39, 10], "target": 37, "output": "(39 - 12) * 10 = 37", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 494, "n_numbers": 3, "numbers": [21, 66, 15], "target": 72, "output": "(66 - 21) * 15 = 72", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 495, "n_numbers": 2, "numbers": [19, 70], "target": 89, "output": "<answer>(19 * 4) + 70 = 89</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 496, "n_numbers": 2, "numbers": [33, 23], "target": 56, "output": "(33 - 23) * 2 = 56", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 497, "n_numbers": 3, "numbers": [89, 40, 31], "target": 98, "output": "<answer>(89 - 40) * 31 = 98</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 498, "n_numbers": 3, "numbers": [83, 21, 83], "target": 20, "output": "(83 - 21) * 83 = 20", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 499, "n_numbers": 3, "numbers": [19, 37, 34], "target": 16, "output": "(37 - 19) * 34 = 16", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 500, "n_numbers": 3, "numbers": [100, 46, 23], "target": 31, "output": "(100 - 46) * 23 = 31", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 501, "n_numbers": 3, "numbers": [43, 65, 9], "target": 99, "output": "(9 * 43) - 65 = 99", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 502, "n_numbers": 3, "numbers": [44, 25, 88], "target": 19, "output": "<answer>(88 - 25) * 44 = 19</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 503, "n_numbers": 3, "numbers": [2, 26, 1], "target": 13, "output": "(26 - 2) * 1 = 13", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 504, "n_numbers": 3, "numbers": [57, 46, 75], "target": 64, "output": "(75 - 57) * 46 = 64", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 505, "n_numbers": 2, "numbers": [9, 13], "target": 22, "output": "(9 * 3) + 13 = 22", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 506, "n_numbers": 2, "numbers": [79, 99], "target": 20, "output": "<answer>(79 - 9) * 9</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 507, "n_numbers": 3, "numbers": [67, 42, 24], "target": 85, "output": "<answer>(67 - 42) * 24 = 85</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 508, "n_numbers": 2, "numbers": [28, 53], "target": 81, "output": "<answer>(53 - 28) * 2 = 81</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 509, "n_numbers": 2, "numbers": [91, 57], "target": 34, "output": "<answer>(91 - 57) * 2 = 34</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 510, "n_numbers": 3, "numbers": [83, 67, 51], "target": 35, "output": "(83 - 67) * 51 = 35", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 511, "n_numbers": 2, "numbers": [10, 76], "target": 66, "output": "(76 - 10) * 5 = 66", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 512, "n_numbers": 3, "numbers": [31, 56, 70], "target": 95, "output": "(70 - 31) * 56 = 95", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 513, "n_numbers": 3, "numbers": [69, 36, 61], "target": 94, "output": "<answer>(69 - 36) * 61 = 94</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 514, "n_numbers": 3, "numbers": [77, 90, 79], "target": 66, "output": "<answer>(77 - 90) * 79</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 515, "n_numbers": 2, "numbers": [80, 19], "target": 61, "output": "<answer>(80 - 19) * 1 = 61</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 516, "n_numbers": 2, "numbers": [46, 45], "target": 91, "output": "(46 - 45) * 45 = 91", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 517, "n_numbers": 2, "numbers": [12, 97], "target": 85, "output": "<answer>(97 - 12) * 10 = 85</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 518, "n_numbers": 2, "numbers": [6, 38], "target": 44, "output": "<answer>(6 * 38) - 10</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 519, "n_numbers": 2, "numbers": [10, 5], "target": 15, "output": "(10 - 5) * 2 = 15", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 520, "n_numbers": 2, "numbers": [41, 18], "target": 59, "output": "<answer>(41 - 18) * 2 = 59</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 521, "n_numbers": 3, "numbers": [52, 1, 34], "target": 18, "output": "(52 - 34) * 1 = 18", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 522, "n_numbers": 3, "numbers": [8, 97, 99], "target": 10, "output": "<answer>(97 - 8) * 99 = 10</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 523, "n_numbers": 2, "numbers": [35, 65], "target": 100, "output": "(65 - 35) * 2 = 100", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 524, "n_numbers": 2, "numbers": [87, 70], "target": 17, "output": "<answer>(87 - 70) * 1 = 17</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 525, "n_numbers": 3, "numbers": [63, 32, 61], "target": 92, "output": "<answer>(63 - 32) * 61 = 92</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 526, "n_numbers": 2, "numbers": [24, 79], "target": 55, "output": "<answer>(79 - 24) * 2 = 55</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 527, "n_numbers": 2, "numbers": [23, 29], "target": 52, "output": "<answer>(23 * 2) + 9</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 528, "n_numbers": 2, "numbers": [34, 84], "target": 50, "output": "(84 - 34) * 1 = 50", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 529, "n_numbers": 2, "numbers": [41, 86], "target": 45, "output": "(86 - 41) * 2 = 45", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 530, "n_numbers": 2, "numbers": [38, 47], "target": 85, "output": "<answer>(38 * 2) + 47 = 85</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 531, "n_numbers": 2, "numbers": [83, 43], "target": 40, "output": "(83 - 43) * 1 = 40", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 532, "n_numbers": 3, "numbers": [93, 81, 61], "target": 73, "output": "<answer>(93 - 81) * 61 = 73</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 533, "n_numbers": 3, "numbers": [78, 84, 86], "target": 80, "output": "<answer>(84 - 78) * 86</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 534, "n_numbers": 3, "numbers": [7, 16, 51], "target": 28, "output": "<answer>(7 * 4) + (16 - 51)</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 535, "n_numbers": 2, "numbers": [65, 34], "target": 99, "output": "(65 - 34) * 2 = 99", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 536, "n_numbers": 3, "numbers": [55, 10, 40], "target": 59, "output": "(55 - 10) * 40 = 59", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 537, "n_numbers": 3, "numbers": [12, 77, 48], "target": 17, "output": "(77 - 48) * 12 = 17", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 538, "n_numbers": 2, "numbers": [3, 23], "target": 20, "output": "(3 * 23) - 1 = 20", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 539, "n_numbers": 3, "numbers": [43, 22, 24], "target": 45, "output": "(43 - 22) * 24 = 45", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 540, "n_numbers": 2, "numbers": [13, 60], "target": 73, "output": "(60 - 13) * 5 = 73", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 541, "n_numbers": 3, "numbers": [39, 100, 41], "target": 98, "output": "<answer>(100 - 39) * 41</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 542, "n_numbers": 3, "numbers": [18, 21, 39], "target": 78, "output": "<answer>(18 * 3) + (21 - 39)</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 543, "n_numbers": 2, "numbers": [55, 36], "target": 19, "output": "(55 - 36) * 0 = 19", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 544, "n_numbers": 2, "numbers": [69, 28], "target": 97, "output": "<answer>(69 - 28) * 10 = 97</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 545, "n_numbers": 2, "numbers": [95, 44], "target": 51, "output": "<answer>(95 - 44) * 2 = 51</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 546, "n_numbers": 3, "numbers": [87, 46, 70], "target": 63, "output": "<answer>(87 - 46) * 70 = 63</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 547, "n_numbers": 2, "numbers": [95, 54], "target": 41, "output": "(95 - 54) * 2 = 41", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 548, "n_numbers": 2, "numbers": [52, 48], "target": 100, "output": "(52 - 48) * 5 = 100", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 549, "n_numbers": 2, "numbers": [14, 2], "target": 12, "output": "(14 - 2) * 2 = 12", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 550, "n_numbers": 2, "numbers": [97, 31], "target": 66, "output": "<answer>(97 - 31) * 2</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 551, "n_numbers": 2, "numbers": [43, 31], "target": 74, "output": "(43 - 31) * 2 = 74", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 552, "n_numbers": 2, "numbers": [76, 28], "target": 48, "output": "<answer>(76 - 28) * 2 = 48</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 553, "n_numbers": 3, "numbers": [76, 67, 51], "target": 60, "output": "(76 - 67) * 51 = 60", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 554, "n_numbers": 3, "numbers": [53, 4, 7], "target": 50, "output": "(53 - 4) * 7 = 50", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 555, "n_numbers": 3, "numbers": [7, 61, 20], "target": 79, "output": "(7 * 20) + 61 = 79", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 556, "n_numbers": 2, "numbers": [49, 79], "target": 30, "output": "<answer>(49 - 79) * (-1)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 557, "n_numbers": 3, "numbers": [62, 20, 59], "target": 23, "output": "<answer>(62 - 20) * 59 = 23</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 558, "n_numbers": 3, "numbers": [100, 10, 79], "target": 69, "output": "(100 - 10) * 79 = 69", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 559, "n_numbers": 3, "numbers": [23, 9, 98], "target": 84, "output": "<answer>(98 - 23) * 9 = 84</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 560, "n_numbers": 2, "numbers": [95, 5], "target": 90, "output": "<answer>(95 - 5) * 2</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 561, "n_numbers": 2, "numbers": [12, 42], "target": 30, "output": "(42 - 12) * 1 = 30", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 562, "n_numbers": 3, "numbers": [37, 75, 84], "target": 46, "output": "(84 - 37) * 75 = 46", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 563, "n_numbers": 3, "numbers": [39, 79, 66], "target": 26, "output": "(79 - 39) * 66 = 26", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 564, "n_numbers": 3, "numbers": [37, 71, 61], "target": 95, "output": "(37 - 61) * 71 = 95", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 565, "n_numbers": 3, "numbers": [88, 7, 83], "target": 12, "output": "(88 - 7) * 83 = 12", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 566, "n_numbers": 3, "numbers": [26, 1, 15], "target": 11, "output": "(26 - 1) * 15 = 11", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 567, "n_numbers": 3, "numbers": [4, 16, 91], "target": 27, "output": "<answer>(91 - 4) * 16 = 27</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 568, "n_numbers": 3, "numbers": [24, 58, 64], "target": 18, "output": "(64 - 24) * 58 = 18", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 569, "n_numbers": 2, "numbers": [41, 53], "target": 12, "output": "(41 - 53) * (-1) = -12", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 570, "n_numbers": 3, "numbers": [10, 8, 55], "target": 73, "output": "(8 * 10) - 55 = 73", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 571, "n_numbers": 2, "numbers": [66, 94], "target": 28, "output": "(94 - 66) * 1 = 28", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 572, "n_numbers": 2, "numbers": [29, 56], "target": 27, "output": "<answer>(56 - 29) * 1 = 27</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 573, "n_numbers": 2, "numbers": [83, 54], "target": 29, "output": "(83 - 54) * 1 = 29", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 574, "n_numbers": 2, "numbers": [48, 2], "target": 96, "output": "<answer>(48 * 2)</answer>", "tokens": 12, "correct": true, "format_ok": true}
+{"id": 575, "n_numbers": 2, "numbers": [3, 50], "target": 53, "output": "(3 * 50) + 1 = 53", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 576, "n_numbers": 2, "numbers": [68, 3], "target": 71, "output": "<answer>(68 - 3) * 5</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 577, "n_numbers": 3, "numbers": [36, 73, 65], "target": 28, "output": "(73 - 36) * 65 = 28", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 578, "n_numbers": 3, "numbers": [67, 24, 69], "target": 22, "output": "<answer>(67 - 24) * 69 = 22</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 579, "n_numbers": 3, "numbers": [17, 52, 5], "target": 30, "output": "(52 - 17) * 5 = 30", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 580, "n_numbers": 3, "numbers": [75, 5, 97], "target": 17, "output": "(75 - 5) * 97 = 17", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 581, "n_numbers": 2, "numbers": [32, 6], "target": 26, "output": "(32 - 6) * 1 = 26", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 582, "n_numbers": 3, "numbers": [68, 23, 7], "target": 52, "output": "<answer>(68 - 23) * 7 = 52</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 583, "n_numbers": 3, "numbers": [85, 83, 77], "target": 75, "output": "(85 - 83) * 77 = 75", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 584, "n_numbers": 2, "numbers": [59, 94], "target": 35, "output": "(94 - 59) * 1 = 35", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 585, "n_numbers": 2, "numbers": [2, 34], "target": 36, "output": "(34 + 2) * 3 = 36", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 586, "n_numbers": 2, "numbers": [39, 60], "target": 21, "output": "(60 - 39) * 1 = 21", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 587, "n_numbers": 3, "numbers": [40, 53, 36], "target": 23, "output": "<answer>(40 - 53) * 36 = 23</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 588, "n_numbers": 3, "numbers": [1, 1, 82], "target": 83, "output": "(1+1)*82 = 83", "tokens": 12, "correct": false, "format_ok": false}
+{"id": 589, "n_numbers": 3, "numbers": [5, 44, 5], "target": 43, "output": "<answer>(5 - 44) * 5 = 43</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 590, "n_numbers": 2, "numbers": [16, 4], "target": 64, "output": "(16 * 4) = 64", "tokens": 12, "correct": false, "format_ok": false}
+{"id": 591, "n_numbers": 3, "numbers": [56, 14, 70], "target": 74, "output": "(56 - 14) * 70 = 74", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 592, "n_numbers": 2, "numbers": [35, 20], "target": 55, "output": "(35 - 20) * 2 = 55", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 593, "n_numbers": 3, "numbers": [22, 13, 94], "target": 85, "output": "<answer>(94 - 13) * 22 = 85</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 594, "n_numbers": 3, "numbers": [71, 16, 22], "target": 33, "output": "<answer>(71 - 16) * 22 = 33</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 595, "n_numbers": 3, "numbers": [27, 98, 28], "target": 43, "output": "<answer>(98 - 27) * 28 = 43</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 596, "n_numbers": 2, "numbers": [26, 43], "target": 17, "output": "<answer>(43 - 26) * 1 = 17</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 597, "n_numbers": 3, "numbers": [16, 36, 9], "target": 29, "output": "<answer>(36 - 16) * 9 = 29</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 598, "n_numbers": 3, "numbers": [39, 3, 9], "target": 27, "output": "(39 - 3) * 9 = 27", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 599, "n_numbers": 3, "numbers": [28, 95, 95], "target": 29, "output": "<answer>(95 - 28) * 95</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 600, "n_numbers": 3, "numbers": [96, 6, 96], "target": 80, "output": "(96 - 6) * 96 = 80", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 601, "n_numbers": 3, "numbers": [39, 34, 27], "target": 100, "output": "(39 - 27) * 34 = 100", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 602, "n_numbers": 3, "numbers": [22, 59, 54], "target": 17, "output": "(59 - 22) * 54 = 17", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 603, "n_numbers": 2, "numbers": [3, 34], "target": 31, "output": "(3 * 34) - 1 = 31", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 604, "n_numbers": 3, "numbers": [92, 60, 96], "target": 64, "output": "<answer>(92 - 60) * 96 = 64</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 605, "n_numbers": 3, "numbers": [74, 95, 1], "target": 21, "output": "<answer>(74 - 95) * 1</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 606, "n_numbers": 3, "numbers": [59, 24, 33], "target": 50, "output": "(59 - 24) * 33 = 50", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 607, "n_numbers": 3, "numbers": [78, 27, 1], "target": 50, "output": "(78 - 27) * 1 = 50", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 608, "n_numbers": 3, "numbers": [84, 45, 56], "target": 95, "output": "<answer>(84 - 45) * 56 = 95</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 609, "n_numbers": 2, "numbers": [98, 29], "target": 69, "output": "<answer>(98 - 29) * 1 = 69</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 610, "n_numbers": 2, "numbers": [28, 7], "target": 35, "output": "<answer>(28 - 7) * 2 = 35</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 611, "n_numbers": 3, "numbers": [84, 26, 94], "target": 16, "output": "<answer>(84 - 26) * 94 = 16</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 612, "n_numbers": 3, "numbers": [3, 18, 39], "target": 54, "output": "(3 * 18) + 39 = 54", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 613, "n_numbers": 2, "numbers": [53, 82], "target": 29, "output": "(82 - 53) * 1 = 29", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 614, "n_numbers": 3, "numbers": [53, 42, 85], "target": 96, "output": "(85 - 53) * 42 = 96", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 615, "n_numbers": 2, "numbers": [10, 3], "target": 13, "output": "(10 - 3) * 2 = 13", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 616, "n_numbers": 2, "numbers": [67, 87], "target": 20, "output": "(87 - 67) * 1 = 20", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 617, "n_numbers": 2, "numbers": [18, 20], "target": 38, "output": "(20 - 18) * 2 = 38", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 618, "n_numbers": 3, "numbers": [20, 11, 46], "target": 37, "output": "<answer>(46 - 11) * 20 = 37</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 619, "n_numbers": 3, "numbers": [43, 82, 91], "target": 34, "output": "<answer>(82 - 43) * 91 = 34</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 620, "n_numbers": 2, "numbers": [40, 72], "target": 32, "output": "<answer>(72 - 40) * 1 = 32</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 621, "n_numbers": 2, "numbers": [31, 23], "target": 54, "output": "(31 - 23) * 3 = 54", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 622, "n_numbers": 2, "numbers": [38, 56], "target": 94, "output": "(38 * 2) + 56 = 94", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 623, "n_numbers": 3, "numbers": [10, 1, 62], "target": 52, "output": "(10 - 1) * 62 = 52", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 624, "n_numbers": 2, "numbers": [93, 57], "target": 36, "output": "(93 - 57) * 1 = 36", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 625, "n_numbers": 2, "numbers": [89, 17], "target": 72, "output": "<answer>(89 - 17) * 1 = 72</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 626, "n_numbers": 3, "numbers": [87, 42, 88], "target": 41, "output": "<answer>(87 - 42) * 88 = 41</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 627, "n_numbers": 3, "numbers": [7, 31, 58], "target": 96, "output": "(7 * 58) - 31 = 96", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 628, "n_numbers": 3, "numbers": [57, 54, 12], "target": 99, "output": "(57 - 54) * 12 = 99", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 629, "n_numbers": 3, "numbers": [9, 17, 4], "target": 30, "output": "(9 - 4) * 17 = 30", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 630, "n_numbers": 2, "numbers": [68, 17], "target": 85, "output": "<answer>(68 - 17) * 2 = 85</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 631, "n_numbers": 3, "numbers": [70, 71, 52], "target": 53, "output": "<answer>(70 - 52) * 71</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 632, "n_numbers": 2, "numbers": [85, 56], "target": 29, "output": "<answer>(85 - 56) * 1 = 29</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 633, "n_numbers": 2, "numbers": [46, 71], "target": 25, "output": "(71 - 46) * 0 = 25", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 634, "n_numbers": 3, "numbers": [44, 95, 19], "target": 32, "output": "<answer>(95 - 44) * 19 = 32</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 635, "n_numbers": 2, "numbers": [31, 11], "target": 20, "output": "(31 - 11) * 1 = 20", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 636, "n_numbers": 2, "numbers": [60, 36], "target": 24, "output": "(60 - 36) * 1 = 24", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 637, "n_numbers": 3, "numbers": [4, 56, 2], "target": 62, "output": "(56 - 4) * 2 = 62", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 638, "n_numbers": 2, "numbers": [74, 10], "target": 84, "output": "(74 - 10) * 7 = 84", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 639, "n_numbers": 2, "numbers": [20, 97], "target": 77, "output": "<answer>(97 - 20) * 1 = 77</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 640, "n_numbers": 2, "numbers": [39, 49], "target": 10, "output": "(39 - 49) * (-1) = -10", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 641, "n_numbers": 2, "numbers": [83, 66], "target": 17, "output": "(83 - 66) * 0 = 17", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 642, "n_numbers": 2, "numbers": [38, 58], "target": 20, "output": "(58 - 38) * 1 = 20", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 643, "n_numbers": 3, "numbers": [16, 72, 20], "target": 68, "output": "<answer>(72 - 16) * 20 = 68</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 644, "n_numbers": 2, "numbers": [41, 16], "target": 57, "output": "(41 - 16) * 2 = 57", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 645, "n_numbers": 2, "numbers": [47, 29], "target": 76, "output": "<answer>(47 - 29) * 1 = 76</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 646, "n_numbers": 3, "numbers": [11, 85, 21], "target": 95, "output": "(85 - 11) * 21 = 95", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 647, "n_numbers": 3, "numbers": [1, 43, 12], "target": 30, "output": "(43 - 12) * 1 = 30", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 648, "n_numbers": 3, "numbers": [86, 81, 88], "target": 93, "output": "<answer>(86 - 81) * 88 = 93</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 649, "n_numbers": 3, "numbers": [63, 41, 78], "target": 56, "output": "<answer>(63 - 41) * 78 = 56</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 650, "n_numbers": 3, "numbers": [86, 1, 36], "target": 50, "output": "(86 - 1) * 36 = 50", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 651, "n_numbers": 2, "numbers": [81, 39], "target": 42, "output": "<answer>(81 - 39) * 1 = 42</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 652, "n_numbers": 2, "numbers": [25, 38], "target": 63, "output": "(38 - 25) * 2 = 63", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 653, "n_numbers": 3, "numbers": [32, 39, 43], "target": 36, "output": "<answer>(39 - 3) * 4 = 36</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 654, "n_numbers": 3, "numbers": [61, 3, 36], "target": 22, "output": "<answer>(61 - 3) * 36 = 22</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 655, "n_numbers": 3, "numbers": [70, 38, 14], "target": 94, "output": "(70 - 38) * 14 = 94", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 656, "n_numbers": 3, "numbers": [25, 43, 75], "target": 93, "output": "(75 - 25) * 43 = 93", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 657, "n_numbers": 2, "numbers": [18, 100], "target": 82, "output": "(100 - 18) * 1 = 82", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 658, "n_numbers": 2, "numbers": [43, 31], "target": 12, "output": "(43 - 31) * 1 = 12", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 659, "n_numbers": 2, "numbers": [82, 56], "target": 26, "output": "<answer>(82 - 56) * 1 = 26</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 660, "n_numbers": 3, "numbers": [56, 75, 77], "target": 58, "output": "<answer>(75 - 56) * 77</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 661, "n_numbers": 2, "numbers": [62, 27], "target": 89, "output": "<answer>(62 - 27) * 1 = 89</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 662, "n_numbers": 2, "numbers": [45, 29], "target": 16, "output": "(45 - 29) * 1 = 16", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 663, "n_numbers": 2, "numbers": [23, 4], "target": 19, "output": "(23 - 4) * 2 = 19", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 664, "n_numbers": 3, "numbers": [24, 29, 92], "target": 97, "output": "<answer>(92 - 29) * 24 = 97</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 665, "n_numbers": 3, "numbers": [54, 71, 26], "target": 43, "output": "(71 - 54) * 26 = 43", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 666, "n_numbers": 3, "numbers": [78, 62, 86], "target": 54, "output": "(86 - 62) * 78 = 54", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 667, "n_numbers": 3, "numbers": [46, 29, 82], "target": 65, "output": "<answer>(82 - 29) * 46 = 65</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 668, "n_numbers": 3, "numbers": [34, 99, 20], "target": 85, "output": "(99 - 34) * 20 = 85", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 669, "n_numbers": 2, "numbers": [2, 59], "target": 61, "output": "<answer>(59 - 2) * 5</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 670, "n_numbers": 2, "numbers": [98, 76], "target": 22, "output": "<answer>(98 - 76) * 1 = 22</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 671, "n_numbers": 3, "numbers": [28, 18, 52], "target": 62, "output": "<answer>(52 - 18) * 28 = 62</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 672, "n_numbers": 2, "numbers": [10, 73], "target": 63, "output": "(73 - 10) * 2 = 63", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 673, "n_numbers": 2, "numbers": [40, 21], "target": 61, "output": "<answer>(40 - 21) * 5</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 674, "n_numbers": 3, "numbers": [52, 39, 47], "target": 34, "output": "(52 - 39) * 47 = 34", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 675, "n_numbers": 3, "numbers": [94, 25, 32], "target": 87, "output": "<answer>(94 - 25) * 32 = 87</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 676, "n_numbers": 2, "numbers": [66, 44], "target": 22, "output": "<answer>(66 - 44) * 1 = 22</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 677, "n_numbers": 2, "numbers": [45, 25], "target": 70, "output": "(45 - 25) * 2 = 70", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 678, "n_numbers": 3, "numbers": [59, 46, 51], "target": 54, "output": "(59 - 46) * 51 = 54", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 679, "n_numbers": 3, "numbers": [15, 6, 72], "target": 93, "output": "(72 - 6) * 15 = 93", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 680, "n_numbers": 2, "numbers": [11, 33], "target": 22, "output": "(33 - 11) * (11 / 33) = 22", "tokens": 22, "correct": false, "format_ok": false}
+{"id": 681, "n_numbers": 3, "numbers": [15, 65, 70], "target": 20, "output": "(70 - 65) * 15 = 20", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 682, "n_numbers": 3, "numbers": [29, 26, 95], "target": 98, "output": "<answer>(95 - 26) * 29 = 98</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 683, "n_numbers": 2, "numbers": [46, 29], "target": 75, "output": "(46 - 29) * 2 = 75", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 684, "n_numbers": 2, "numbers": [37, 63], "target": 100, "output": "(37 * 2) + 63 = 100", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 685, "n_numbers": 2, "numbers": [97, 7], "target": 90, "output": "<answer>(97 - 7) * 1 = 90</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 686, "n_numbers": 2, "numbers": [77, 95], "target": 18, "output": "<answer>(77 - 95) * (-1)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 687, "n_numbers": 2, "numbers": [4, 50], "target": 46, "output": "(50 - 4) * 2 = 46", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 688, "n_numbers": 2, "numbers": [88, 77], "target": 11, "output": "<answer>(88 - 77) * 1 = 11</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 689, "n_numbers": 3, "numbers": [69, 85, 71], "target": 55, "output": "<answer>(85 - 69) * 71 = 55</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 690, "n_numbers": 3, "numbers": [52, 49, 78], "target": 23, "output": "(52 - 49) * 78 = 23", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 691, "n_numbers": 2, "numbers": [37, 86], "target": 49, "output": "(86 - 37) * 1 = 49", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 692, "n_numbers": 2, "numbers": [55, 45], "target": 100, "output": "(55 - 45) * 2 = 100", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 693, "n_numbers": 2, "numbers": [12, 38], "target": 50, "output": "(38 - 12) * 2 = 50", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 694, "n_numbers": 3, "numbers": [78, 28, 22], "target": 13, "output": "<answer>(78 - 28) * 22 = 13</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 695, "n_numbers": 2, "numbers": [28, 66], "target": 94, "output": "<answer>(66 - 28) * 1 = 94</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 696, "n_numbers": 3, "numbers": [80, 65, 75], "target": 70, "output": "<answer>(80 - 65) * 75</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 697, "n_numbers": 2, "numbers": [65, 20], "target": 85, "output": "(65 - 20) * 1 = 85", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 698, "n_numbers": 2, "numbers": [65, 18], "target": 47, "output": "<answer>(65 - 18) * 2 = 47</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 699, "n_numbers": 2, "numbers": [38, 55], "target": 17, "output": "(55 - 38) * 0 = 17", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 700, "n_numbers": 3, "numbers": [1, 15, 36], "target": 51, "output": "(15 * 3) - 6 + 4 = 51", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 701, "n_numbers": 3, "numbers": [3, 49, 6], "target": 52, "output": "(6 * 8) - 1 = 52", "tokens": 14, "correct": false, "format_ok": false}
+{"id": 702, "n_numbers": 3, "numbers": [56, 59, 73], "target": 76, "output": "<answer>(56 * 2) + 59 - 73</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 703, "n_numbers": 3, "numbers": [76, 26, 67], "target": 17, "output": "<answer>(76 - 26) * 67 = 17</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 704, "n_numbers": 3, "numbers": [7, 76, 39], "target": 30, "output": "(76 - 39) * 7 = 30", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 705, "n_numbers": 2, "numbers": [2, 36], "target": 18, "output": "(36 - 2) * 3 = 18", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 706, "n_numbers": 2, "numbers": [38, 53], "target": 15, "output": "(53 - 38) * 1 = 15", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 707, "n_numbers": 3, "numbers": [11, 3, 2], "target": 12, "output": "(11 - 3) * 2 = 12", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 708, "n_numbers": 3, "numbers": [5, 96, 55], "target": 36, "output": "(96 - 55) * 5 = 36", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 709, "n_numbers": 3, "numbers": [26, 42, 57], "target": 41, "output": "<answer>(57 - 26) * 42 = 41</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 710, "n_numbers": 2, "numbers": [100, 25], "target": 75, "output": "(100 - 25) * 1 = 75", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 711, "n_numbers": 2, "numbers": [11, 59], "target": 48, "output": "(59 - 11) * 5 = 48", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 712, "n_numbers": 3, "numbers": [37, 6, 18], "target": 71, "output": "(37 - 6) * 18 = 71", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 713, "n_numbers": 2, "numbers": [19, 99], "target": 80, "output": "(99 - 19) * 1 = 80", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 714, "n_numbers": 3, "numbers": [55, 81, 49], "target": 87, "output": "(81 - 55) * 49 = 87", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 715, "n_numbers": 2, "numbers": [94, 1], "target": 93, "output": "<answer>(94 - 1) * 2</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 716, "n_numbers": 2, "numbers": [57, 47], "target": 10, "output": "(57 - 47) * 2 = 10", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 717, "n_numbers": 3, "numbers": [41, 77, 55], "target": 19, "output": "(77 - 41) * 55 = 19", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 718, "n_numbers": 3, "numbers": [81, 90, 50], "target": 45, "output": "<answer>(81 - 90) * 50 = 45</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 719, "n_numbers": 2, "numbers": [1, 91], "target": 92, "output": "(91 - 1) * 9 = 92", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 720, "n_numbers": 2, "numbers": [70, 5], "target": 75, "output": "(70 - 5) * 2 = 75", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 721, "n_numbers": 3, "numbers": [1, 51, 63], "target": 13, "output": "(63 - 51) * 1 = 13", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 722, "n_numbers": 2, "numbers": [75, 98], "target": 23, "output": "<answer>(75 - 98) * (-1)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 723, "n_numbers": 3, "numbers": [22, 20, 82], "target": 84, "output": "<answer>(22 - 20) * 82</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 724, "n_numbers": 3, "numbers": [87, 17, 95], "target": 25, "output": "(87 - 17) * 95 = 25", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 725, "n_numbers": 2, "numbers": [58, 36], "target": 22, "output": "(58 - 36) * 1 = 22", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 726, "n_numbers": 3, "numbers": [70, 77, 97], "target": 50, "output": "(77 - 97) * 70 = 50", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 727, "n_numbers": 2, "numbers": [60, 16], "target": 44, "output": "<answer>(60 - 16) * 2 = 44</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 728, "n_numbers": 2, "numbers": [8, 89], "target": 97, "output": "<answer>(89 - 8) * 8</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 729, "n_numbers": 2, "numbers": [24, 5], "target": 19, "output": "(24 - 5) * 2 = 19", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 730, "n_numbers": 3, "numbers": [62, 28, 13], "target": 77, "output": "(62 - 28) * 13 = 77", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 731, "n_numbers": 2, "numbers": [56, 8], "target": 48, "output": "(56 - 8) * 2 = 48", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 732, "n_numbers": 3, "numbers": [38, 58, 72], "target": 24, "output": "(72 - 58) * 38 = 24", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 733, "n_numbers": 2, "numbers": [13, 53], "target": 66, "output": "(53 - 13) * 2 = 66", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 734, "n_numbers": 3, "numbers": [54, 61, 41], "target": 48, "output": "(54 - 61) * 41 = 48", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 735, "n_numbers": 3, "numbers": [84, 82, 20], "target": 18, "output": "(84 - 82) * 20 = 18", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 736, "n_numbers": 3, "numbers": [18, 87, 49], "target": 20, "output": "(87 - 18) * 49 = 20", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 737, "n_numbers": 3, "numbers": [25, 44, 46], "target": 65, "output": "(46 - 25) * 44 = 65", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 738, "n_numbers": 2, "numbers": [59, 12], "target": 47, "output": "(59 - 12) * 1 = 47", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 739, "n_numbers": 3, "numbers": [61, 20, 35], "target": 46, "output": "<answer>(61 - 20) * 35 = 46</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 740, "n_numbers": 2, "numbers": [88, 74], "target": 14, "output": "<answer>(88 - 74) * 2</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 741, "n_numbers": 2, "numbers": [60, 37], "target": 97, "output": "<answer>(60 - 37) * 2 = 97</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 742, "n_numbers": 3, "numbers": [78, 17, 48], "target": 47, "output": "<answer>(78 - 17) * 48 = 47</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 743, "n_numbers": 3, "numbers": [78, 16, 13], "target": 49, "output": "<answer>(78 - 16) * 13 = 49</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 744, "n_numbers": 3, "numbers": [19, 60, 95], "target": 54, "output": "<answer>(95 - 60) * 19 = 54</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 745, "n_numbers": 3, "numbers": [24, 81, 25], "target": 82, "output": "<answer>(24 * 3) + 81 - 25</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 746, "n_numbers": 2, "numbers": [10, 28], "target": 18, "output": "(28 - 10) * 1 = 18", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 747, "n_numbers": 2, "numbers": [13, 68], "target": 55, "output": "(68 - 13) * 2 = 55", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 748, "n_numbers": 3, "numbers": [72, 74, 13], "target": 15, "output": "(74 - 72) * 13 = 15", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 749, "n_numbers": 2, "numbers": [10, 7], "target": 17, "output": "(10 - 7) * 2 = 17", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 750, "n_numbers": 2, "numbers": [18, 75], "target": 57, "output": "<answer>(18 * 3) + 75</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 751, "n_numbers": 3, "numbers": [58, 37, 4], "target": 17, "output": "(58 - 37) * 4 = 17", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 752, "n_numbers": 3, "numbers": [20, 15, 83], "target": 78, "output": "(83 - 15) * 20 = 78", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 753, "n_numbers": 2, "numbers": [50, 7], "target": 43, "output": "(50 - 7) * 1 = 43", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 754, "n_numbers": 3, "numbers": [18, 48, 73], "target": 43, "output": "<answer>(73 - 48) * 18 = 43</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 755, "n_numbers": 3, "numbers": [35, 32, 20], "target": 17, "output": "(35 - 20) * 32 = 17", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 756, "n_numbers": 2, "numbers": [28, 12], "target": 16, "output": "<answer>(28 - 12) * 2 = 16</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 757, "n_numbers": 2, "numbers": [92, 43], "target": 49, "output": "<answer>(92 - 43) * 1 = 49</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 758, "n_numbers": 3, "numbers": [14, 78, 28], "target": 36, "output": "(78 - 28) * 14 = 36", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 759, "n_numbers": 3, "numbers": [42, 2, 69], "target": 29, "output": "<answer>(42 - 2) * 69 = 29</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 760, "n_numbers": 2, "numbers": [40, 15], "target": 25, "output": "<answer>(40 - 15) * 1 = 25</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 761, "n_numbers": 2, "numbers": [10, 10], "target": 20, "output": "(10 - 10) * 10 = 20", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 762, "n_numbers": 3, "numbers": [8, 1, 22], "target": 30, "output": "(22 - 1) * 8 = 30", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 763, "n_numbers": 3, "numbers": [47, 41, 92], "target": 98, "output": "<answer>(92 - 41) * 47 = 98</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 764, "n_numbers": 3, "numbers": [48, 63, 72], "target": 87, "output": "<answer>(72 - 48) * 63</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 765, "n_numbers": 3, "numbers": [63, 67, 84], "target": 46, "output": "<answer>(63 - 67) * 84 = 46</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 766, "n_numbers": 3, "numbers": [74, 93, 73], "target": 54, "output": "<answer>(74 - 93) * 73 = 54</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 767, "n_numbers": 3, "numbers": [46, 12, 46], "target": 80, "output": "(46 - 12) * 46 = 80", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 768, "n_numbers": 2, "numbers": [36, 75], "target": 39, "output": "(75 - 36) * 1 = 39", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 769, "n_numbers": 3, "numbers": [6, 70, 2], "target": 66, "output": "(70 - 2) * 6 = 66", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 770, "n_numbers": 3, "numbers": [47, 68, 61], "target": 40, "output": "(68 - 47) * 61 = 40", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 771, "n_numbers": 3, "numbers": [53, 3, 4], "target": 54, "output": "(53 - 3) * 4 = 54", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 772, "n_numbers": 2, "numbers": [66, 100], "target": 34, "output": "<answer>(100 - 66) * 2</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 773, "n_numbers": 3, "numbers": [44, 51, 40], "target": 55, "output": "<answer>(44 - 40) * 51 = 55</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 774, "n_numbers": 2, "numbers": [15, 53], "target": 68, "output": "(53 - 15) * 2 = 68", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 775, "n_numbers": 2, "numbers": [37, 12], "target": 49, "output": "(37 - 12) * 3 = 49", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 776, "n_numbers": 2, "numbers": [74, 11], "target": 63, "output": "<answer>(74 - 11) * 2 = 63</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 777, "n_numbers": 3, "numbers": [1, 42, 81], "target": 40, "output": "(81 - 42) * 1 = 40", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 778, "n_numbers": 3, "numbers": [38, 48, 4], "target": 26, "output": "(48 - 38) * 4 = 26", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 779, "n_numbers": 2, "numbers": [12, 93], "target": 81, "output": "(93 - 12) * 1 = 81", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 780, "n_numbers": 2, "numbers": [40, 88], "target": 48, "output": "<answer>(88 - 40) * 2 = 48</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 781, "n_numbers": 2, "numbers": [21, 26], "target": 47, "output": "(21 * 2) + 6 = 47", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 782, "n_numbers": 2, "numbers": [39, 2], "target": 37, "output": "<answer>(39 - 2) * 1 = 37</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 783, "n_numbers": 2, "numbers": [3, 53], "target": 50, "output": "(53 - 3) * 5 = 50", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 784, "n_numbers": 3, "numbers": [82, 50, 37], "target": 95, "output": "(82 - 50) * 37 = 95", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 785, "n_numbers": 2, "numbers": [31, 94], "target": 63, "output": "(94 - 31) * 2 = 63", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 786, "n_numbers": 2, "numbers": [12, 84], "target": 96, "output": "(84 - 12) * 3 = 96", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 787, "n_numbers": 2, "numbers": [56, 78], "target": 22, "output": "(78 - 56) * 1 = 22", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 788, "n_numbers": 3, "numbers": [14, 15, 30], "target": 29, "output": "(14 - 15) * 30 = 29", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 789, "n_numbers": 2, "numbers": [15, 34], "target": 19, "output": "(34 - 15) * 1 = 19", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 790, "n_numbers": 3, "numbers": [98, 35, 41], "target": 22, "output": "(98 - 35) * 41 = 22", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 791, "n_numbers": 2, "numbers": [71, 2], "target": 69, "output": "<answer>(71 - 2) * 5</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 792, "n_numbers": 2, "numbers": [27, 17], "target": 44, "output": "(27 - 17) * 2 = 44", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 793, "n_numbers": 3, "numbers": [68, 67, 60], "target": 75, "output": "(68 - 60) * 67 = 75", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 794, "n_numbers": 3, "numbers": [16, 51, 56], "target": 11, "output": "<answer>(51 - 16) * 56 = 11</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 795, "n_numbers": 3, "numbers": [34, 50, 32], "target": 16, "output": "(50 - 32) * 34 = 16", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 796, "n_numbers": 3, "numbers": [16, 47, 50], "target": 13, "output": "<answer>(50 - 16) * 47 = 13</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 797, "n_numbers": 2, "numbers": [83, 6], "target": 89, "output": "(83 - 6) * 1 = 89", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 798, "n_numbers": 2, "numbers": [6, 29], "target": 35, "output": "<answer>(6 * 29) - 1</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 799, "n_numbers": 2, "numbers": [5, 74], "target": 79, "output": "(74 - 5) * 2 = 79", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 800, "n_numbers": 2, "numbers": [39, 59], "target": 20, "output": "(39 - 59) * (-1)", "tokens": 13, "correct": false, "format_ok": false}
+{"id": 801, "n_numbers": 3, "numbers": [91, 14, 90], "target": 15, "output": "<answer>(91 - 14) * 90 = 15</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 802, "n_numbers": 2, "numbers": [36, 57], "target": 93, "output": "<answer>(36 * 2) + 57</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 803, "n_numbers": 3, "numbers": [80, 35, 73], "target": 28, "output": "<answer>(80 - 35) * 73 = 28</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 804, "n_numbers": 2, "numbers": [4, 27], "target": 31, "output": "(4 * 27) - 1 = 31", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 805, "n_numbers": 3, "numbers": [54, 23, 14], "target": 63, "output": "(54 - 14) * 23 = 63", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 806, "n_numbers": 3, "numbers": [99, 19, 27], "target": 91, "output": "<answer>(99 - 19) * 27 = 91</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 807, "n_numbers": 3, "numbers": [69, 51, 42], "target": 78, "output": "(69 - 51) * 42 = 78", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 808, "n_numbers": 3, "numbers": [43, 13, 8], "target": 38, "output": "(43 - 13) * 8 = 38", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 809, "n_numbers": 2, "numbers": [77, 3], "target": 80, "output": "<answer>(77 - 3) * 1 = 80</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 810, "n_numbers": 2, "numbers": [3, 4], "target": 12, "output": "(3 * 4) - 1 = 12", "tokens": 14, "correct": false, "format_ok": false}
+{"id": 811, "n_numbers": 3, "numbers": [30, 53, 40], "target": 43, "output": "(30 - 53) * 40 = 43", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 812, "n_numbers": 3, "numbers": [17, 12, 75], "target": 80, "output": "(75 - 12) * 17 = 80", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 813, "n_numbers": 3, "numbers": [81, 25, 58], "target": 48, "output": "<answer>(81 - 25) * 58 = 48</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 814, "n_numbers": 2, "numbers": [12, 80], "target": 68, "output": "(80 - 12) * 4 = 68", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 815, "n_numbers": 3, "numbers": [10, 55, 28], "target": 93, "output": "(55 - 28) * 10 = 93", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 816, "n_numbers": 2, "numbers": [9, 19], "target": 10, "output": "(9 - 1) * 9 = 81 / 9 = 10", "tokens": 21, "correct": false, "format_ok": false}
+{"id": 817, "n_numbers": 3, "numbers": [19, 21, 92], "target": 90, "output": "<answer>(92 - 19) * 21 = 90</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 818, "n_numbers": 3, "numbers": [16, 52, 70], "target": 34, "output": "<answer>(70 - 52) * 16 = 34</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 819, "n_numbers": 2, "numbers": [86, 62], "target": 24, "output": "(86 - 62) * 2 = 24", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 820, "n_numbers": 3, "numbers": [64, 19, 13], "target": 32, "output": "<answer>(64 - 19) * 13 = 32</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 821, "n_numbers": 2, "numbers": [7, 25], "target": 18, "output": "(25 - 7) * 1 = 18", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 822, "n_numbers": 2, "numbers": [37, 93], "target": 56, "output": "(93 - 37) * 1 = 56", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 823, "n_numbers": 2, "numbers": [33, 6], "target": 27, "output": "(33 - 6) * 1 = 27", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 824, "n_numbers": 3, "numbers": [12, 53, 60], "target": 19, "output": "(60 - 53) * 12 = 19", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 825, "n_numbers": 3, "numbers": [4, 78, 47], "target": 27, "output": "<answer>(78 - 4) * 47 = 27</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 826, "n_numbers": 3, "numbers": [63, 78, 63], "target": 48, "output": "<answer>(63 - 78) * (63 / 78)</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 827, "n_numbers": 3, "numbers": [99, 79, 18], "target": 38, "output": "<answer>(99 - 79) * 18 = 38</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 828, "n_numbers": 2, "numbers": [52, 94], "target": 42, "output": "(94 - 52) * 1 = 42", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 829, "n_numbers": 2, "numbers": [61, 21], "target": 82, "output": "(61 - 21) * 3 = 82", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 830, "n_numbers": 2, "numbers": [77, 40], "target": 37, "output": "<answer>(77 - 40) * 1 = 37</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 831, "n_numbers": 3, "numbers": [11, 16, 63], "target": 90, "output": "(16 - 11) * 63 = 90", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 832, "n_numbers": 2, "numbers": [69, 26], "target": 95, "output": "<answer>(69 - 26) * 1 = 95</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 833, "n_numbers": 3, "numbers": [7, 82, 19], "target": 56, "output": "<answer>(82 - 19) * 7 = 56</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 834, "n_numbers": 3, "numbers": [8, 13, 70], "target": 65, "output": "<answer>(8 * 13) - 70 = 65</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 835, "n_numbers": 3, "numbers": [14, 88, 39], "target": 63, "output": "(88 - 14) * 39 = 63", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 836, "n_numbers": 3, "numbers": [1, 72, 58], "target": 15, "output": "(72 - 58) * 1 = 15", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 837, "n_numbers": 3, "numbers": [30, 19, 71], "target": 60, "output": "(71 - 19) * 30 = 60", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 838, "n_numbers": 3, "numbers": [87, 37, 35], "target": 15, "output": "(87 - 37) * 35 = 15", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 839, "n_numbers": 3, "numbers": [42, 2, 6], "target": 38, "output": "<answer>(42 - 2) * 6 = 38</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 840, "n_numbers": 3, "numbers": [45, 90, 11], "target": 34, "output": "(90 - 45) * 11 = 34", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 841, "n_numbers": 3, "numbers": [26, 29, 92], "target": 89, "output": "<answer>(92 - 26) * 29 = 89</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 842, "n_numbers": 2, "numbers": [3, 5], "target": 15, "output": "(3 * 5) + 2 = 15", "tokens": 14, "correct": false, "format_ok": false}
+{"id": 843, "n_numbers": 3, "numbers": [34, 26, 43], "target": 17, "output": "(34 - 26) * 43 = 17", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 844, "n_numbers": 3, "numbers": [16, 45, 37], "target": 24, "output": "<answer>(37 - 45) * 16 = 24</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 845, "n_numbers": 3, "numbers": [81, 7, 26], "target": 48, "output": "<answer>(81 - 26) * 7 = 48</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 846, "n_numbers": 2, "numbers": [66, 14], "target": 80, "output": "(66 - 14) * 2 = 80", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 847, "n_numbers": 2, "numbers": [47, 23], "target": 24, "output": "<answer>(47 - 23) * 2 = 24</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 848, "n_numbers": 3, "numbers": [74, 63, 89], "target": 48, "output": "<answer>(74 - 63) * 89 = 48</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 849, "n_numbers": 2, "numbers": [81, 17], "target": 98, "output": "<answer>(81 - 17) * 1 = 98</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 850, "n_numbers": 2, "numbers": [18, 4], "target": 14, "output": "(18 - 4) * 2 = 14", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 851, "n_numbers": 2, "numbers": [28, 74], "target": 46, "output": "<answer>(74 - 28) * 2 = 46</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 852, "n_numbers": 2, "numbers": [36, 25], "target": 61, "output": "(36 - 25) * 2 = 61", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 853, "n_numbers": 2, "numbers": [100, 72], "target": 28, "output": "(100 - 72) * 1 = 28", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 854, "n_numbers": 3, "numbers": [64, 72, 83], "target": 53, "output": "<answer>(83 - 64) * 72 = 53</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 855, "n_numbers": 2, "numbers": [1, 72], "target": 73, "output": "(72 - 1) * 7 = 73", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 856, "n_numbers": 2, "numbers": [26, 3], "target": 23, "output": "(26 - 3) * 1 = 23", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 857, "n_numbers": 2, "numbers": [32, 42], "target": 10, "output": "(32 - 42) * (-1) = -10", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 858, "n_numbers": 2, "numbers": [13, 98], "target": 85, "output": "(98 - 13) * 2 = 85", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 859, "n_numbers": 2, "numbers": [15, 95], "target": 80, "output": "(95 - 15) * 2 = 80", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 860, "n_numbers": 2, "numbers": [91, 79], "target": 12, "output": "(91 - 79) * 0 = 12", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 861, "n_numbers": 2, "numbers": [47, 66], "target": 19, "output": "<answer>(66 - 47) * 1 = 19</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 862, "n_numbers": 3, "numbers": [41, 36, 56], "target": 61, "output": "<answer>(41 - 36) * 56 = 61</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 863, "n_numbers": 2, "numbers": [23, 91], "target": 68, "output": "<answer>(91 - 23) * 2 = 68</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 864, "n_numbers": 2, "numbers": [37, 84], "target": 47, "output": "<answer>(37 - 84) * (-1) = 47</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 865, "n_numbers": 2, "numbers": [95, 6], "target": 89, "output": "<answer>(95 - 6) * 1 = 89</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 866, "n_numbers": 3, "numbers": [86, 46, 61], "target": 21, "output": "(86 - 46) * 61 = 21", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 867, "n_numbers": 2, "numbers": [59, 22], "target": 37, "output": "<answer>(59 - 22) * 1 = 37</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 868, "n_numbers": 3, "numbers": [62, 21, 98], "target": 57, "output": "<answer>(62 - 21) * 98 = 57</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 869, "n_numbers": 3, "numbers": [20, 32, 8], "target": 60, "output": "(32 - 20) * 8 = 60", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 870, "n_numbers": 3, "numbers": [44, 77, 59], "target": 62, "output": "<answer>(77 - 44) * 59</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 871, "n_numbers": 2, "numbers": [3, 47], "target": 44, "output": "(47 - 3) * 5 = 44", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 872, "n_numbers": 2, "numbers": [84, 9], "target": 75, "output": "<answer>(84 - 9) * 9 = 75</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 873, "n_numbers": 3, "numbers": [81, 5, 89], "target": 13, "output": "(81 - 5) * 89 = 13", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 874, "n_numbers": 3, "numbers": [72, 90, 65], "target": 52, "output": "<answer>(72 - 90) * 65 = 52</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 875, "n_numbers": 2, "numbers": [66, 19], "target": 47, "output": "<answer>(66 - 19) * 1 = 47</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 876, "n_numbers": 2, "numbers": [27, 69], "target": 42, "output": "<answer>(69 - 27) * 1 = 42</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 877, "n_numbers": 2, "numbers": [74, 1], "target": 75, "output": "<answer>(74 - 1) * 10</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 878, "n_numbers": 3, "numbers": [36, 27, 32], "target": 95, "output": "(36 - 27) * 32 = 95", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 879, "n_numbers": 2, "numbers": [12, 57], "target": 45, "output": "(57 - 12) * 3 = 45", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 880, "n_numbers": 2, "numbers": [93, 25], "target": 68, "output": "<answer>(93 - 25) * 1 = 68</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 881, "n_numbers": 3, "numbers": [45, 37, 65], "target": 73, "output": "(65 - 37) * 45 = 73", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 882, "n_numbers": 3, "numbers": [9, 85, 24], "target": 100, "output": "<answer>(9 * 85) - 24 = 100</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 883, "n_numbers": 3, "numbers": [20, 40, 48], "target": 12, "output": "(40 - 20) * 48 = 12", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 884, "n_numbers": 2, "numbers": [17, 2], "target": 34, "output": "(17 - 2) * 2 = 34", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 885, "n_numbers": 2, "numbers": [53, 78], "target": 25, "output": "(78 - 53) * 1 = 25", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 886, "n_numbers": 2, "numbers": [60, 6], "target": 66, "output": "(60 - 6) * 1 = 54 * 2 = 66", "tokens": 22, "correct": false, "format_ok": false}
+{"id": 887, "n_numbers": 3, "numbers": [26, 21, 30], "target": 35, "output": "<answer>(30 - 21) * 26 = 35</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 888, "n_numbers": 3, "numbers": [10, 55, 64], "target": 19, "output": "(64 - 55) * 10 = 19", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 889, "n_numbers": 3, "numbers": [48, 44, 61], "target": 57, "output": "<answer>(48 - 44) * 61</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 890, "n_numbers": 2, "numbers": [21, 65], "target": 86, "output": "<answer>(65 - 21) * 2 = 86</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 891, "n_numbers": 2, "numbers": [97, 53], "target": 44, "output": "<answer>(97 - 53) * 1 = 44</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 892, "n_numbers": 2, "numbers": [60, 7], "target": 67, "output": "<answer>(60 - 7) * 1 = 53</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 893, "n_numbers": 2, "numbers": [54, 85], "target": 31, "output": "(85 - 54) * 2 = 31", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 894, "n_numbers": 2, "numbers": [16, 36], "target": 20, "output": "(36 - 16) * 1 = 20", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 895, "n_numbers": 3, "numbers": [78, 68, 96], "target": 86, "output": "<answer>(96 - 68) * 78</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 896, "n_numbers": 2, "numbers": [49, 35], "target": 84, "output": "<answer>(49 - 35) * 2</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 897, "n_numbers": 2, "numbers": [4, 24], "target": 96, "output": "(4 * 24) + 1 = 96", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 898, "n_numbers": 2, "numbers": [33, 49], "target": 16, "output": "(33 - 49) * (-1) = -16", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 899, "n_numbers": 2, "numbers": [15, 90], "target": 75, "output": "(90 - 15) * 2 = 75", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 900, "n_numbers": 3, "numbers": [26, 91, 78], "target": 39, "output": "<answer>(91 - 26) * 78 = 39</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 901, "n_numbers": 3, "numbers": [39, 1, 54], "target": 15, "output": "(54 - 39) * 1 = 15", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 902, "n_numbers": 2, "numbers": [40, 60], "target": 100, "output": "<answer>(60 - 40) * 2 = 100</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 903, "n_numbers": 2, "numbers": [33, 28], "target": 61, "output": "(33 - 28) * 5 = 61", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 904, "n_numbers": 2, "numbers": [85, 33], "target": 52, "output": "(85 - 33) * 1 = 52", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 905, "n_numbers": 3, "numbers": [33, 77, 2], "target": 46, "output": "(77 - 33) * 2 = 46", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 906, "n_numbers": 3, "numbers": [65, 59, 34], "target": 28, "output": "(65 - 59) * 34 = 28", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 907, "n_numbers": 2, "numbers": [15, 60], "target": 45, "output": "(60 - 15) * 3 = 45", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 908, "n_numbers": 2, "numbers": [86, 44], "target": 42, "output": "<answer>(86 - 44) * 1 = 42</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 909, "n_numbers": 3, "numbers": [18, 47, 51], "target": 80, "output": "(51 - 18) * 47 = 80", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 910, "n_numbers": 2, "numbers": [10, 50], "target": 60, "output": "(50 - 10) * 2 = 60", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 911, "n_numbers": 3, "numbers": [68, 2, 1], "target": 70, "output": "(68 - 2) * 1 = 70", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 912, "n_numbers": 2, "numbers": [85, 4], "target": 81, "output": "(85 - 4) * 2 = 81", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 913, "n_numbers": 2, "numbers": [22, 10], "target": 12, "output": "(22 - 10) * 1 = 12", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 914, "n_numbers": 3, "numbers": [6, 32, 71], "target": 33, "output": "<answer>(6 * 71) - 32 = 33</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 915, "n_numbers": 2, "numbers": [46, 27], "target": 19, "output": "<answer>(46 - 27) * 1 = 19</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 916, "n_numbers": 3, "numbers": [39, 71, 1], "target": 32, "output": "(39 - 71) * (1/3) = 32", "tokens": 19, "correct": false, "format_ok": false}
+{"id": 917, "n_numbers": 3, "numbers": [39, 47, 55], "target": 31, "output": "(55 - 39) * 47 = 31", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 918, "n_numbers": 3, "numbers": [23, 50, 30], "target": 57, "output": "(50 - 23) * 30 = 57", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 919, "n_numbers": 3, "numbers": [20, 1, 44], "target": 63, "output": "(44 - 1) * 20 = 63", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 920, "n_numbers": 3, "numbers": [14, 9, 42], "target": 27, "output": "(42 - 9) * 14 = 27", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 921, "n_numbers": 3, "numbers": [88, 9, 53], "target": 44, "output": "<answer>(88 - 9) * 53 = 44</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 922, "n_numbers": 2, "numbers": [59, 6], "target": 65, "output": "(59 - 6) * 1 = 65", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 923, "n_numbers": 2, "numbers": [22, 34], "target": 56, "output": "<answer>(34 - 22) * 2 = 56</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 924, "n_numbers": 2, "numbers": [99, 59], "target": 40, "output": "(99 - 59) * 1 = 40", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 925, "n_numbers": 3, "numbers": [81, 43, 95], "target": 29, "output": "<answer>(81 - 43) * 95 = 29</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 926, "n_numbers": 2, "numbers": [84, 12], "target": 72, "output": "<answer>(84 - 12) * 3 = 72</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 927, "n_numbers": 2, "numbers": [54, 14], "target": 68, "output": "(54 - 14) * 2 = 68", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 928, "n_numbers": 2, "numbers": [57, 87], "target": 30, "output": "(57 - 87) * (-1) = -30", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 929, "n_numbers": 2, "numbers": [3, 26], "target": 29, "output": "(3 * 26) - 1 = 29", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 930, "n_numbers": 3, "numbers": [92, 51, 57], "target": 16, "output": "(92 - 51) * 57 = 16", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 931, "n_numbers": 2, "numbers": [86, 48], "target": 38, "output": "<answer>(86 - 48) * 1 = 38</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 932, "n_numbers": 2, "numbers": [25, 90], "target": 65, "output": "<answer>(90 - 25) * 1 = 65</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 933, "n_numbers": 3, "numbers": [40, 21, 29], "target": 90, "output": "(40 - 21) * 29 = 90", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 934, "n_numbers": 2, "numbers": [23, 61], "target": 84, "output": "(61 - 23) * 2 = 84", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 935, "n_numbers": 3, "numbers": [26, 94, 96], "target": 24, "output": "(94 - 26) * 96 = 24", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 936, "n_numbers": 2, "numbers": [91, 7], "target": 98, "output": "<answer>(91 - 7) * 2</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 937, "n_numbers": 3, "numbers": [31, 40, 86], "target": 77, "output": "(86 - 31) * 40 = 77", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 938, "n_numbers": 2, "numbers": [58, 70], "target": 12, "output": "(70 - 58) * 1 = 12", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 939, "n_numbers": 2, "numbers": [12, 27], "target": 15, "output": "(27 - 12) * 3 = 15", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 940, "n_numbers": 2, "numbers": [14, 4], "target": 18, "output": "(14 - 4) * 3 = 18", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 941, "n_numbers": 3, "numbers": [51, 98, 69], "target": 22, "output": "(98 - 51) * 69 = 22", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 942, "n_numbers": 2, "numbers": [61, 5], "target": 56, "output": "<answer>(61 - 5) * 1 = 56</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 943, "n_numbers": 2, "numbers": [48, 92], "target": 44, "output": "<answer>(92 - 48) * 1 = 44</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 944, "n_numbers": 3, "numbers": [72, 89, 29], "target": 12, "output": "<answer>(72 - 89) * 29 = 12</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 945, "n_numbers": 2, "numbers": [11, 37], "target": 26, "output": "(37 - 11) * 1 = 26", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 946, "n_numbers": 2, "numbers": [75, 63], "target": 12, "output": "(75 - 63) * 0 = 12", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 947, "n_numbers": 3, "numbers": [82, 57, 54], "target": 29, "output": "<answer>(82 - 57) * 54 = 29</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 948, "n_numbers": 3, "numbers": [22, 31, 4], "target": 36, "output": "(4 * 2) + 31 = 36", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 949, "n_numbers": 2, "numbers": [19, 91], "target": 72, "output": "<answer>(91 - 19) * 2 = 72</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 950, "n_numbers": 3, "numbers": [20, 68, 99], "target": 51, "output": "<answer>(99 - 68) * 20 = 51</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 951, "n_numbers": 3, "numbers": [1, 45, 4], "target": 49, "output": "(45 - 1) * 4 = 49", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 952, "n_numbers": 2, "numbers": [10, 66], "target": 56, "output": "(10 - 66) * (-1) = -56", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 953, "n_numbers": 2, "numbers": [74, 93], "target": 19, "output": "<answer>(74 - 93) * (-1)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 954, "n_numbers": 2, "numbers": [45, 33], "target": 78, "output": "(45 - 33) * 2 = 78", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 955, "n_numbers": 2, "numbers": [40, 30], "target": 10, "output": "<answer>(40 - 30) * 2</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 956, "n_numbers": 2, "numbers": [12, 56], "target": 44, "output": "(56 - 12) * 2 = 44", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 957, "n_numbers": 2, "numbers": [66, 3], "target": 63, "output": "<answer>(66 - 3) * 1</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 958, "n_numbers": 3, "numbers": [15, 14, 3], "target": 59, "output": "(15 - 14) * 3 = 59", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 959, "n_numbers": 2, "numbers": [76, 14], "target": 90, "output": "(76 - 14) * 2 = 90", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 960, "n_numbers": 3, "numbers": [50, 89, 40], "target": 99, "output": "(89 - 50) * 40 = 99", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 961, "n_numbers": 3, "numbers": [46, 2, 41], "target": 85, "output": "(46 - 2) * 41 = 85", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 962, "n_numbers": 3, "numbers": [43, 13, 5], "target": 35, "output": "(43 - 13) * 5 = 35", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 963, "n_numbers": 2, "numbers": [9, 24], "target": 33, "output": "<answer>(9 * 3) + 24</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 964, "n_numbers": 2, "numbers": [67, 20], "target": 47, "output": "<answer>(67 - 20) * 1 = 47</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 965, "n_numbers": 2, "numbers": [31, 61], "target": 92, "output": "(31 * 3) + 61 = 92", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 966, "n_numbers": 2, "numbers": [90, 48], "target": 42, "output": "<answer>(90 - 48) * 1 = 42</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 967, "n_numbers": 3, "numbers": [25, 1, 69], "target": 43, "output": "(69 - 25) * 1 = 43", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 968, "n_numbers": 3, "numbers": [33, 18, 2], "target": 49, "output": "(33 - 18) * 2 = 49", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 969, "n_numbers": 2, "numbers": [81, 28], "target": 53, "output": "<answer>(81 - 28) * 2 = 53</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 970, "n_numbers": 3, "numbers": [84, 23, 19], "target": 88, "output": "<answer>(84 - 23) * 19 = 88</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 971, "n_numbers": 2, "numbers": [21, 50], "target": 29, "output": "(50 - 21) * 1 = 29", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 972, "n_numbers": 3, "numbers": [69, 31, 29], "target": 67, "output": "<answer>(69 - 31) * 29 = 67</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 973, "n_numbers": 3, "numbers": [37, 17, 26], "target": 28, "output": "(37 - 17) * 26 = 28", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 974, "n_numbers": 2, "numbers": [90, 55], "target": 35, "output": "<answer>(90 - 55) * 1 = 35</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 975, "n_numbers": 2, "numbers": [9, 76], "target": 85, "output": "<answer>(9 * 76) - 1</answer>", "tokens": 16, "correct": false, "format_ok": true}
+{"id": 976, "n_numbers": 2, "numbers": [54, 20], "target": 34, "output": "(54 - 20) * 1 = 34", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 977, "n_numbers": 3, "numbers": [57, 46, 23], "target": 80, "output": "(57 - 46) * 23 = 80", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 978, "n_numbers": 2, "numbers": [40, 74], "target": 34, "output": "<answer>(74 - 40) * 1 = 34</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 979, "n_numbers": 2, "numbers": [27, 77], "target": 50, "output": "<answer>(77 - 27) * 1 = 50</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 980, "n_numbers": 3, "numbers": [34, 11, 36], "target": 81, "output": "(36 * 3) - 11 = 81", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 981, "n_numbers": 2, "numbers": [29, 78], "target": 49, "output": "<answer>(78 - 29) * 1 = 49</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 982, "n_numbers": 2, "numbers": [11, 71], "target": 60, "output": "(71 - 11) * 1 = 60", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 983, "n_numbers": 3, "numbers": [63, 36, 56], "target": 43, "output": "<answer>(63 - 36) * 56 = 43</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 984, "n_numbers": 3, "numbers": [78, 38, 50], "target": 66, "output": "(78 - 38) * 50 = 66", "tokens": 17, "correct": false, "format_ok": false}
+{"id": 985, "n_numbers": 3, "numbers": [100, 92, 32], "target": 24, "output": "(100 - 92) * 32 = 24", "tokens": 18, "correct": false, "format_ok": false}
+{"id": 986, "n_numbers": 2, "numbers": [3, 83], "target": 80, "output": "(83 - 3) * 1 = 80", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 987, "n_numbers": 2, "numbers": [35, 25], "target": 10, "output": "(35 - 25) * 1 = 10", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 988, "n_numbers": 3, "numbers": [69, 1, 81], "target": 12, "output": "(69 - 1) * 81 = 12", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 989, "n_numbers": 2, "numbers": [39, 12], "target": 51, "output": "(39 - 12) * 2 = 51", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 990, "n_numbers": 2, "numbers": [62, 14], "target": 76, "output": "(62 - 14) * 5 = 76", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 991, "n_numbers": 2, "numbers": [14, 33], "target": 47, "output": "<answer>(14 * 3) + 33</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 992, "n_numbers": 3, "numbers": [68, 28, 23], "target": 17, "output": "<answer>(68 - 23) * 28 = 17</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 993, "n_numbers": 3, "numbers": [64, 96, 5], "target": 37, "output": "<answer>(64 - 96) * (5/1)</answer>", "tokens": 19, "correct": false, "format_ok": true}
+{"id": 994, "n_numbers": 2, "numbers": [77, 49], "target": 28, "output": "<answer>(77 - 49) * 1 = 28</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 995, "n_numbers": 3, "numbers": [96, 37, 81], "target": 52, "output": "<answer>(96 - 37) * 81 = 52</answer>", "tokens": 22, "correct": false, "format_ok": true}
+{"id": 996, "n_numbers": 2, "numbers": [5, 12], "target": 60, "output": "(12 - 5) * 5 = 60", "tokens": 15, "correct": false, "format_ok": false}
+{"id": 997, "n_numbers": 3, "numbers": [25, 66, 3], "target": 88, "output": "(66 - 25) * 3 = 88", "tokens": 16, "correct": false, "format_ok": false}
+{"id": 998, "n_numbers": 2, "numbers": [71, 22], "target": 49, "output": "<answer>(71 - 22) * 2 = 49</answer>", "tokens": 21, "correct": false, "format_ok": true}
+{"id": 999, "n_numbers": 2, "numbers": [69, 50], "target": 19, "output": "<answer>(69 - 50) * 2</answer>", "tokens": 17, "correct": false, "format_ok": true}

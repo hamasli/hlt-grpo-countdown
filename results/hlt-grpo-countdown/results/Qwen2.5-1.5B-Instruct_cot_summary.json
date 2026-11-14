@@ -1,0 +1,33 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter": null,
+  "method": "cot",
+  "data": "data/test.jsonl",
+  "num_samples": 1,
+  "temperature": null,
+  "max_new_tokens": 256,
+  "device": "Tesla T4",
+  "seconds": 291.2,
+  "peak_gpu_mem_gb": 3.56,
+  "2_numbers": {
+    "n": 500,
+    "accuracy": 26.0,
+    "format_rate": 99.0,
+    "mean_tokens": 42.9,
+    "clipped_rate": 0.4
+  },
+  "3_numbers": {
+    "n": 500,
+    "accuracy": 2.2,
+    "format_rate": 92.8,
+    "mean_tokens": 75.8,
+    "clipped_rate": 4.6
+  },
+  "all": {
+    "n": 1000,
+    "accuracy": 14.1,
+    "format_rate": 95.9,
+    "mean_tokens": 59.3,
+    "clipped_rate": 2.5
+  }
+}
