@@ -1,0 +1,33 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter": null,
+  "method": "zero_shot",
+  "data": "data/test.jsonl",
+  "num_samples": 1,
+  "temperature": null,
+  "max_new_tokens": 64,
+  "device": "cpu",
+  "seconds": 13.2,
+  "peak_gpu_mem_gb": null,
+  "2_numbers": {
+    "n": 3,
+    "accuracy": 0.0,
+    "format_rate": 100.0,
+    "mean_tokens": 18.3,
+    "clipped_rate": 0.0
+  },
+  "3_numbers": {
+    "n": 2,
+    "accuracy": 0.0,
+    "format_rate": 100.0,
+    "mean_tokens": 17.5,
+    "clipped_rate": 0.0
+  },
+  "all": {
+    "n": 5,
+    "accuracy": 0.0,
+    "format_rate": 100.0,
+    "mean_tokens": 18.0,
+    "clipped_rate": 0.0
+  }
+}

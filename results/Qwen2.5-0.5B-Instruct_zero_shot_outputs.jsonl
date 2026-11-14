@@ -1,0 +1,5 @@
+{"id": 0, "n_numbers": 2, "numbers": [34, 48], "target": 82, "output": "<answer>(34 - 48) * 5</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 1, "n_numbers": 2, "numbers": [2, 23], "target": 25, "output": "<answer>(2 * (23 - 2)) / 23</answer>", "tokens": 20, "correct": false, "format_ok": true}
+{"id": 2, "n_numbers": 3, "numbers": [14, 80, 12], "target": 82, "output": "<answer>(14 - 80 * 12)</answer>", "tokens": 17, "correct": false, "format_ok": true}
+{"id": 3, "n_numbers": 2, "numbers": [74, 15], "target": 89, "output": "<answer>(74 - 15) * 89</answer>", "tokens": 18, "correct": false, "format_ok": true}
+{"id": 4, "n_numbers": 3, "numbers": [15, 17, 69], "target": 71, "output": "<answer>(15 - 17) * 69</answer>", "tokens": 18, "correct": false, "format_ok": true}
