@@ -21,17 +21,22 @@ PREFILL
 
 The example "(1 + 2) / 3" in the prompts only shows the FORMAT; it is not a
 solved puzzle, so the prompts stay zero-shot.
+
+The prompts contain NO numeric example: a first version had the example
+"(1 + 2) / 3" and the models copied its 3-number shape, inventing extra numbers
+(e.g. "(89 - 19) * 1") and scoring 0% on 2-number puzzles. Small models copy
+surface patterns from the prompt, so we describe the format in words only.
 """
 
 TASK = ("Using the numbers {numbers}, create an equation that equals {target}. "
         "You can use +, -, *, / and brackets. Each number must be used exactly once.")
 
-ZERO_SHOT = (TASK + " Give only the equation inside <answer> </answer> tags, with no explanation. "
-             "Example: <answer>(1 + 2) / 3</answer>")
+ZERO_SHOT = (TASK + " Do not use any other numbers. "
+             "Give only the equation inside <answer> </answer> tags, with no explanation.")
 
-COT = (TASK + " Think step by step inside <think> </think> tags. Keep your reasoning short. "
-       "Then write the final equation inside <answer> </answer> tags, "
-       "for example <answer>(1 + 2) / 3</answer>.")
+COT = (TASK + " Do not use any other numbers. "
+       "Think step by step inside <think> </think> tags. Keep your reasoning short. "
+       "Then write only the final equation inside <answer> </answer> tags.")
 
 TEMPLATES = {"zero_shot": ZERO_SHOT, "cot": COT, "grpo": COT}
 
