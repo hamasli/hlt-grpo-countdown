@@ -14,6 +14,11 @@ OPS = {ast.Add: lambda a, b: a + b, ast.Sub: lambda a, b: a - b,
        ast.Mult: lambda a, b: a * b, ast.Div: lambda a, b: a / b}
 MAX_LEN = 200  # longer answers are rejected (protects the parser)
 
+# Math notation the models sometimes use, converted to plain Python operators.
+# This only changes HOW the equation is written, never what is checked.
+NOTATION = [("\\times", "*"), ("\\cdot", "*"), ("\\div", "/"),   # LaTeX operators
+            ("×", "*"), ("÷", "/"),                                   # unicode operators
+            ("\\(", ""), ("\\)", ""), ("\\[", ""), ("\\]", "")]   # LaTeX math brackets
 
 
 # This function will help to extract the model output in 2 formats
@@ -31,7 +36,9 @@ def extract_answer(text):
         return None
     answer = matches[-1].strip()
     answer = answer.split("=")[0]                     # "50 + 25 - 3 = 72" -> left side
-    return answer.replace("×", "*").replace("÷", "/").strip()
+    for old, new in NOTATION:                         # same equation, different notation
+        answer = answer.replace(old, new)
+    return answer.strip()
 
 # safe_eval() calculates the expression’s value and records all numbers used. Then, check_equation() verifies
 # that each given number was used exactly once and that the calculated value equals the target.
@@ -72,6 +79,7 @@ def check_equation(expr, numbers, target):
         return False
     value, used = result
     return sorted(used) == sorted(numbers) and value == target
+
 
 
 def is_correct(text, numbers, target):

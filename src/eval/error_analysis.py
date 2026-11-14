@@ -69,7 +69,7 @@ def examples(records, k=1):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--results_dir", default="results/results")
+    p.add_argument("--results_dir", default="results")
     p.add_argument("--out", default="results/error_analysis.json")
     args = p.parse_args()
 

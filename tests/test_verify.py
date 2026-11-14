@@ -148,3 +148,16 @@ def test_generator_solutions_pass_verifier():
     puzzles = generate_split(200, [2, 3, 4], random.Random(0), set(), cfg)
     for p in puzzles:
         assert is_correct(ans(p["solution"]), p["numbers"], p["target"]), p
+
+
+
+
+
+# ---- NEW: math notation (LaTeX) is understood ----
+def test_latex_operators():
+    # Qwen often writes LaTeX: \times, \div and \( \) must be read as * / and removed
+    assert is_correct(ans(r"\( (34 \div 17) \times (82 - 50) \)"), [34, 82, 50, 17], 64)
+
+def test_latex_wrong_is_still_wrong():
+    # notation is converted, but the rules stay: wrong value -> still wrong
+    assert not is_correct(ans(r"\( 12 \times 80 - 14 \)"), [14, 80, 12], 82)
