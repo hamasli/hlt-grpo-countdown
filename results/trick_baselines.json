@@ -1,0 +1,27 @@
+{
+  "target_in_numbers": {
+    "2_numbers": 0.0,
+    "3_numbers": 0.0,
+    "all": 0.0
+  },
+  "sum_all": {
+    "2_numbers": 36.0,
+    "3_numbers": 5.4,
+    "all": 20.7
+  },
+  "product_all": {
+    "2_numbers": 2.4,
+    "3_numbers": 0.0,
+    "all": 1.2
+  },
+  "random_guess@1": {
+    "2_numbers": 52.4,
+    "3_numbers": 12.2,
+    "all": 32.3
+  },
+  "random_guess@4": {
+    "2_numbers": 78.6,
+    "3_numbers": 27.6,
+    "all": 53.1
+  }
+}
