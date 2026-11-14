@@ -1,0 +1,683 @@
+{
+  "Qwen2.5-0.5B-Instruct_cot": {
+    "2_numbers": {
+      "correct": 7.6,
+      "no_answer": 68.6,
+      "invalid": 1.4,
+      "wrong_numbers": 19.8,
+      "wrong_value": 2.6,
+      "wrong_numbers_detail": {
+        "reused": 66.7,
+        "missing": 10.1,
+        "invented": 37.4
+      },
+      "wrong_value_mean_distance": 1365.3,
+      "n": 500
+    },
+    "3_numbers": {
+      "correct": 1.6,
+      "no_answer": 55.8,
+      "invalid": 0.0,
+      "wrong_numbers": 26.2,
+      "wrong_value": 16.4,
+      "wrong_numbers_detail": {
+        "reused": 65.6,
+        "missing": 14.5,
+        "invented": 32.8
+      },
+      "wrong_value_mean_distance": 1126.3,
+      "n": 500
+    },
+    "all": {
+      "correct": 4.6,
+      "no_answer": 62.2,
+      "invalid": 0.7,
+      "wrong_numbers": 23.0,
+      "wrong_value": 9.5,
+      "wrong_numbers_detail": {
+        "reused": 66.1,
+        "missing": 12.6,
+        "invented": 34.8
+      },
+      "wrong_value_mean_distance": 1159.0,
+      "n": 1000
+    },
+    "examples": {
+      "no_answer": [
+        {
+          "numbers": [
+            34,
+            48
+          ],
+          "target": 82,
+          "answer": "rs exactly once and result in 82 when added together or subtracted respectively."
+        }
+      ],
+      "wrong_numbers": [
+        {
+          "numbers": [
+            14,
+            80,
+            12
+          ],
+          "target": 82,
+          "answer": "(14 * (80 - 12)) / 2"
+        }
+      ],
+      "correct": [
+        {
+          "numbers": [
+            89,
+            19
+          ],
+          "target": 70,
+          "answer": "89 - 19"
+        }
+      ],
+      "wrong_value": [
+        {
+          "numbers": [
+            52,
+            34,
+            100
+          ],
+          "target": 14,
+          "answer": "(100 - 34) * 52"
+        }
+      ],
+      "invalid": [
+        {
+          "numbers": [
+            7,
+            31
+          ],
+          "target": 38,
+          "answer": "equation"
+        }
+      ]
+    }
+  },
+  "Qwen2.5-0.5B-Instruct_cot_test_ood": {
+    "4_numbers": {
+      "correct": 0.2,
+      "no_answer": 35.0,
+      "invalid": 0.6,
+      "wrong_numbers": 15.2,
+      "wrong_value": 49.0,
+      "wrong_numbers_detail": {
+        "reused": 34.2,
+        "missing": 86.8,
+        "invented": 35.5
+      },
+      "wrong_value_mean_distance": 1325.8,
+      "n": 500
+    },
+    "all": {
+      "correct": 0.2,
+      "no_answer": 35.0,
+      "invalid": 0.6,
+      "wrong_numbers": 15.2,
+      "wrong_value": 49.0,
+      "wrong_numbers_detail": {
+        "reused": 34.2,
+        "missing": 86.8,
+        "invented": 35.5
+      },
+      "wrong_value_mean_distance": 1325.8,
+      "n": 500
+    },
+    "examples": {
+      "no_answer": [
+        {
+          "numbers": [
+            100,
+            8,
+            28,
+            17
+          ],
+          "target": 47,
+          "answer": "t multiplication didn't work, let's try another combination:\n\n\\[ 108 - 17 = 91 \\"
+        }
+      ],
+      "wrong_value": [
+        {
+          "numbers": [
+            80,
+            51,
+            12,
+            40
+          ],
+          "target": 61,
+          "answer": "(12 - 51) * (80 + 40)"
+        }
+      ],
+      "invalid": [
+        {
+          "numbers": [
+            18,
+            3,
+            6,
+            71
+          ],
+          "target": 92,
+          "answer": "equation"
+        }
+      ],
+      "wrong_numbers": [
+        {
+          "numbers": [
+            34,
+            57,
+            20,
+            91
+          ],
+          "target": 88,
+          "answer": "20 + (91 - 57) - 20"
+        }
+      ],
+      "correct": [
+        {
+          "numbers": [
+            39,
+            30,
+            64,
+            32
+          ],
+          "target": 41,
+          "answer": "(39 - 30 + 64 - 32)"
+        }
+      ]
+    }
+  },
+  "Qwen2.5-0.5B-Instruct_zero_shot": {
+    "2_numbers": {
+      "correct": 0.0,
+      "no_answer": 0.0,
+      "invalid": 0.0,
+      "wrong_numbers": 100.0,
+      "wrong_value": 0.0,
+      "wrong_numbers_detail": {
+        "reused": 58.2,
+        "missing": 1.0,
+        "invented": 76.6
+      },
+      "wrong_value_mean_distance": null,
+      "n": 500
+    },
+    "3_numbers": {
+      "correct": 0.0,
+      "no_answer": 0.0,
+      "invalid": 0.0,
+      "wrong_numbers": 77.4,
+      "wrong_value": 22.6,
+      "wrong_numbers_detail": {
+        "reused": 29.7,
+        "missing": 1.0,
+        "invented": 70.5
+      },
+      "wrong_value_mean_distance": 1068.1,
+      "n": 500
+    },
+    "all": {
+      "correct": 0.0,
+      "no_answer": 0.0,
+      "invalid": 0.0,
+      "wrong_numbers": 88.7,
+      "wrong_value": 11.3,
+      "wrong_numbers_detail": {
+        "reused": 45.8,
+        "missing": 1.0,
+        "invented": 74.0
+      },
+      "wrong_value_mean_distance": 1068.1,
+      "n": 1000
+    },
+    "examples": {
+      "wrong_numbers": [
+        {
+          "numbers": [
+            34,
+            48
+          ],
+          "target": 82,
+          "answer": "(34 * (48 - 34)) / 2"
+        }
+      ],
+      "wrong_value": [
+        {
+          "numbers": [
+            50,
+            53,
+            17
+          ],
+          "target": 20,
+          "answer": "(50 - 53) * 17"
+        }
+      ]
+    }
+  },
+  "Qwen2.5-0.5B-Instruct_zero_shot_test_ood": {
+    "4_numbers": {
+      "correct": 0.2,
+      "no_answer": 0.0,
+      "invalid": 0.0,
+      "wrong_numbers": 7.2,
+      "wrong_value": 92.6,
+      "wrong_numbers_detail": {
+        "reused": 36.1,
+        "missing": 55.6,
+        "invented": 41.7
+      },
+      "wrong_value_mean_distance": 801.5,
+      "n": 500
+    },
+    "all": {
+      "correct": 0.2,
+      "no_answer": 0.0,
+      "invalid": 0.0,
+      "wrong_numbers": 7.2,
+      "wrong_value": 92.6,
+      "wrong_numbers_detail": {
+        "reused": 36.1,
+        "missing": 55.6,
+        "invented": 41.7
+      },
+      "wrong_value_mean_distance": 801.5,
+      "n": 500
+    },
+    "examples": {
+      "wrong_value": [
+        {
+          "numbers": [
+            100,
+            8,
+            28,
+            17
+          ],
+          "target": 47,
+          "answer": "(100 - 8) * (28 + 17)"
+        }
+      ],
+      "wrong_numbers": [
+        {
+          "numbers": [
+            39,
+            6,
+            57,
+            64
+          ],
+          "target": 76,
+          "answer": "(39 * (6 - 57) / 6)"
+        }
+      ],
+      "correct": [
+        {
+          "numbers": [
+            6,
+            20,
+            5,
+            6
+          ],
+          "target": 15,
+          "answer": "(6 * (20 - 5)) / 6"
+        }
+      ]
+    }
+  },
+  "Qwen2.5-1.5B-Instruct_cot": {
+    "2_numbers": {
+      "correct": 26.4,
+      "no_answer": 0.4,
+      "invalid": 9.6,
+      "wrong_numbers": 62.8,
+      "wrong_value": 0.8,
+      "wrong_numbers_detail": {
+        "reused": 7.0,
+        "missing": 3.2,
+        "invented": 93.6
+      },
+      "wrong_value_mean_distance": 2229.5,
+      "n": 500
+    },
+    "3_numbers": {
+      "correct": 3.0,
+      "no_answer": 4.8,
+      "invalid": 2.2,
+      "wrong_numbers": 13.2,
+      "wrong_value": 76.8,
+      "wrong_numbers_detail": {
+        "reused": 9.1,
+        "missing": 42.4,
+        "invented": 89.4
+      },
+      "wrong_value_mean_distance": 1259.1,
+      "n": 500
+    },
+    "all": {
+      "correct": 14.7,
+      "no_answer": 2.6,
+      "invalid": 5.9,
+      "wrong_numbers": 38.0,
+      "wrong_value": 38.8,
+      "wrong_numbers_detail": {
+        "reused": 7.4,
+        "missing": 10.0,
+        "invented": 92.9
+      },
+      "wrong_value_mean_distance": 1269.2,
+      "n": 1000
+    },
+    "examples": {
+      "wrong_numbers": [
+        {
+          "numbers": [
+            34,
+            48
+          ],
+          "target": 82,
+          "answer": "34 * (48 - 1)"
+        }
+      ],
+      "wrong_value": [
+        {
+          "numbers": [
+            14,
+            80,
+            12
+          ],
+          "target": 82,
+          "answer": "12 * 80 - 14"
+        }
+      ],
+      "correct": [
+        {
+          "numbers": [
+            15,
+            17,
+            69
+          ],
+          "target": 71,
+          "answer": "69 + 17 - 15"
+        }
+      ],
+      "invalid": [
+        {
+          "numbers": [
+            61,
+            80
+          ],
+          "target": 19,
+          "answer": "-19"
+        }
+      ],
+      "no_answer": [
+        {
+          "numbers": [
+            23,
+            25,
+            82
+          ],
+          "target": 80,
+          "answer": "23 = 73 (too low)\n(25 * 3) + 23 = 98 (too high)\n(25 * 4) + 23 = 113 (too high)\n("
+        }
+      ]
+    }
+  },
+  "Qwen2.5-1.5B-Instruct_cot_test_ood": {
+    "4_numbers": {
+      "correct": 0.4,
+      "no_answer": 2.6,
+      "invalid": 1.4,
+      "wrong_numbers": 23.6,
+      "wrong_value": 72.0,
+      "wrong_numbers_detail": {
+        "reused": 0.8,
+        "missing": 99.2,
+        "invented": 11.0
+      },
+      "wrong_value_mean_distance": 594.6,
+      "n": 500
+    },
+    "all": {
+      "correct": 0.4,
+      "no_answer": 2.6,
+      "invalid": 1.4,
+      "wrong_numbers": 23.6,
+      "wrong_value": 72.0,
+      "wrong_numbers_detail": {
+        "reused": 0.8,
+        "missing": 99.2,
+        "invented": 11.0
+      },
+      "wrong_value_mean_distance": 594.6,
+      "n": 500
+    },
+    "examples": {
+      "wrong_value": [
+        {
+          "numbers": [
+            100,
+            8,
+            28,
+            17
+          ],
+          "target": 47,
+          "answer": "(100 - 8) * 28 - 17"
+        }
+      ],
+      "wrong_numbers": [
+        {
+          "numbers": [
+            27,
+            20,
+            80,
+            80
+          ],
+          "target": 36,
+          "answer": "(80 * 20) - 27"
+        }
+      ],
+      "correct": [
+        {
+          "numbers": [
+            42,
+            97,
+            73,
+            38
+          ],
+          "target": 28,
+          "answer": "97 - 73 + 42 - 38"
+        }
+      ],
+      "invalid": [
+        {
+          "numbers": [
+            21,
+            72,
+            86,
+            64
+          ],
+          "target": 36,
+          "answer": "\\frac{72}{2}"
+        }
+      ],
+      "no_answer": [
+        {
+          "numbers": [
+            19,
+            84,
+            93,
+            24
+          ],
+          "target": 14,
+          "answer": "nteger, so not useful for further calculations directly).\n\nSince direct division"
+        }
+      ]
+    }
+  },
+  "Qwen2.5-1.5B-Instruct_zero_shot": {
+    "2_numbers": {
+      "correct": 0.2,
+      "no_answer": 59.0,
+      "invalid": 2.2,
+      "wrong_numbers": 38.6,
+      "wrong_value": 0.0,
+      "wrong_numbers_detail": {
+        "reused": 2.6,
+        "missing": 3.6,
+        "invented": 97.4
+      },
+      "wrong_value_mean_distance": null,
+      "n": 500
+    },
+    "3_numbers": {
+      "correct": 0.0,
+      "no_answer": 55.0,
+      "invalid": 0.0,
+      "wrong_numbers": 2.6,
+      "wrong_value": 42.4,
+      "wrong_numbers_detail": {
+        "reused": 15.4,
+        "missing": 30.8,
+        "invented": 84.6
+      },
+      "wrong_value_mean_distance": 1397.4,
+      "n": 500
+    },
+    "all": {
+      "correct": 0.1,
+      "no_answer": 57.0,
+      "invalid": 1.1,
+      "wrong_numbers": 20.6,
+      "wrong_value": 21.2,
+      "wrong_numbers_detail": {
+        "reused": 3.4,
+        "missing": 5.3,
+        "invented": 96.6
+      },
+      "wrong_value_mean_distance": 1397.4,
+      "n": 1000
+    },
+    "examples": {
+      "no_answer": [
+        {
+          "numbers": [
+            34,
+            48
+          ],
+          "target": 82,
+          "answer": "(34 * 2) + 48 = 82"
+        }
+      ],
+      "wrong_numbers": [
+        {
+          "numbers": [
+            74,
+            15
+          ],
+          "target": 89,
+          "answer": "(74 - 15) * 2"
+        }
+      ],
+      "wrong_value": [
+        {
+          "numbers": [
+            69,
+            17,
+            81
+          ],
+          "target": 29,
+          "answer": "(69 - 17) * 81"
+        }
+      ],
+      "invalid": [
+        {
+          "numbers": [
+            44,
+            99
+          ],
+          "target": 55,
+          "answer": "(44 - 99) * (-1)"
+        }
+      ],
+      "correct": [
+        {
+          "numbers": [
+            48,
+            2
+          ],
+          "target": 96,
+          "answer": "(48 * 2)"
+        }
+      ]
+    }
+  },
+  "Qwen2.5-1.5B-Instruct_zero_shot_test_ood": {
+    "4_numbers": {
+      "correct": 0.0,
+      "no_answer": 95.0,
+      "invalid": 0.0,
+      "wrong_numbers": 1.0,
+      "wrong_value": 4.0,
+      "wrong_numbers_detail": {
+        "reused": 0.0,
+        "missing": 100.0,
+        "invented": 0.0
+      },
+      "wrong_value_mean_distance": 541.9,
+      "n": 500
+    },
+    "all": {
+      "correct": 0.0,
+      "no_answer": 95.0,
+      "invalid": 0.0,
+      "wrong_numbers": 1.0,
+      "wrong_value": 4.0,
+      "wrong_numbers_detail": {
+        "reused": 0.0,
+        "missing": 100.0,
+        "invented": 0.0
+      },
+      "wrong_value_mean_distance": 541.9,
+      "n": 500
+    },
+    "examples": {
+      "no_answer": [
+        {
+          "numbers": [
+            100,
+            8,
+            28,
+            17
+          ],
+          "target": 47,
+          "answer": "(100 - 8) * 28 - 17 = 47"
+        }
+      ],
+      "wrong_numbers": [
+        {
+          "numbers": [
+            49,
+            80,
+            27,
+            74
+          ],
+          "target": 70,
+          "answer": "(80 - 27) * 74"
+        }
+      ],
+      "wrong_value": [
+        {
+          "numbers": [
+            91,
+            97,
+            49,
+            11
+          ],
+          "target": 44,
+          "answer": "(97 - 91) * 49 / 11"
+        }
+      ]
+    }
+  }
+}

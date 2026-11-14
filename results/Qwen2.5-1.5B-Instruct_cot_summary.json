@@ -7,25 +7,25 @@
   "temperature": null,
   "max_new_tokens": 256,
   "device": "Tesla T4",
-  "seconds": 291.2,
+  "seconds": 291.3,
   "peak_gpu_mem_gb": 3.56,
   "2_numbers": {
     "n": 500,
-    "accuracy": 26.0,
+    "accuracy": 26.4,
     "format_rate": 99.0,
     "mean_tokens": 42.9,
     "clipped_rate": 0.4
   },
   "3_numbers": {
     "n": 500,
-    "accuracy": 2.2,
+    "accuracy": 3.0,
     "format_rate": 92.8,
     "mean_tokens": 75.8,
     "clipped_rate": 4.6
   },
   "all": {
     "n": 1000,
-    "accuracy": 14.1,
+    "accuracy": 14.7,
     "format_rate": 95.9,
     "mean_tokens": 59.3,
     "clipped_rate": 2.5

@@ -7,7 +7,7 @@
   "temperature": null,
   "max_new_tokens": 64,
   "device": "Tesla T4",
-  "seconds": 41.6,
+  "seconds": 41.9,
   "peak_gpu_mem_gb": 3.42,
   "2_numbers": {
     "n": 500,

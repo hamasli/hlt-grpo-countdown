@@ -7,18 +7,18 @@
   "temperature": null,
   "max_new_tokens": 256,
   "device": "Tesla T4",
-  "seconds": 156.3,
+  "seconds": 156.2,
   "peak_gpu_mem_gb": 3.56,
   "4_numbers": {
     "n": 500,
-    "accuracy": 0.2,
+    "accuracy": 0.4,
     "format_rate": 96.6,
     "mean_tokens": 81.0,
     "clipped_rate": 2.6
   },
   "all": {
     "n": 500,
-    "accuracy": 0.2,
+    "accuracy": 0.4,
     "format_rate": 96.6,
     "mean_tokens": 81.0,
     "clipped_rate": 2.6
