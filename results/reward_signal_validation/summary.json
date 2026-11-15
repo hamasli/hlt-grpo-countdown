@@ -1,0 +1,151 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": null,
+  "gpu": "Tesla T4",
+  "dtype": "torch.float16",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "data": "val.jsonl",
+  "data_sha256": "50f48d4a82bb734a79a44b851e55c161338443d9160b2c688edd359dfe0ecc19",
+  "settings": {
+    "samples": 4,
+    "temperature": 0.8,
+    "max_tokens": 512,
+    "batch_size": 1,
+    "seed": 42,
+    "top_p": 1.0,
+    "top_k": 0,
+    "repetition_penalty": 1.0
+  },
+  "prompt_template": "Using the numbers {numbers}, create an equation that equals {target}. You can use +, -, *, / and brackets. Each number must be used exactly once. Think step by step inside <think> </think> tags. Keep your reasoning short. Then write the final equation inside <answer> </answer> tags, for example <answer>(1 + 2) / 3</answer>.",
+  "assistant_prefill": "<think>",
+  "responses": "responses.jsonl",
+  "by_input_count": {
+    "3": {
+      "groups": 25,
+      "completions": 100,
+      "groups_with_a_solution": 7,
+      "all_wrong_groups": 18,
+      "all_wrong_groups_by_formatted_count": {
+        "0": 0,
+        "1": 1,
+        "2": 6,
+        "3": 9,
+        "4": 2
+      },
+      "policies": {
+        "correctness_only": {
+          "reward": {
+            "correctness": 1,
+            "format_bonus": 0,
+            "gate_format_on_correctness": false
+          },
+          "groups_with_format_only_signal": 0,
+          "format_only_signal_rate_pct": 0.0,
+          "mean_positive_advantage_in_all_wrong_groups": null,
+          "wrong_bonus_rate_pct": 0,
+          "wrong_positive_advantage_rate_pct": 0.0
+        },
+        "additive_0.01": {
+          "reward": {
+            "correctness": 1,
+            "format_bonus": 0.01,
+            "gate_format_on_correctness": false
+          },
+          "groups_with_format_only_signal": 16,
+          "format_only_signal_rate_pct": 88.88888888888889,
+          "mean_positive_advantage_in_all_wrong_groups": 0.6230312952297828,
+          "wrong_bonus_rate_pct": 67.0,
+          "wrong_positive_advantage_rate_pct": 40.0
+        },
+        "additive_0.1": {
+          "reward": {
+            "correctness": 1,
+            "format_bonus": 0.1,
+            "gate_format_on_correctness": false
+          },
+          "groups_with_format_only_signal": 16,
+          "format_only_signal_rate_pct": 88.88888888888889,
+          "mean_positive_advantage_in_all_wrong_groups": 0.6336098962165171,
+          "wrong_bonus_rate_pct": 67.0,
+          "wrong_positive_advantage_rate_pct": 40.0
+        },
+        "gated_0.1": {
+          "reward": {
+            "correctness": 1,
+            "format_bonus": 0.1,
+            "gate_format_on_correctness": true
+          },
+          "groups_with_format_only_signal": 0,
+          "format_only_signal_rate_pct": 0.0,
+          "mean_positive_advantage_in_all_wrong_groups": null,
+          "wrong_bonus_rate_pct": 0,
+          "wrong_positive_advantage_rate_pct": 0.0
+        }
+      }
+    },
+    "4": {
+      "groups": 25,
+      "completions": 100,
+      "groups_with_a_solution": 2,
+      "all_wrong_groups": 23,
+      "all_wrong_groups_by_formatted_count": {
+        "0": 0,
+        "1": 0,
+        "2": 6,
+        "3": 6,
+        "4": 11
+      },
+      "policies": {
+        "correctness_only": {
+          "reward": {
+            "correctness": 1,
+            "format_bonus": 0,
+            "gate_format_on_correctness": false
+          },
+          "groups_with_format_only_signal": 0,
+          "format_only_signal_rate_pct": 0.0,
+          "mean_positive_advantage_in_all_wrong_groups": null,
+          "wrong_bonus_rate_pct": 0,
+          "wrong_positive_advantage_rate_pct": 0.0
+        },
+        "additive_0.01": {
+          "reward": {
+            "correctness": 1,
+            "format_bonus": 0.01,
+            "gate_format_on_correctness": false
+          },
+          "groups_with_format_only_signal": 12,
+          "format_only_signal_rate_pct": 52.17391304347826,
+          "mean_positive_advantage_in_all_wrong_groups": 0.6346299622671615,
+          "wrong_bonus_rate_pct": 78.0,
+          "wrong_positive_advantage_rate_pct": 30.0
+        },
+        "additive_0.1": {
+          "reward": {
+            "correctness": 1,
+            "format_bonus": 0.1,
+            "gate_format_on_correctness": false
+          },
+          "groups_with_format_only_signal": 12,
+          "format_only_signal_rate_pct": 52.17391304347826,
+          "mean_positive_advantage_in_all_wrong_groups": 0.6452123965521626,
+          "wrong_bonus_rate_pct": 78.0,
+          "wrong_positive_advantage_rate_pct": 30.0
+        },
+        "gated_0.1": {
+          "reward": {
+            "correctness": 1,
+            "format_bonus": 0.1,
+            "gate_format_on_correctness": true
+          },
+          "groups_with_format_only_signal": 0,
+          "format_only_signal_rate_pct": 0.0,
+          "mean_positive_advantage_in_all_wrong_groups": null,
+          "wrong_bonus_rate_pct": 0,
+          "wrong_positive_advantage_rate_pct": 0.0
+        }
+      }
+    }
+  }
+}
