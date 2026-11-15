@@ -1,23 +1,37 @@
-# Python
-venv/
-.venv/
+# ============================================================
+# .gitignore — hlt-grpo-countdown
+# Rule: git keeps CODE + small RESULTS (json, png, logs we copied).
+# Big or regenerable things stay out: model weights, checkpoints, zips, envs.
+# ============================================================
+
+# --- Python / environments ---
 __pycache__/
-*.pyc
-
-# Models and training outputs (too big for GitHub)
-checkpoints/
-*.safetensors
-*.bin
-*.pt
-
-# Archives and notebook temp files
-*.zip
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
 .ipynb_checkpoints/
 
-# Secrets and logs
-.env
-wandb/
-
-# OS
+# --- Editors / OS ---
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
+
+# --- Training outputs (big: LoRA weights + optimizer states) ---
+# The adapter lives on the laptop + Kaggle Dataset, not on GitHub.
+checkpoints/
+*.safetensors
+*.pt
+*.bin
+
+# --- Raw run logs (the important ones are copied into results/stageX/) ---
+logs/
+wandb/
+
+# --- Archives downloaded from Kaggle ---
+*.zip
+
+# --- Secrets (HF / GitHub tokens) ---
+.env

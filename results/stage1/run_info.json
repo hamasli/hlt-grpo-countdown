@@ -1,0 +1,43 @@
+{
+  "args": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "data": "data/train.jsonl",
+    "levels": [
+      2
+    ],
+    "init_adapter": null,
+    "max_steps": 100,
+    "num_generations": 4,
+    "per_device_batch": 8,
+    "grad_accum": 4,
+    "max_completion_length": 256,
+    "temperature": 1.0,
+    "learning_rate": 1e-05,
+    "beta": 0.0,
+    "loss_type": "grpo",
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "output_dir": "checkpoints/stage1",
+    "save_steps": 25,
+    "logging_steps": 5,
+    "resume": false,
+    "push_to_hub": false,
+    "hub_model_id": null,
+    "seed": 42,
+    "log_completions": false
+  },
+  "puzzles_per_step": 8,
+  "answers_per_step": 32,
+  "steps_done": 100,
+  "train_time_s": 1450.7,
+  "seconds_per_step": 14.51,
+  "peak_gpu_memory_gb": 4.38,
+  "gpu": "Tesla T4",
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.2",
+    "trl": "1.18.0",
+    "peft": "0.21.2"
+  }
+}
