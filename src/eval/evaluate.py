@@ -165,6 +165,14 @@ def main():
     p.add_argument("--seed", type=int, default=0)
     p.add_argument("--out_dir", default="results")
     args = p.parse_args()
+    if args.adapter:
+        cfg_path = Path(args.adapter) / "adapter_config.json"
+        if cfg_path.exists():
+            with open(cfg_path) as f:
+                adapter_cfg = json.load(f)
+                base = adapter_cfg.get("base_model_name_or_path")
+                if base and args.model == "Qwen/Qwen2.5-0.5B-Instruct":
+                    args.model = base
     max_new = args.max_new_tokens or DEFAULT_MAX_NEW[args.method]
     k = args.num_samples
     torch.manual_seed(args.seed)
