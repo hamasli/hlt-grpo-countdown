@@ -75,7 +75,7 @@ from trl import GRPOConfig, GRPOTrainer
 # Our own frozen pieces: the SAME prompt (v3 + "<think>" prefill) and the SAME verifier
 # used for the baselines -> training and evaluation see exactly the same task.
 from src.prompts import PREFILL, build_prompt
-from src.reward.verify import correctness_reward, format_reward
+from src.reward.verify import correctness_reward, format_reward, get_text
 
 # LoRA goes on all 7 linear layers of each Qwen block (attention + MLP).
 # Common choice in LoRA/QLoRA recipes: more capacity than attention-only, still ~1% of the weights.
@@ -127,7 +127,7 @@ def parse_args():
 
 # ---------------------------------------------------------------------------
 # 2. Training data: one row per puzzle.
-#    "prompt" is the full chat-formatted tgitext ending with "<think>" (prefill).
+#    "prompt" is the full chat-formatted text ending with "<think>" (prefill).
 #    "numbers" and "target" are extra columns: TRL passes them to the reward
 #    functions as keyword arguments, so the verifier knows what to check.
 # ---------------------------------------------------------------------------
@@ -159,7 +159,7 @@ def load_train_dataset(path, levels, tok, seed):
 #    TRL adds the rewards together: max total = 1.0 + 0.1 = 1.1.
 # ---------------------------------------------------------------------------
 def format_reward_prefill(completions, **kwargs):
-    full_texts = [PREFILL["grpo"] + c for c in completions]
+    full_texts = [PREFILL["grpo"] + get_text(c) for c in completions]
     return format_reward(full_texts, **kwargs)
 
 
@@ -169,7 +169,7 @@ def format_reward_prefill(completions, **kwargs):
 def load_model(args):
     # fp16, because the T4 has no bf16 support. The base weights stay frozen in fp16 (~3 GB for 1.5B).
     model = AutoModelForCausalLM.from_pretrained(
-        args.model, dtype=torch.float16, attn_implementation="sdpa")
+        args.model, torch_dtype=torch.float16, attn_implementation="sdpa")
 
     if args.init_adapter:
         # Stage 2: continue training the Stage 1 LoRA (is_trainable=True, otherwise it is frozen).
@@ -214,7 +214,8 @@ def main():
     puzzles_per_step = answers_per_step // args.num_generations
 
     # Tokenizer: the same chat template as the baselines.
-    tok = AutoTokenizer.from_pretrained(args.model)
+    # Left padding is required for decoder-only batched generation.
+    tok = AutoTokenizer.from_pretrained(args.model, padding_side="left")
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
 

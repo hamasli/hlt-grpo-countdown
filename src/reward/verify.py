@@ -9,21 +9,27 @@ import re
 from fractions import Fraction
 
 ANSWER_RE = re.compile(r"<answer>(.*?)</answer>", re.DOTALL)
-FORMAT_RE = re.compile(r"\s*<think>.*?</think>\s*<answer>.*?</answer>\s*", re.DOTALL)
-OPS = {ast.Add: lambda a, b: a + b, ast.Sub: lambda a, b: a - b,
-       ast.Mult: lambda a, b: a * b, ast.Div: lambda a, b: a / b}
+# Matches reasoning followed by answer, allowing optional opening <think> for prefilled completions
+FORMAT_RE = re.compile(r"^\s*(?:<think>)?.*?</think>\s*<answer>.*?</answer>\s*$", re.DOTALL)
+OPS = {
+    ast.Add: lambda a, b: a + b,
+    ast.Sub: lambda a, b: a - b,
+    ast.Mult: lambda a, b: a * b,
+    ast.Div: lambda a, b: a / b,
+}
 MAX_LEN = 200  # longer answers are rejected (protects the parser)
 
 # Math notation the models sometimes use, converted to plain Python operators.
 # This only changes HOW the equation is written, never what is checked.
-NOTATION = [("\\times", "*"), ("\\cdot", "*"), ("\\div", "/"),   # LaTeX operators
-            ("×", "*"), ("÷", "/"),                                   # unicode operators
-            ("\\(", ""), ("\\)", ""), ("\\[", ""), ("\\]", "")]   # LaTeX math brackets
+NOTATION = [
+    ("\\times", "*"), ("\\cdot", "*"), ("\\div", "/"),   # LaTeX operators
+    ("×", "*"), ("÷", "/"),                               # unicode operators
+    ("\\(", ""), ("\\)", ""), ("\\[", ""), ("\\]", ""),   # LaTeX math brackets
+]
 
 
-# This function will help to extract the model output in 2 formats
 def get_text(completion):
-    """TRL gives a string, or a chat list like [{"role": "assistant", "content": ...}]."""
+    """TRL gives a string, or a chat list like [{'role': 'assistant', 'content': ...}]."""
     if isinstance(completion, list):
         return completion[-1]["content"]
     return completion
@@ -35,24 +41,39 @@ def extract_answer(text):
     if not matches:
         return None
     answer = matches[-1].strip()
-    answer = answer.split("=")[0]                     # "50 + 25 - 3 = 72" -> left side
-    for old, new in NOTATION:                         # same equation, different notation
+    # Strip markdown code backticks
+    answer = answer.replace("`", "").strip()
+
+    # Convert math notation (LaTeX, unicode)
+    for old, new in NOTATION:
         answer = answer.replace(old, new)
+
+    # Handle equations with equals sign
+    if "=" in answer:
+        parts = answer.split("=")
+        left, right = parts[0].strip(), parts[1].strip()
+        ops = {"+", "-", "*", "/"}
+        left_has_op = any(op in left for op in ops)
+        right_has_op = any(op in right for op in ops)
+        # If target is on the left (e.g. "72 = 50 + 25 - 3"), pick the right side with operators
+        if right_has_op and not left_has_op:
+            answer = right
+        else:
+            answer = left
+
     return answer.strip()
 
-# safe_eval() calculates the expression’s value and records all numbers used. Then, check_equation() verifies
-# that each given number was used exactly once and that the calculated value equals the target.
+
 def safe_eval(expr):
     """Evaluate expr with exact fractions. Return (value, numbers_used) or None if not allowed."""
     if not expr or len(expr) > MAX_LEN:
         return None
     try:
-        # Turns the text into tree
         tree = ast.parse(expr, mode="eval")
     except SyntaxError:
         return None
     used = []
-    # here python is evaluating the whole tree
+
     def walk(node):
         if isinstance(node, ast.BinOp) and type(node.op) in OPS:
             left, right = walk(node.left), walk(node.right)
@@ -68,7 +89,6 @@ def safe_eval(expr):
         value = walk(tree.body)
     except (ValueError, ZeroDivisionError, RecursionError):
         return None
-    # Result: (value, used) → for "2*5+9" that’s (19, [2, 5, 9]). Any problem → None.
     return value, used
 
 
@@ -79,7 +99,6 @@ def check_equation(expr, numbers, target):
         return False
     value, used = result
     return sorted(used) == sorted(numbers) and value == target
-
 
 
 def is_correct(text, numbers, target):
@@ -93,13 +112,12 @@ def has_format(text):
 
 # ---- reward functions (TRL GRPOTrainer signature) ----
 # TRL passes dataset columns (numbers, target) as keyword arguments.
-# TRL calls them with lists: all the answers of a step (e.g. 32), plus the matching numbers and target from our dataset.
-# They return a list of rewards, one per answer: [1.0, 0.0, 0.0, 1.0, …] and [0.1, 0.1, 0.0, …].
-# TRL adds them up, so each answer gets 0, 0.1, 1.0 or 1.1.
-# **kwargs = “accept any other columns TRL sends, and ignore them”.
+
 def correctness_reward(completions, numbers, target, **kwargs):
-    return [1.0 if is_correct(get_text(c), n, t) else 0.0
-            for c, n, t in zip(completions, numbers, target)]
+    return [
+        1.0 if is_correct(get_text(c), n, t) else 0.0
+        for c, n, t in zip(completions, numbers, target)
+    ]
 
 
 def format_reward(completions, **kwargs):

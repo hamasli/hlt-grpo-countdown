@@ -39,6 +39,12 @@ def test_order_does_not_matter():
 def test_equals_sign_allowed():
     assert is_correct(ans("50 + 25 - 3 = 72"), NUMS, TARGET)
 
+def test_target_on_left_allowed():
+    assert is_correct(ans("72 = 50 + 25 - 3"), NUMS, TARGET)
+
+def test_markdown_backticks_allowed():
+    assert is_correct(ans("`50 + 25 - 3`"), NUMS, TARGET)
+
 def test_unicode_ops():
     assert is_correct(ans("(34 ÷ 17) × (82 - 50)"), [34, 82, 50, 17], 64)
 
@@ -116,6 +122,10 @@ def test_empty_answer():
 # ---- format ----
 def test_format_ok():
     assert has_format(ans("50 + 25 - 3"))
+
+def test_format_prefilled_think():
+    # Model output starts after <think> when prefill is used
+    assert has_format("reasoning step by step </think><answer>50 + 25 - 3</answer>")
 
 def test_format_missing_think():
     assert not has_format("<answer>50 + 25 - 3</answer>")

@@ -74,7 +74,7 @@ def load_model(name, adapter=None):
     tok = AutoTokenizer.from_pretrained(name, padding_side="left")  # left padding for batch generation
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
-    model = AutoModelForCausalLM.from_pretrained(name, dtype=dtype).to(device)
+    model = AutoModelForCausalLM.from_pretrained(name, torch_dtype=dtype).to(device)
     if adapter:
         from peft import PeftModel
         model = PeftModel.from_pretrained(model, adapter).merge_and_unload()
