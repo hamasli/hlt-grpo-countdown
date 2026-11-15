@@ -122,6 +122,8 @@ def parse_args():
     p.add_argument("--push_to_hub", action="store_true", help="also upload checkpoints to Hugging Face")
     p.add_argument("--hub_model_id", default=None, help="hamas/countdown-grpo-stage1")
     p.add_argument("--seed", type=int, default=42)
+    p.add_argument("--log_completions", action="store_true",
+                   help="print sample answers in the log (big output! off by default)")
     return p.parse_args()
 
 
