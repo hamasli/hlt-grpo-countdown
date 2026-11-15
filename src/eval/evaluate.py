@@ -77,8 +77,9 @@ def load_model(name, adapter=None):
     model = AutoModelForCausalLM.from_pretrained(name, dtype=dtype).to(device)
     if adapter:
         import peft
-        if hasattr(peft, "import_utils") and hasattr(peft.import_utils, "_torchao_available"):
+        if hasattr(peft, "import_utils"):
             peft.import_utils._torchao_available = False
+            peft.import_utils.is_torchao_available = lambda: False
         from peft import PeftModel
         model = PeftModel.from_pretrained(model, adapter).merge_and_unload()
     model.eval()

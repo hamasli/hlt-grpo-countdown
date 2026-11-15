@@ -65,8 +65,9 @@ from pathlib import Path
 import torch
 import peft
 # Kaggle compatibility: Kaggle has outdated torchao==0.10.0 preinstalled which breaks PEFT LoRA initialization
-if hasattr(peft, "import_utils") and hasattr(peft.import_utils, "_torchao_available"):
+if hasattr(peft, "import_utils"):
     peft.import_utils._torchao_available = False
+    peft.import_utils.is_torchao_available = lambda: False
 
 import transformers
 import trl
