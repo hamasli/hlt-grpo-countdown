@@ -10,7 +10,7 @@ from fractions import Fraction
 
 ANSWER_RE = re.compile(r"<answer>(.*?)</answer>", re.DOTALL)
 # Matches reasoning followed by answer, allowing optional opening <think> for prefilled completions
-FORMAT_RE = re.compile(r"^\s*(?:<think>)?.*?</think>\s*<answer>.*?</answer>\s*$", re.DOTALL)
+FORMAT_RE = re.compile(r"^\s*<think>.*?</think>\s*<answer>.*?</answer>\s*$", re.DOTALL)
 OPS = {
     ast.Add: lambda a, b: a + b,
     ast.Sub: lambda a, b: a - b,

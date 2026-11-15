@@ -123,10 +123,6 @@ def test_empty_answer():
 def test_format_ok():
     assert has_format(ans("50 + 25 - 3"))
 
-def test_format_prefilled_think():
-    # Model output starts after <think> when prefill is used
-    assert has_format("reasoning step by step </think><answer>50 + 25 - 3</answer>")
-
 def test_format_missing_think():
     assert not has_format("<answer>50 + 25 - 3</answer>")
 
