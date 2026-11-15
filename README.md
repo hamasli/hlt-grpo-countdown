@@ -15,7 +15,7 @@ Example: numbers `[3, 25, 50]`, target `72` → `50 + 25 - 3`
 2. **Chain-of-thought (CoT):** the model reasons in `<think>`, then answers in `<answer>`
 3. **GRPO:** the model is trained with RL, using the CoT prompt *(in progress)*
 
-Rewards: **1.0** for a correct equation, **+0.1** for the right format.
+Each GRPO arm gives **+1.0** for a correct equation. The arms differ in how they award the format bonus.
 Metrics: accuracy, answer length (tokens), cost (GPU time and memory).
 
 ## Models
@@ -33,7 +33,7 @@ src/data/            generate.py: puzzle generator
 src/reward/          verify.py: checker + reward functions
 src/prompts.py       prompts for direct / CoT / GRPO
 src/eval/            evaluate.py, trick_baselines.py, error_analysis.py
-src/train/           GRPO training (coming next)
+src/train/           reward_comparison.py: paired GRPO training
 tests/               tests for the checker
 ```
 
@@ -53,6 +53,60 @@ python -m src.eval.trick_baselines               # simple tricks
 python -m src.eval.evaluate --method cot         # model baseline (GPU recommended)
 python -m src.eval.error_analysis                # why answers fail
 ```
+
+## Objective 4 · Controlled GRPO training
+
+On Kaggle, enable Internet and select a GPU accelerator. A **T4 ×2** session
+works with this runner. It uses the first visible GPU and trains the arms
+sequentially. Import [the experiment notebook](notebooks/countdown-reward-hacking.ipynb)
+from the updated `feat/countdown-reward-hacking` branch. Its setup cell clones or
+fast-forwards the checkout. The default settings display the saved Objective 3
+report and skip training.
+
+Select `RUN_OBJECTIVE_4 = "smoke"` in the Objective 4 settings cell. Run it
+and the two cells that follow. After the smoke test succeeds, select `"full"`
+and rerun those three cells. Full mode runs 250 updates per arm and seed
+using seeds 42 and 43. Set `objective_4_output` to a fresh directory for a repeat run.
+
+| Arm | Correctness reward | Format bonus |
+|---|---:|---|
+| Correctness only | +1.0 | 0 |
+| Additive | +1.0 | +0.1 whenever the response passes the format checker |
+| Correctness-gated | +1.0 | +0.1 only for correct responses that pass the format checker |
+
+To run the same workflow manually from the repository root in Kaggle, install
+the trainer dependencies alongside Kaggle's CUDA PyTorch:
+
+```python
+!python -m pip install "transformers==4.57.6" "trl==0.29.0" "peft==0.18.1" "datasets==5.0.1" "accelerate==1.15.0"
+```
+
+Run the smoke command first. After it succeeds, run the full command in a separate cell.
+
+```python
+!CUDA_VISIBLE_DEVICES=0 python -m src.train.reward_comparison --seeds 42 --max-steps 2 --include-gated --out-dir /kaggle/working/countdown-objective4-smoke-three-arms
+```
+
+```python
+!CUDA_VISIBLE_DEVICES=0 python -m src.train.reward_comparison --seeds 42 43 --max-steps 250 --include-gated --out-dir /kaggle/working/countdown-objective4-full-three-arms
+```
+
+Every arm starts from the same pinned Qwen2.5-1.5B-Instruct revision. Runs with the
+same seed use matching initial LoRA weights and puzzle order, both verified by
+the runner. The CoT prompt, `<think>` prefill, optimizer, and sampling settings
+are shared. Each update samples four responses to one training puzzle at
+temperature 0.8 with a 512-token cap.
+
+- `experiment.json` records the run configuration and training data hash.
+- `seed-*/pairing.json` records the verified initialization hash and puzzle order.
+- Each arm saves an `adapter/`, a `rollouts.jsonl` record per update, the TRL log,
+  and training time and GPU memory usage. The rollout log includes counts and
+  rates for strict solves, format compliance and formatted wrong answers. It
+  splits the counts by three and four inputs so rates can be aggregated with
+  the right denominators.
+
+Compare these common metrics across arms. The held-out evaluation belongs to
+Objective 5.
 
 ## Progress
 
@@ -104,7 +158,7 @@ Repo, Python 3.11 environment, Kaggle GPU.
 ### ⏳ Next
 - pass@8 with sampling (how much learning signal GRPO gets)
 - Presentation round 1 (Nov 11–12)
-- GRPO training with LoRA: 0.5B first, then 1.5B
+- Run the three-arm GRPO comparison with Qwen2.5-1.5B-Instruct
 
 ## References
 - Shao et al. (2024). DeepSeekMath. arXiv:2402.03300 (GRPO)
