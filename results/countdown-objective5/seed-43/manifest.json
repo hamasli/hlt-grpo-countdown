@@ -1,0 +1,27 @@
+{
+  "seed": 43,
+  "evaluation": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "archive": "countdown-objective4-parallel.zip",
+    "archive_sha256": "a6e07ae9d3e9bf2a50d50a2cbb0468d37e93b89a000271b980934578ba865926",
+    "train_sha256": "d1e331914483208cfaf230bacac7229daa58cf31f88081c5505e4a7fc899a143",
+    "test_sha256": "31d2611a37087c89aeeefa0df49be665d3539da32607e1edb667a7cce622dccc",
+    "puzzles_per_seed": 1000,
+    "smoke_test": false,
+    "limit_per_size": null,
+    "gpu": "Tesla T4",
+    "dependencies": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6",
+      "peft": "0.18.1"
+    },
+    "generation": {
+      "decoding": "greedy",
+      "batch_size": 24,
+      "max_new_tokens": 512,
+      "prefill": "<think>",
+      "prompt": "Using the numbers {numbers}, create an equation that equals {target}. You can use +, -, *, / and brackets. Each number must be used exactly once. Think step by step inside <think> </think> tags. Keep your reasoning short. Then write the final equation inside <answer> </answer> tags, for example <answer>(1 + 2) / 3</answer>."
+    }
+  }
+}
