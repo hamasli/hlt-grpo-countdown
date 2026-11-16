@@ -24,14 +24,17 @@ Thumbs.db
 checkpoints/
 *.safetensors
 *.pt
+*.pth
 *.bin
 
 # --- Raw run logs (the important ones are copied into results/stageX/) ---
 logs/
 wandb/
 
-# --- Archives downloaded from Kaggle ---
+# --- Archives / downloads from Kaggle ---
 *.zip
+kaggle_out/
 
-# --- Secrets (HF / GitHub tokens) ---
+# --- Secrets (HF / GitHub / Kaggle tokens) ---
 .env
+kaggle.json

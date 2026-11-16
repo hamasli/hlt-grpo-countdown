@@ -1,0 +1,33 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter": "/kaggle/input/notebooks/hamasali/notebooka8a82ea837/hlt-grpo-countdown/checkpoints/stage2/checkpoint-375",
+  "method": "grpo",
+  "data": "data/test.jsonl",
+  "num_samples": 1,
+  "temperature": null,
+  "max_new_tokens": 256,
+  "device": "Tesla T4",
+  "seconds": 309.3,
+  "peak_gpu_mem_gb": 3.33,
+  "2_numbers": {
+    "n": 500,
+    "accuracy": 95.6,
+    "format_rate": 99.2,
+    "mean_tokens": 29.2,
+    "clipped_rate": 0.8
+  },
+  "3_numbers": {
+    "n": 500,
+    "accuracy": 64.0,
+    "format_rate": 97.6,
+    "mean_tokens": 51.9,
+    "clipped_rate": 2.2
+  },
+  "all": {
+    "n": 1000,
+    "accuracy": 79.8,
+    "format_rate": 98.4,
+    "mean_tokens": 40.5,
+    "clipped_rate": 1.5
+  }
+}
