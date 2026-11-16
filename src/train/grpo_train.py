@@ -71,6 +71,7 @@ from peft import LoraConfig, PeftModel, get_peft_model
 from transformers import AutoModelForCausalLM, AutoTokenizer, set_seed
 from transformers.trainer_utils import get_last_checkpoint
 from trl import GRPOConfig, GRPOTrainer
+from transformers import TrainerCallback, PrinterCallback, ProgressCallback
 
 # Our own frozen pieces: the SAME prompt (v3 + "<think>" prefill) and the SAME verifier
 # used for the baselines -> training and evaluation see exactly the same task.
@@ -198,6 +199,34 @@ def load_model(args):
     model.print_trainable_parameters()     # expect ~18.5M trainable (~1.2%) for 1.5B
     return model
 
+# ---------------------------------------------------------------------------
+# 6. Compact live log: ONE line every `logging_steps` steps (like an "epoch line").
+#    Replaces TRL's default output (big dict per log + progress bar), so Kaggle's
+#    Logs tab shows only what we care about.
+#    Note: "correct" = accuracy of the SAMPLED training answers (temperature 1.0),
+#    averaged over the last logging_steps steps. Val accuracy is measured per checkpoint later.
+# ---------------------------------------------------------------------------
+class CompactLogCallback(TrainerCallback):
+    def on_train_begin(self, args, state, control, **kwargs):
+        self.t0 = time.time()
+        self.start_step = state.global_step                     # > 0 when resuming
+        print(f"Training: {state.max_steps} steps, log every {args.logging_steps}", flush=True)
+
+    def on_log(self, args, state, control, logs=None, **kwargs):
+        if not logs or "reward" not in logs:                    # skip the final summary log
+            return
+        minutes = (time.time() - self.t0) / 60
+        done = state.global_step - self.start_step
+        eta = minutes / max(done, 1) * (state.max_steps - state.global_step)
+        print(f"step {state.global_step:>4}/{state.max_steps}"
+              f" | correct {100 * logs.get('rewards/correctness_reward/mean', 0):5.1f}%"
+              f" | format {1000 * logs.get('rewards/format_reward_prefill/mean', 0):5.1f}%"   # reward is 0.1 x rate
+              f" | no_signal {logs.get('frac_reward_zero_std', 0):.2f}"
+              f" | length {logs.get('completions/mean_length', 0):4.0f} tok"
+              f" | clipped {100 * logs.get('completions/clipped_ratio', 0):4.1f}%"
+              f" | {minutes:5.1f} min | ETA {eta:4.0f} min", flush=True)
+
+
 
 # ---------------------------------------------------------------------------
 # 5. Main
@@ -269,7 +298,7 @@ def main():
         save_strategy="steps",
         save_steps=args.save_steps,                 # keep ALL checkpoints: we pick the best on val later
         report_to="none",                           # no wandb; logs stay in log_history.json
-
+        disable_tqdm=True,                          # no progress bars; our CompactLogCallback prints instead
         # --- optional upload (needs HF_TOKEN from Kaggle Secrets) ---
         push_to_hub=args.push_to_hub,
         hub_model_id=args.hub_model_id,
@@ -284,6 +313,10 @@ def main():
         train_dataset=train_ds,
         processing_class=tok,
     )
+    # Replace TRL's default printing with our one-line-per-log output.
+    trainer.remove_callback(PrinterCallback)
+    trainer.remove_callback(ProgressCallback)
+    trainer.add_callback(CompactLogCallback())
 
     # Resume: continue from the newest checkpoint-XX in output_dir (if any).
     last_ckpt = None
