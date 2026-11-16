@@ -24,14 +24,14 @@ def load_jsonl(path, limit=None):
     return rows[:limit] if limit else rows
 
 
-def load_model(name, adapter=None):
+def load_model(name, adapter=None, *, revision=None):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     dtype = torch.float16 if device == "cuda" else torch.float32  # T4 has no bf16
-    tok = AutoTokenizer.from_pretrained(name, padding_side="left")  # left pad for generation
+    tok = AutoTokenizer.from_pretrained(name, revision=revision, padding_side="left")  # left pad for generation
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
     
-    model = AutoModelForCausalLM.from_pretrained(name, dtype=dtype).to(device)
+    model = AutoModelForCausalLM.from_pretrained(name, revision=revision, dtype=dtype).to(device)
     if adapter:  # LoRA weights from GRPO training
         from peft import PeftModel
         model = PeftModel.from_pretrained(model, adapter).merge_and_unload()
@@ -40,9 +40,9 @@ def load_model(name, adapter=None):
 
 
 @torch.no_grad()
-def generate(tok, model, device, prompts, max_new_tokens):
+def generate(tok, model, device, prompts, max_new_tokens, *, add_special_tokens=True):
     """Greedy decoding for a batch. Returns texts and number of generated tokens."""
-    enc = tok(prompts, return_tensors="pt", padding=True).to(device)
+    enc = tok(prompts, return_tensors="pt", padding=True, add_special_tokens=add_special_tokens).to(device)
     out = model.generate(**enc, max_new_tokens=max_new_tokens, do_sample=False,
                          temperature=None, top_p=None, top_k=None,
                          pad_token_id=tok.pad_token_id)

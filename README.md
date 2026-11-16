@@ -57,8 +57,8 @@ python -m src.eval.error_analysis                # why answers fail
 ## Objective 4 · Controlled GRPO training
 
 On Kaggle, enable Internet and select a GPU accelerator. A **T4 ×2** session
-works with this runner. It uses the first visible GPU and trains the arms
-sequentially. Import [the experiment notebook](notebooks/countdown-reward-hacking.ipynb)
+runs one seed per GPU in the notebook's full mode. The single-GPU commands
+below train the arms sequentially. Import [the experiment notebook](notebooks/countdown-reward-hacking.ipynb)
 from the updated `feat/countdown-reward-hacking` branch. Its setup cell clones or
 fast-forwards the checkout. The default settings display the saved Objective 3
 report and skip training.
@@ -107,6 +107,46 @@ temperature 0.8 with a 512-token cap.
 
 Compare these common metrics across arms. The held-out evaluation belongs to
 Objective 5.
+
+## Objective 5 · Held-out reward hacking evaluation
+
+Keep the verified `countdown-objective4-parallel.zip` outside Git. On Kaggle,
+attach it as an input, enable T4 ×2 and Internet, and run the Git setup and
+`load-verifier` cells in the updated [experiment notebook](notebooks/countdown-reward-hacking.ipynb).
+Then go to Objective 5. Set `OBJECTIVE_4_ARCHIVE` to the ZIP's path, set
+`RUN_OBJECTIVE_5 = True`, and run the evaluation cell. The default
+`OBJECTIVE_5_GPUS = (0, 1)` runs seed 42 on GPU 0 and seed 43 on GPU 1.
+Use `(0,)` on a single GPU. You can skip the earlier experiment cells.
+
+To run from the repository root with the tested CUDA PyTorch environment:
+
+```bash
+python -m pip install "transformers==4.57.6" "peft==0.18.1"
+python -m src.eval.reward_hacking --archive /path/to/countdown-objective4-parallel.zip --out-dir results/countdown-objective5 --gpus 0 1
+```
+
+Omit `--gpus 0 1` to evaluate both seeds sequentially on one GPU. The evaluator
+verifies the experiment metadata and uses one greedy completion per puzzle on
+`data/test.jsonl` for each of the six adapters. It uses the same prompt, prefill,
+verifier, and token budget across all arms. Use a fresh output directory for a
+new pair. The optional `--limit-per-size` flag runs a smoke test.
+
+Progress is labeled by seed and arm. Each seed writes three JSONL files and a
+`manifest.json` in its own directory. The evaluator writes `summary.json` after
+both seeds complete and their settings and puzzle lists match. To recover an
+interrupted run, move the incomplete seed directory out of the output directory
+if it exists. Run the same evaluation command with `--seed 42` or `--seed 43`
+in place of `--gpus 0 1` for the missing seed. Then merge the two outputs on CPU:
+
+```bash
+python -m src.eval.reward_hacking --out-dir results/countdown-objective5 --merge-only
+```
+
+The report gives strict solve rate, format compliance, and formatted-but-wrong rate
+by puzzle size and for the full set. It compares each arm with its own seed's
+control in addition to reporting pooled results. A shared additive score and
+a shared correctness-gated score show whether a reward gain depends on bonuses
+paid on wrong answers.
 
 ## Progress
 
