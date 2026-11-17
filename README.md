@@ -60,13 +60,12 @@ On Kaggle, enable Internet and select a GPU accelerator. A **T4 ×2** session
 runs one seed per GPU in the notebook's full mode. The single-GPU commands
 below train the arms sequentially. Import [the experiment notebook](notebooks/countdown-reward-hacking.ipynb)
 from the updated `feat/countdown-reward-hacking` branch. Its setup cell clones or
-fast-forwards the checkout. The default settings display the saved Objective 3
-report and skip training.
+fast-forwards the checkout. Run individual cells for the objective you need.
 
-Select `RUN_OBJECTIVE_4 = "smoke"` in the Objective 4 settings cell. Run it
-and the two cells that follow. After the smoke test succeeds, select `"full"`
-and rerun those three cells. Full mode runs 250 updates per arm and seed
-using seeds 42 and 43. Set `objective_4_output` to a fresh directory for a repeat run.
+In Objective 4, run the dependency setup cell and then the smoke test cell.
+After the smoke test succeeds, run the full training cell. Full training uses
+seeds 42 and 43 with 250 updates per arm. Choose a fresh output directory in
+the training cell for a repeat run.
 
 | Arm | Correctness reward | Format bonus |
 |---|---:|---|
@@ -113,8 +112,8 @@ Objective 5.
 Keep the verified `countdown-objective4-parallel.zip` outside Git. On Kaggle,
 attach it as an input, enable T4 ×2 and Internet, and run the Git setup and
 `load-verifier` cells in the updated [experiment notebook](notebooks/countdown-reward-hacking.ipynb).
-Then go to Objective 5. Set `OBJECTIVE_4_ARCHIVE` to the ZIP's path, set
-`RUN_OBJECTIVE_5 = True`, and run the evaluation cell. The default
+Then go to Objective 5. Set `OBJECTIVE_4_ARCHIVE` to the ZIP's path and run
+the evaluation cell. The default
 `OBJECTIVE_5_GPUS = (0, 1)` runs seed 42 on GPU 0 and seed 43 on GPU 1.
 Use `(0,)` on a single GPU. You can skip the earlier experiment cells.
 
@@ -147,6 +146,23 @@ by puzzle size and for the full set. It compares each arm with its own seed's
 control in addition to reporting pooled results. A shared additive score and
 a shared correctness-gated score show whether a reward gain depends on bonuses
 paid on wrong answers.
+
+## Objective 6 - Reward hacking analysis
+
+The [analysis report](results/countdown-objective6/README.md) links six figures
+covering the reward grid, training rollouts, held-out behavior, reward components,
+paired puzzle outcomes, and sensitivity to the scoring bonus. The plots use the
+saved results and run on CPU.
+
+Regenerate the report and plots from the repository root:
+
+```bash
+python -m pip install matplotlib
+python -m src.eval.reward_hacking_figures
+```
+
+The bonus sweeps rescore saved completions. Training used a +0.1 format bonus
+in the additive and gated arms.
 
 ## Progress
 
