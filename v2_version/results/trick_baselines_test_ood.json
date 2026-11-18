@@ -1,0 +1,22 @@
+{
+  "target_in_numbers": {
+    "4_numbers": 0.0,
+    "all": 0.0
+  },
+  "sum_all": {
+    "4_numbers": 5.2,
+    "all": 5.2
+  },
+  "product_all": {
+    "4_numbers": 0.0,
+    "all": 0.0
+  },
+  "random_guess@1": {
+    "4_numbers": 6.8,
+    "all": 6.8
+  },
+  "random_guess@4": {
+    "4_numbers": 10.0,
+    "all": 10.0
+  }
+}

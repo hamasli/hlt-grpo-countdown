@@ -1,7 +1,8 @@
 # ============================================================
-# .gitignore — hlt-grpo-countdown
-# Rule: git keeps CODE + small RESULTS (json, png, logs we copied).
+# .gitignore — hlt-grpo-countdown  (branch: res = v1 + v2)
+# Rule: git keeps CODE + small RESULTS (json, png, logs we copied) + generated DATA.
 # Big or regenerable things stay out: model weights, checkpoints, zips, envs.
+# Layout: v1 -> data/, results/   |   v2 (balanced operators) -> v2_version/data, v2_version/results
 # ============================================================
 
 # --- Python / environments ---
@@ -20,19 +21,22 @@ env/
 Thumbs.db
 
 # --- Training outputs (big: LoRA weights + optimizer states) ---
-# The adapter lives on the laptop + Kaggle Dataset, not on GitHub.
+# Adapters live on the laptop + Kaggle Datasets (grpo-stage2-best, grpo-v2-best), not on GitHub.
+# "checkpoints/" matches at ANY depth: checkpoints/ (v1) and v2_version/checkpoints/ (v2).
 checkpoints/
+v2_version/checkpoints/
 *.safetensors
 *.pt
 *.pth
 *.bin
 
-# --- Raw run logs (the important ones are copied into results/stageX/) ---
+# --- Raw run logs (the important ones are copied into results/ and v2_version/results/) ---
 logs/
 wandb/
 
 # --- Archives / downloads from Kaggle ---
 *.zip
+v2_tmp/
 kaggle_out/
 
 # --- Secrets (HF / GitHub / Kaggle tokens) ---

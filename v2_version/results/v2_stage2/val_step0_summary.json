@@ -1,0 +1,33 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter": "checkpoints/stage1/final",
+  "method": "grpo",
+  "data": "data/val.jsonl",
+  "num_samples": 1,
+  "temperature": null,
+  "max_new_tokens": 256,
+  "device": "Tesla T4",
+  "seconds": 100.5,
+  "peak_gpu_mem_gb": 3.33,
+  "2_numbers": {
+    "n": 100,
+    "accuracy": 94.0,
+    "format_rate": 100.0,
+    "mean_tokens": 35.0,
+    "clipped_rate": 0.0
+  },
+  "3_numbers": {
+    "n": 100,
+    "accuracy": 8.0,
+    "format_rate": 90.0,
+    "mean_tokens": 86.2,
+    "clipped_rate": 10.0
+  },
+  "all": {
+    "n": 200,
+    "accuracy": 51.0,
+    "format_rate": 95.0,
+    "mean_tokens": 60.6,
+    "clipped_rate": 5.0
+  }
+}
