@@ -1,0 +1,49 @@
+{
+  "source_commit": "7c138fde93fa46ce435b70c26a76565f2d7bc858",
+  "source_ref": "origin/fix/rewards-and-grpo-training",
+  "splits": {
+    "train": {
+      "file": "train.jsonl",
+      "puzzles": 10000,
+      "by_input_count": {
+        "2": 5000,
+        "3": 5000
+      },
+      "sha256": "b6bb924a17830ecfc9976fe60040bc80dc89c864e990717a8928c0bca3bef8d8"
+    },
+    "val": {
+      "file": "val.jsonl",
+      "puzzles": 200,
+      "by_input_count": {
+        "2": 100,
+        "3": 100
+      },
+      "sha256": "e253984b9620f10a7e5ed52f60b74a43dc4842e8766fd353ec6cc31071a01314"
+    },
+    "test": {
+      "file": "test.jsonl",
+      "puzzles": 1000,
+      "by_input_count": {
+        "2": 500,
+        "3": 500
+      },
+      "sha256": "1164f6faf3865d23773e6df8798ab81bf5080b5a74caeb18dffe6b8da97d8d9f"
+    },
+    "test_ood": {
+      "file": "test_ood.jsonl",
+      "puzzles": 500,
+      "by_input_count": {
+        "4": 500
+      },
+      "sha256": "64382db265128eac0198d53ef527ac22596205d06919d2ff5482274ecda90f93"
+    }
+  },
+  "protocol": {
+    "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "prompt_method": "curriculum",
+    "prompt_template": "Using the numbers {numbers}, create an equation that equals {target}. You can use +, -, *, / and brackets. Each number must be used exactly once. Do not use any other numbers. Think step by step inside <think> </think> tags. Keep your reasoning short. Then write only the final equation inside answer tags, like this: <answer> equation </answer>",
+    "assistant_prefill": "<think>",
+    "reference_solution_verifier": "src.reward.verify.check_equation",
+    "evaluation_max_new_tokens": 256
+  }
+}

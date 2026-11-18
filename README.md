@@ -164,6 +164,31 @@ python -m src.eval.reward_hacking_figures
 The bonus sweeps rescore saved completions. Training used a +0.1 format bonus
 in the additive and gated arms.
 
+## Objective 7 - Curriculum benchmark setup
+
+The four splits in [data/curriculum](data/curriculum) come from commit
+`7c138fde93fa46ce435b70c26a76565f2d7bc858` on
+`origin/fix/rewards-and-grpo-training`. The original data at `data/*.jsonl` is
+used by Objectives 1–6.
+
+| Split | Two numbers | Three numbers | Four numbers |
+|---|---:|---:|---:|
+| Train | 5,000 | 5,000 | 0 |
+| Validation | 100 | 100 | 0 |
+| Test | 500 | 500 | 0 |
+| OOD test | 0 | 0 | 500 |
+
+Run the Objective 7 notebook cell after Git and verifier setup, or validate
+from the repository root on CPU:
+
+```bash
+python -m src.data.curriculum
+```
+
+The validator checks the manifest hashes, split sizes, overlap, and reference
+solutions. The manifest records the colleague's CoT template, `<think>`
+prefill, and 256-token evaluation cap for the curriculum runs.
+
 ## Progress
 
 ### ✅ Step 0: Setup

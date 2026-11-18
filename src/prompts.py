@@ -15,11 +15,17 @@ COT = (TASK + " Think step by step inside <think> </think> tags. Keep your reaso
        "Then write the final equation inside <answer> </answer> tags, "
        "for example <answer>(1 + 2) / 3</answer>.")
 
-TEMPLATES = {"direct": DIRECT, "cot": COT, "grpo": COT}
+CURRICULUM = (
+    TASK + " Do not use any other numbers. "
+    "Think step by step inside <think> </think> tags. Keep your reasoning short. "
+    "Then write only the final equation inside answer tags, like this: <answer> equation </answer>"
+)
+
+TEMPLATES = {"direct": DIRECT, "cot": COT, "grpo": COT, "curriculum": CURRICULUM}
 
 # Text we put at the START of the model's answer (prefill).
 # The model continues from here, so it starts inside the <think> block.
-PREFILL = {"direct": "", "cot": "<think>", "grpo": "<think>"}
+PREFILL = {"direct": "", "cot": "<think>", "grpo": "<think>", "curriculum": "<think>"}
 
 
 def build_messages(numbers, target, method):
