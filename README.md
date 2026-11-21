@@ -189,6 +189,35 @@ The validator checks the manifest hashes, split sizes, overlap, and reference
 solutions. The manifest records the colleague's CoT template, `<think>`
 prefill, and 256-token evaluation cap for the curriculum runs.
 
+## Objective 8 - Curriculum result reproduction
+
+Use the Stage 2 LoRA directory containing `adapter_config.json` and
+`adapter_model.safetensors`. In the notebook, run the Objective 8 settings
+and evaluation cells on CUDA. To produce a new adapter, run the training setup
+cell, the optional two-update smoke test, then the Stage 1 and Stage 2 cells.
+The setup removes Kaggle's incompatible optional torchao package. Each training
+stage sends full output to its training.log and prints a short status once a
+minute. Rerun a stage with the same checkpoint directory
+to resume from a saved checkpoint or reuse a finished adapter.
+
+From the repository root, run:
+
+```bash
+python -m pip install "transformers==5.20.2" "peft==0.21.2"
+python -m src.eval.curriculum --adapter /path/to/stage2/final --out-dir results/countdown-objective8/evaluation
+```
+
+The base model and Stage 2 adapter each answer 1,000 in-domain and 500
+four-number OOD puzzles using greedy decoding at 256 tokens. The evaluator
+uses the curriculum branch's answer normalization with the same exact
+arithmetic check. It saves the raw responses, strict solve counts, format and
+token metrics, and differences from the reference counts in `summary.json`.
+Use `--limit-per-size 1` and a separate output directory for a smoke test.
+
+The evaluator uses the adapter's base model revision when recorded, or the
+project's pinned Qwen revision. Use `--revision` if you know the exact revision
+used to train an adapter whose config omits it.
+
 ## Progress
 
 ### ✅ Step 0: Setup
