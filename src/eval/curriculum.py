@@ -36,6 +36,10 @@ def extract_curriculum_answer(text):
     return answer.strip()
 
 
+def score_curriculum_response(text, numbers, target):
+    return check_equation(extract_curriculum_answer(text), numbers, target), has_format(text)
+
+
 def evaluate_split(tokenizer, model, device, puzzles, protocol, batch_size, label):
     from src.eval.evaluate import generate
 
@@ -48,12 +52,12 @@ def evaluate_split(tokenizer, model, device, puzzles, protocol, batch_size, labe
         outputs, lengths = generate(tokenizer, model, device, prompts, cap)
         for row, suffix, length in zip(batch, outputs, lengths, strict=True):
             output = protocol["assistant_prefill"] + suffix
+            correct, formatted = score_curriculum_response(output, row["numbers"], row["target"])
             records.append({
                 "id": row["id"], "numbers": row["numbers"], "target": row["target"],
                 "n_numbers": len(row["numbers"]), "output": output, "tokens": length,
                 "hit_token_cap": length >= cap,
-                "correct": check_equation(extract_curriculum_answer(output), row["numbers"], row["target"]),
-                "format_ok": has_format(output),
+                "correct": correct, "format_ok": formatted,
             })
         if (start // batch_size + 1) % 5 == 0 or len(records) == len(puzzles):
             print(f"{label}: {len(records)}/{len(puzzles)} puzzles", flush=True)
@@ -72,11 +76,8 @@ def summarize(records):
     }
 
 
-def run(data_dir, adapter, out_dir, batch_size, limit_per_size, revision):
-    manifest = validate_curriculum(data_dir)
-    protocol = manifest["protocol"]
-    model_name = protocol["base_model"]
-
+def adapter_identity(adapter, model_name, revision=None):
+    """Verify LoRA files and resolve the identity used by downstream evaluations."""
     config_path = adapter / "adapter_config.json"
     weights_path = adapter / "adapter_model.safetensors"
     for path in (config_path, weights_path):
@@ -98,6 +99,20 @@ def run(data_dir, adapter, out_dir, batch_size, limit_per_size, revision):
     revision = revision or recorded_revision or MODEL_REVISION
     with weights_path.open("rb") as stream:
         weights_hash = hashlib.file_digest(stream, "sha256").hexdigest()
+    return {
+        "adapter": str(adapter.resolve()), "adapter_sha256": weights_hash,
+        "adapter_config_sha256": hashlib.sha256(config_path.read_bytes()).hexdigest(),
+        "model_revision": revision, "model_revision_source": revision_source,
+    }
+
+
+def run(data_dir, adapter, out_dir, batch_size, limit_per_size, revision):
+    manifest = validate_curriculum(data_dir)
+    protocol = manifest["protocol"]
+    model_name = protocol["base_model"]
+
+    identity = adapter_identity(adapter, model_name, revision)
+    revision = identity["model_revision"]
 
     import peft
     import torch
@@ -126,9 +141,7 @@ def run(data_dir, adapter, out_dir, batch_size, limit_per_size, revision):
     report = {
         "benchmark_commit": manifest["source_commit"],
         "split_sha256": {split: manifest["splits"][split]["sha256"] for split in puzzles},
-        "protocol": protocol, "model_revision": revision, "model_revision_source": revision_source,
-        "adapter": str(adapter.resolve()), "adapter_sha256": weights_hash,
-        "adapter_config_sha256": hashlib.sha256(config_path.read_bytes()).hexdigest(),
+        "protocol": protocol, **identity,
         "decoding": "greedy", "batch_size": batch_size, "seed": 0,
         "smoke_test": limit_per_size is not None, "limit_per_size": limit_per_size,
         "versions": {"torch": torch.__version__, "transformers": transformers.__version__, "peft": peft.__version__},

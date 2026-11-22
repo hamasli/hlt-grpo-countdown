@@ -218,6 +218,39 @@ The evaluator uses the adapter's base model revision when recorded, or the
 project's pinned Qwen revision. Use `--revision` if you know the exact revision
 used to train an adapter whose config omits it.
 
+## Objectives 9–11 - Curriculum follow-up studies
+
+Run the corresponding cells in the experiment notebook on CUDA. For Objective 9,
+provide the Objective 8 evaluation directory and same Stage 2 adapter. The
+notebook also accepts the downloaded ZIPs. To run from the repository root
+after installing the notebook's dependencies:
+
+```bash
+python -m src.eval.curriculum_budget --reference /path/to/evaluation --adapter /path/to/stage2/final
+python -m src.eval.curriculum_studies --objective 10 --seeds 42 43
+python -m src.eval.curriculum_studies --objective 11 --seeds 42 43
+```
+
+- Objective 9 compares the same four-number puzzles at 256 and 512 tokens. It
+  saves the 512-token responses, paired transitions, and a failure breakdown.
+  The report records whether the two environments match. Use `--limit 4` and
+  a fresh output directory for a smoke test.
+- Objective 10 compares 100 two-number updates then 200 three-number updates
+  with 100 then 200 three-number updates. Both arms use additive reward and
+  reset the optimizer at the stage boundary.
+- Objective 11 compares three Stage 2 rewards from the same Stage 1 adapter
+  within each seed. Use `--pilot-only` to sample validation groups and measure
+  the formatting-only reward signal before running the comparison.
+
+Objectives 10 and 11 share a study directory. They reuse completed stages
+with matching plans, including the additive curriculum arm, and resume from
+the latest complete checkpoint. Training logs and evaluation responses are
+saved under each seed and stage. Reports go under `full/objective10` and
+`full/objective11`. Use `--smoke --seeds 42` for reduced runs under
+`smoke`. To use two GPUs, run one seed per process with distinct
+`CUDA_VISIBLE_DEVICES` values and the same output directory. Then rerun with
+both seeds to assemble the paired report from the saved stages.
+
 ## Progress
 
 ### ✅ Step 0: Setup
